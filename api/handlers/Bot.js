@@ -26,7 +26,7 @@ class Bot extends Response {
   getBotList = async (req, res) => {
     try {
       const userId = req.user.id
-      const bots = await BotModal.find({ userId }).populate("userId")
+      const bots = await BotModal.find({ userId }).populate("userId").select({ diagram: 0 })
       return this.sendResponse(req, res, {
         data: bots,
         status: 200,
@@ -67,6 +67,40 @@ class Bot extends Response {
       });
     }
   };
+
+  updateBot = async (req, res) => {
+    try {
+      const userId = req.user.id;
+      const botId = req.params.id;
+      const updateData = req.body;
+
+      const updatedBot = await BotModal.findOneAndUpdate(
+        { userId, _id: botId },
+        updateData,
+        { new: true, runValidators: true }
+      ).populate("userId");
+
+      if (!updatedBot) {
+        return this.sendResponse(req, res, {
+          data: null,
+          status: 404,
+          message: "No bot found with this ID",
+        });
+      }
+
+      return this.sendResponse(req, res, {
+        data: updatedBot,
+        status: 200,
+        message: "Bot updated successfully",
+      });
+    } catch (error) {
+      return this.sendResponse(req, res, {
+        data: null,
+        status: 500,
+        message: "Internal server error",
+      });
+    }
+  }
 }
 
 module.exports = { Bot }

@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { User } = require("../handlers");
 const { UserModel } = require("./User");
 
 const bot = new mongoose.Schema(
