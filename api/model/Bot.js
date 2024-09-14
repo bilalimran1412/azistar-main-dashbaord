@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const { User } = require("../handlers");
+const { UserModel } = require("./User");
 
 const bot = new mongoose.Schema(
   {
@@ -6,15 +8,18 @@ const bot = new mongoose.Schema(
     description: { type: String },
     userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: UserModel.modelName,
       required: true,
     },
     diagram: {
       type: String
     }
   },
-  { timestamps: true }
+  { timestamps: true },
+  {
+    versionKey: false,
+  }
 );
 
-const BotModal = mongoose.model("bot", bot);
+const BotModal = mongoose.model("Bot", bot);
 module.exports = { BotModal };

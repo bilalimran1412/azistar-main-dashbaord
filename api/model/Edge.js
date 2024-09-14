@@ -13,6 +13,10 @@ const edgeSchema = new mongoose.Schema(
     },
   },
   { timestamps: true }
+  ,
+  {
+    versionKey: false,
+  }
 );
 
 const EdgeModel = mongoose.model("Edge", edgeSchema);

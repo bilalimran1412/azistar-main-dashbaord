@@ -7,6 +7,10 @@ const router = require("./routes");
 
 app.use(cors());
 app.use(express.json());
+
+app.get('/api/v1/', (req, res) => {
+    res.json('Azistar api')
+})
 app.use("/api/v1", router);
 
 const mongoURI = process.env.MONGO_URI;

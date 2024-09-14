@@ -1,6 +1,6 @@
+const { User } = require("../handlers");
 const router = require("express").Router();
 
-const { User } = require("../handlers");
 
 const { Auth } = require("../middleware");
 
