@@ -1,7 +1,7 @@
 const { UserModel } = require("./User");
-const { DiagramModel } = require("./Diagram");
+const { BotModal } = require("./Bot");
 
 module.exports = {
   UserModel,
-  DiagramModel,
+  BotModal,
 };

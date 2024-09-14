@@ -1,9 +1,9 @@
-const Response = require("./Response");
-const { User } = require("./User");
-const { Diagram } = require("./Diagram");
+const Response = require('./Response')
+const { User } = require('./User')
+const { Bot } = require('./Bot')
 
 module.exports = {
   Response,
   User,
-  Diagram,
-};
+  Bot,
+}

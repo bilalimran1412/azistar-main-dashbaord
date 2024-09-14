@@ -1,9 +1,10 @@
 const { UserModel } = require("../model");
 const Response = require("./Response");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
+const generateToken = require("../utils/index");
+const { isValidObjectId } = require("mongoose");
 
 class User extends Response {
+
   login = async (req, res) => {
     try {
       const { password, email } = req.body;
@@ -15,9 +16,7 @@ class User extends Response {
         });
       }
 
-      let userExist = await UserModel.findOne({
-        email: email,
-      });
+      const userExist = await UserModel.findOne({ email });
 
       if (!userExist) {
         return this.sendResponse(req, res, {
@@ -26,28 +25,24 @@ class User extends Response {
         });
       }
 
-      const isValidPassword = await bcrypt.compare(
-        password,
-        userExist.password
-      );
+      const isValidPassword = await userExist.matchPassword(password);
 
       if (!isValidPassword) {
         return this.sendResponse(req, res, {
-          status: 405,
-          message: "email or Password Incorrect",
+          status: 401,
+          message: "Email or Password Incorrect",
         });
       }
 
-      const token = jwt.sign({ id: userExist.email }, process.env.JWT_SECRET, {
-        expiresIn: "1d",
-      });
+      const token = generateToken(userExist._id);
+
       return this.sendResponse(req, res, {
         status: 200,
         message: "Login successful",
         token: token,
         data: {
-          userName: userExist?.userName,
-          email: userExist?.email,
+          userName: userExist.username,
+          email: userExist.email,
         },
       });
     } catch (err) {
@@ -61,15 +56,17 @@ class User extends Response {
 
   signUp = async (req, res) => {
     try {
-      const { userName, password, email } = req.body;
-      if (!userName || !password || !email) {
+      const { username, password, email } = req.body;
+
+      if (!username || !password || !email) {
         return this.sendResponse(req, res, {
-          status: 403,
+          status: 400,
           message: "Field Missing!",
         });
       }
 
-      let userExist = await UserModel.findOne({ email });
+      const userExist = await UserModel.findOne({ email });
+
       if (userExist) {
         return this.sendResponse(req, res, {
           status: 403,
@@ -77,21 +74,18 @@ class User extends Response {
         });
       }
 
-      const salt = await bcrypt.genSalt();
-      const hashPassword = await bcrypt.hash(password, salt);
-      let newUser = new UserModel({
-        userName,
+      const newUser = new UserModel({
+        username,
         email,
-        password: hashPassword,
+        password,
       });
+
       await newUser.save();
 
-      const token = jwt.sign({ email: newUser.email }, process.env.JWT_SECRET, {
-        expiresIn: "1d",
-      });
+      const token = generateToken(newUser._id);
 
       return this.sendResponse(req, res, {
-        status: 200,
+        status: 201,
         message: "User created!",
         token: token,
       });
@@ -104,5 +98,15 @@ class User extends Response {
     }
   };
 }
+userExist = async (userId) => {
+  if (!userId) {
+    return false
+  } else if (!isValidObjectId(userId)) {
+    return false
+  }
 
-module.exports = { User };
+  const user = await UserModel.findOne({ _id: userId })
+  return !!user
+}
+
+module.exports = { User, userExist };
