@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const { UserModel } = require("./User");
+const mongoose = require('mongoose')
+const { UserModel } = require('./User')
 
 const bot = new mongoose.Schema(
   {
@@ -11,14 +11,18 @@ const bot = new mongoose.Schema(
       required: true,
     },
     diagram: {
-      type: String
-    }
+      type: String,
+    },
+    customVariables: [
+      {
+        id: String,
+        type: String,
+        name: String,
+      },
+    ],
   },
-  { timestamps: true },
-  {
-    versionKey: false,
-  }
-);
+  { timestamps: true, versionKey: false }
+)
 
-const BotModal = mongoose.model("Bot", bot);
-module.exports = { BotModal };
+const BotModal = mongoose.model('Bot', bot)
+module.exports = { BotModal }
