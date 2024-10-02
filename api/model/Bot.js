@@ -1,5 +1,12 @@
 const mongoose = require('mongoose')
 const { UserModel } = require('./User')
+const customVariableSchema = new mongoose.Schema({
+  category: { type: String, required: true },
+  label: { type: String, required: true },
+  sample: { type: String },
+  type: { type: String, required: true },
+  value: { type: String, required: true },
+})
 
 const bot = new mongoose.Schema(
   {
@@ -13,13 +20,7 @@ const bot = new mongoose.Schema(
     diagram: {
       type: String,
     },
-    customVariables: [
-      {
-        id: String,
-        type: String,
-        name: String,
-      },
-    ],
+    customVariables: [customVariableSchema],
   },
   { timestamps: true, versionKey: false }
 )
