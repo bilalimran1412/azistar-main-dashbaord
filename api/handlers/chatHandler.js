@@ -1,5 +1,5 @@
 const LiveMessage = require('../model/LiveMessage');
-const { getChatbotResponse, GLOBALS } = require('../utils/dbUtils');
+const { getChatbotResponse, GLOBALS } = require('../utils/scrapDataUtils');
 const path = require('path');
 const fs = require('fs');
 
@@ -14,31 +14,60 @@ exports.handleChat = async (req, res) => {
         // Save user message to the database
         await LiveMessage.create({ websiteId, text: userMessage, sender: 'user', user_id: userId });
         
-        if (userMessage.toLowerCase().includes('live chat') || userMessage.toLowerCase().includes('agent') || userMessage.toLowerCase().includes('person') || userMessage.toLowerCase().includes('livechat')) {
-            const whatsappUrl = 'https://wa.me/971506683114';
-            return res.status(200).json({ response: 'Redirecting to WhatsApp...', whatsappUrl, initiateLiveChat: true });
-        }
+        // if (userMessage.toLowerCase().includes('live chat') || userMessage.toLowerCase().includes('agent') || userMessage.toLowerCase().includes('person') || userMessage.toLowerCase().includes('livechat')) {
+        //     const whatsappUrl = 'https://wa.me/971506683114';
+        //     return res.status(200).json({ response: 'Redirecting to WhatsApp...', whatsappUrl, initiateLiveChat: true });
+        // }
 
-        const chatbotResponse = await getChatbotResponse(userMessage);
-        console.log('Chatbot response:', chatbotResponse);
-        const response = chatbotResponse || 'I\'m sorry, I didn\'t understand that.';
+        // const chatbotResponse = await getChatbotResponse(userMessage);
+        // console.log('Chatbot response:', chatbotResponse);
+        // const response = chatbotResponse || 'I\'m sorry, I didn\'t understand that.';
 
-        // Save bot response to the database
-        await LiveMessage.create({ websiteId, text: response, sender: 'bot', user_id: userId });
+        // // Save bot response to the database
+        // await LiveMessage.create({ websiteId, text: response, sender: 'bot', user_id: userId });
 
-        const customResponse = {
-            response,
-            score: GLOBALS.score,
-            appName: GLOBALS.appName,
-        };
+        // const customResponse = {
+        //     response,
+        //     score: GLOBALS.score,
+        //     appName: GLOBALS.appName,
+        // };
 
-        console.log("Custom response:", customResponse);
-        return res.status(200).json(customResponse);
+        // console.log("Custom response:", customResponse);
+        // return res.status(200).json(customResponse);
     } catch (error) {
         console.error('Error handling chat:', error);
         return res.status(500).json({ message: 'Please try again.' });
     }
 };
+
+
+
+// Live Chat
+
+
+exports.livechat = async (req, res) => {
+    const userMessage = req.body.message;
+    console.log('Received user message:', userMessage);
+
+    if (userMessage.toLowerCase().includes('live chat') || userMessage.toLowerCase().includes('agent') || userMessage.toLowerCase().includes('person')  ||userMessage.toLowerCase().includes('livechat') ) {
+        // Replace <phone_number> with the actual phone number including country code, but without any '+' or '-'
+        const whatsappUrl = 'https://wa.me/971506683114';
+        return res.status(200).json({ response: 'Redirecting to WhatsApp...', whatsappUrl: whatsappUrl,initiateLiveChat: true });
+    }
+
+    const chatbotResponse = await getChatbotResponse(userMessage);
+    console.log('Chatbot response:', chatbotResponse);
+
+    const customResponse = {
+        response: chatbotResponse,
+        score: GLOBALS.score,
+        appName: GLOBALS.appName,
+    };
+    console.log("custom response", customResponse);
+    return res.status(200).json(customResponse);
+};
+
+
 
 
 

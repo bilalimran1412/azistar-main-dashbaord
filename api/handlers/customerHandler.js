@@ -59,6 +59,18 @@ const getCustomerData = async (req, res) => {
 };
 
 
+// Retrieve customer data
+const getNewCustomerData = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const customers = await Customer.find({ _id: id }).sort({ timestamp: 1 });
+    return res.status(200).json({ success: true, customers });
+  } catch (error) {
+    return res.status(500).json({ success: false, message: 'Error retrieving customers', error });
+  }
+};
+
+
 const getEmailData = async (req, res) => {
     const { email } = req.params;
 
@@ -177,5 +189,6 @@ module.exports = {
   getEmailData,
   deleteCustomer,
   sendTranscript,
-  updateUserId
+  updateUserId,
+  getNewCustomerData
 };
