@@ -1,6 +1,6 @@
 // routes/messageRoutes.js
 const express = require('express');
-const { createCustomer, updateCustomerStatus, getCustomerData, getCustomerChatData, getEmailData, deleteCustomer, sendTranscript, updateUserId} = require('../handlers/customerHandler');
+const { createCustomer, updateCustomerStatus, getCustomerData, getCustomerChatData, getEmailData, deleteCustomer, sendTranscript, updateUserId, getNewCustomerData} = require('../handlers/customerHandler');
 
 const router = express.Router();
 
@@ -11,6 +11,7 @@ router.post('', createCustomer);
 router.patch('/:id', updateCustomerStatus);
 router.patch('/updateuser/:_id', updateUserId);
 router.get('/:newuserId', getCustomerData);
+router.get('/customer/:id', getNewCustomerData);
 router.get('/:newuserId/:id', getCustomerChatData);
 router.get('/:email', getEmailData);
 router.delete('/:id', deleteCustomer);
