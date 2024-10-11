@@ -2,44 +2,7 @@ const ScrapDataSite = require('../model/ScrapDataSite');
 
 const { NlpManager } = require('node-nlp'); 
 const manager = new NlpManager({ languages: ['en'] });
-const {initializeNlpManager} = require('./scrapDataUtils')
 
-
-exports.getChatbotResponse = async (message) => {
-    const response = await manager.process('en', message);
-
-    console.log('NLP Response:', response);
-    const { score, answer, intent } = response;
-    if (score > 0.3 && intent !== 'None') {
-        console.log('Confidence Score:', score);
-        return answer || "Sorry, I didn't understand that.";
-    } else {
-        console.log("I am unable to understand. Should I start live chat?");
-        return null; // or return a default response
-    }
-};
-
-
-(async () => {
-    await initNlp();
-})();
-// Function to initialize NLP manager
-async function initNlp() {
-    try {
-        await initializeNlpManager();
-        console.log('NLP Manager initialized successfully.');
-    } catch (error) {
-        console.error('Error initializing NLP Manager:', error);
-    }
-}
-
-// Call the initialization function
-initNlp(); 
-
-exports.GLOBALS = {
-    appName:"swanchatbot",
-    score:0
-};
 
 
 

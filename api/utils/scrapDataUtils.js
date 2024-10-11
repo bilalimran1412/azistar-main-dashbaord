@@ -2,8 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const { NlpManager } = require('node-nlp');
 require('dotenv').config();
+const { NlpManager } = require('node-nlp'); 
+const manager = new NlpManager({ languages: ['en'] });
 
 
 exports.customdata = [
@@ -72,7 +73,6 @@ exports.customdata = [
     }
 ]
 
-let manager;
 
 const SCRAP_DATA = false;
 
@@ -94,64 +94,72 @@ async function saveIntents(intents) {
 
 
 async function initializeNlpManager() {
-    manager = new NlpManager({ languages: ['en'] });
     const intentsFile = path.join(__dirname, '../../intents.json');
 
-    if (fs.existsSync(intentsFile)) {
-        const intentsContent = fs.readFileSync(intentsFile, 'utf8');
+    const intentsContent = fs.readFileSync(intentsFile, 'utf8');
+    const intents = JSON.parse(intentsContent);
 
-        // console.log("content", intentsContent)
-        try {
+    console.log('Loaded intents:', intents); // Debug log
 
-            const intents = JSON.parse(intentsContent);
-            // console.log(intents , 'chl gya hi')
-            // intents.forEach(intent => {
-            //     if (intent.patterns && intent.responses) {
-            //         intent.patterns.forEach(pattern => {
-            //             manager.addDocument('en', pattern, intent.tag);
-            //         });
-            //         intent.responses.forEach(response => {
-            //             manager.addAnswer('en', intent.tag, response);
-            //         });
-            //     } else {
-            //         console.error('Missing patterns or responses in intent:', intent);
-            //     }
-            // });
-            intents.forEach(intent => {
-                if (intent.patterns && Array.isArray(intent.responses)) {
-                    intent.patterns.forEach(pattern => {
-                        manager.addDocument('en', pattern, intent.tag);
-                        // console.log(`Added pattern: `);
-                        
-                    });
-                    intent.responses.forEach(response => {
-                        // console.log(`Added response: ${response} for tag: ${intent.tag}`);
-                        manager.addAnswer('en', intent.tag, response);
-                    });
-                } else {
-                    console.error('Missing patterns or responses in intent:', intent);
-                }
+    intents.forEach(intent => {
+        if (intent.patterns && Array.isArray(intent.patterns) && intent.responses && Array.isArray(intent.responses)) {
+            intent.patterns.forEach(pattern => {
+                console.log(`Adding pattern: ${pattern} with tag: ${intent.tag}`); // Debug log
+                manager.addDocument('en', pattern, intent.tag);
             });
-
-            console.log("Training Started")
-            await manager.train();
-
-            console.log('NLP manager trained successfully.');
-            // Optionally save the model
-            manager.save();
-
-
-        } catch (error) {
-
-            console.error('Error parsing intents JSON or training NLP manager:', error);
-            console.log("And the intent is")
+            intent.responses.forEach(response => {
+                console.log(`Adding response: ${response} for tag: ${intent.tag}`); // Debug log
+                manager.addAnswer('en', intent.tag, response);
+            });
+        } else {
+            console.error('Invalid intent format found in intents.json:', intent);
         }
-    } else {
-        console.error('Intents file does not exist:', intentsFile);
-    }
+    });
+
+    console.log('Training NLP manager...');
+    await manager.train();
+    console.log('NLP manager trained successfully.');
+
+    // Optionally save the model
+    await manager.save();
 }
 
 
+
+(async () => {
+    await initNlp();
+    // await GLOBALS();
+})();
+// Function to initialize NLP manager
+async function initNlp() {
+    try {
+        await initializeNlpManager();
+        console.log('NLP Manager initialized successfully.');
+    } catch (error) {
+        console.error('Error initializing NLP Manager:', error);
+    }
+}
+
+// Call the initialization function
+initNlp();
+
+const GLOBALS = {
+    appName:"swanchatbot",
+    score:0
+};
+
+
+async function getChatbotResponse(message) {
+    const response = await manager.process('en', message);
+    console.log('NLP Response:', response);
+
+    if (response.intent && response.answer) {
+        return response.answer;
+    } else {
+        console.log("I am unable to understand. Should I start a live chat? Kindly enter 'live chat' to start it.");
+        return "I'm sorry, I didn't understand that. Would you like to start a live chat?";
+    }
+}
 
 
 async function getWebData(url) {
@@ -280,4 +288,4 @@ async function genrateautoIntents(patterns, responses) {
 
 
 
-module.exports = { initializeNlpManager, getWebData, saveIntents, sanitizeText, saveScrapedData, genrateautoIntents, generateIntents };
+module.exports = { GLOBALS, initializeNlpManager, getWebData, saveIntents, sanitizeText, saveScrapedData, genrateautoIntents, generateIntents, getChatbotResponse };
