@@ -6,8 +6,9 @@ const customerSchema = new mongoose.Schema({
   phone: { type: String },
   userId: { type: String, required: true },
   newuserId: { type: String},
+  assignto: { type: String},
   websiteId: { type: String, required: true },
-  status: { type: String, required: true, default: 'active' },
+  status: { type: String, required: true, default: 'true' },
   timestamp: { type: Date, default: Date.now }
 });
 
