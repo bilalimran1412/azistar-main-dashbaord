@@ -4,6 +4,7 @@ const { Bot } = require('./Bot')
 const { media } = require('./media')
 const { Goal } = require('./Goal')
 const { Auth } = require('./Auth')
+const { TestRequest } = require('./TestRequest')
 
 module.exports = {
   Response,
@@ -12,4 +13,5 @@ module.exports = {
   media,
   Goal,
   Auth,
+  TestRequest,
 }
