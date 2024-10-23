@@ -12,7 +12,7 @@ class TestRequest extends Response {
     }
   }
   sendRequest = async (req, res) => {
-    const { url, data, method } = req.body
+    const { url, data, method, headers } = req.body
 
     if (!url || !method) {
       return this.sendResponse(req, res, {
@@ -35,7 +35,8 @@ class TestRequest extends Response {
         url,
         method,
         data: data || {},
-        ...req.headers,
+        ...(!headers && { ...req.headers }),
+        ...(headers && { ...headers }),
       })
       return this.sendResponse(req, res, {
         status: 200,

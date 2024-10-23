@@ -10,7 +10,7 @@ router.use('/auth', user)
 router.use('/bot', bot)
 router.use('/media', media)
 router.use('/goal', goal)
-router.use('/auth', auth)
+router.use('/auth/integration', auth)
 router.use('/send_request', testRequest)
 
 module.exports = router
