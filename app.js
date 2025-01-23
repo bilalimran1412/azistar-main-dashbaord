@@ -1,5 +1,5 @@
 const express = require('express');
-const {NlpManager} = require('node-nlp')
+const { NlpManager } = require('node-nlp')
 const axios = require('axios');
 const cheerio = require('cheerio');
 const cors = require('cors');
@@ -9,9 +9,9 @@ const path = require('path');
 const { GLOBALS } = require('./utils/globals');
 const getPagesFromDomain = require('./subdomain');
 const app = express();
-const chatRoutes = require('./api/Nodes/nodes-api'); 
+const chatRoutes = require('./api/Nodes/nodes-api');
 const db = require('./db')
-const mysql = require('mysql2/promise'); 
+const mysql = require('mysql2/promise');
 
 const port = 3005;
 
@@ -20,70 +20,70 @@ const port = 3005;
 // Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-customdata=[
+// Data
+customdata = [
     {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day",
-        "Hi there",
-        "Greetings",
-        "Yo",
-        "Hiya"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?",
-        "Greetings! How may I assist you?",
-        "Yo! What's up?"
-      ]
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hey",
+            "How are you",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "Hi there",
+            "Greetings",
+            "Yo",
+            "Hiya"
+        ],
+        "responses": [
+            "Hey :-)",
+            "Hello, thanks for visiting",
+            "Hi there, what can I do for you?",
+            "Hi there, how can I help?",
+            "Greetings! How may I assist you?",
+            "Yo! What's up?"
+        ]
     },
     {
-      "tag": "goodbye",
-      "patterns": [
-        "Bye",
-        "See you later",
-        "Goodbye",
-        "Catch you later",
-        "Take care",
-        "Adios",
-        "So long"
-      ],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon.",
-        "Take care!",
-        "Goodbye! Have a great day.",
-        "Adios! Until next time."
-      ]
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Catch you later",
+            "Take care",
+            "Adios",
+            "So long"
+        ],
+        "responses": [
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon.",
+            "Take care!",
+            "Goodbye! Have a great day.",
+            "Adios! Until next time."
+        ]
     },
     {
-      "tag": "thanks",
-      "patterns": [
-        "Thanks",
-        "Thank you",
-        "That's helpful",
-        "Thank's a lot!",
-        "Appreciate it",
-        "Thanks a bunch",
-        "Cheers"
-      ],
-      "responses": [
-        "Happy to help!",
-        "Any time!",
-        "My pleasure",
-        "You're welcome!",
-        "Glad I could assist!",
-        "Cheers!"
-      ]
+        "tag": "thanks",
+        "patterns": [
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Thank's a lot!",
+            "Appreciate it",
+            "Thanks a bunch",
+            "Cheers"
+        ],
+        "responses": [
+            "Happy to help!",
+            "Any time!",
+            "My pleasure",
+            "You're welcome!",
+            "Glad I could assist!",
+            "Cheers!"
+        ]
     }
 ]
 console.log(`App Name: ${GLOBALS.appName}`);
@@ -99,10 +99,10 @@ const SCRAP_DATA = false;
 
 
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'chatbotes',
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'chatbotes',
 });
 
 async function getLastUrlFromDatabase() {
@@ -111,13 +111,13 @@ async function getLastUrlFromDatabase() {
         connection = await pool.getConnection();
         const [rows, fields] = await connection.query('SELECT url FROM scrap_data_site ORDER BY id DESC LIMIT 1'); // Assuming 'scrap_data_site' is your table name and 'id' is the primary key
         if (rows.length > 0) {
-            return rows[0].url; 
+            return rows[0].url;
         } else {
             return null;
         }
     } catch (error) {
         console.error('Error querying last URL from database:', error);
-        return null; 
+        return null;
     } finally {
         if (connection) {
             connection.release();
@@ -132,7 +132,7 @@ async function getLastUrlFromDatabase() {
         const pages = await getPagesFromDomain(lastUrl);
         console.log('Pages found:', pages);
         var allIntents = [];
-        allIntents =allIntents.concat(customdata);
+        allIntents = allIntents.concat(customdata);
         for (const pageUrl of pages) {
             const webData = await getWebData(pageUrl);
             if (webData) {
@@ -141,16 +141,16 @@ async function getLastUrlFromDatabase() {
 
                 // Generate intents for this specific page's data
                 const pageIntents = await generateIntents(sanitizedData);
-              
-                allIntents =allIntents.concat(pageIntents);
-                console.log("COncata : ",allIntents)
-                    
+
+                allIntents = allIntents.concat(pageIntents);
+                console.log("COncata : ", allIntents)
+
             } else {
                 console.log(`Failed to fetch web data for ${pageUrl}.`);
             }
         }
         // Save all intents together after processing all pages
-    
+
         saveIntents(allIntents)
             .then(() => initializeNlpManager())
             .catch(error => console.error('Error saving intents:', error));
@@ -166,49 +166,49 @@ const scrapDataSites = () => {
     let SCRAP_DATA = true;
     (async () => {
         try {
-        const lastUrl = await getLastUrlFromDatabase();
-        console.log('Pages found:', lastUrl);
-        if (SCRAP_DATA) {
             const lastUrl = await getLastUrlFromDatabase();
-            const pages = await getPagesFromDomain(lastUrl);
-            console.log('Pages found:', pages);
-            var allIntents = [];
-            allIntents = allIntents.concat(customdata);
-            for (const pageUrl of pages) {
-                const webData = await getWebData(pageUrl);
-                if (webData) {
-                    const sanitizedData = sanitizeText(webData);
-                    await saveScrapedData(pageUrl, sanitizedData); // Save sanitized data to a file (if needed)
+            console.log('Pages found:', lastUrl);
+            if (SCRAP_DATA) {
+                const lastUrl = await getLastUrlFromDatabase();
+                const pages = await getPagesFromDomain(lastUrl);
+                console.log('Pages found:', pages);
+                var allIntents = [];
+                allIntents = allIntents.concat(customdata);
+                for (const pageUrl of pages) {
+                    const webData = await getWebData(pageUrl);
+                    if (webData) {
+                        const sanitizedData = sanitizeText(webData);
+                        await saveScrapedData(pageUrl, sanitizedData); // Save sanitized data to a file (if needed)
 
-                    // Generate intents for this specific page's data
-                    const pageIntents = await generateIntents(sanitizedData);
+                        // Generate intents for this specific page's data
+                        const pageIntents = await generateIntents(sanitizedData);
 
-                    allIntents = allIntents.concat(pageIntents);
-                    console.log("COncata : ", allIntents)
+                        allIntents = allIntents.concat(pageIntents);
+                        console.log("COncata : ", allIntents)
 
-                } else {
-                    console.log(`Failed to fetch web data for ${pageUrl}.`);
+                    } else {
+                        console.log(`Failed to fetch web data for ${pageUrl}.`);
+                    }
                 }
-            }
 
-            
-            await saveIntents(allIntents);
-            await initializeNlpManager();
-        } else {
-            await initializeNlpManager(); 
-        }
-        pm2.restart('app', (err) => {
-            if (err) {
-                console.error('Error restarting application:', err);
-                // console.log('Application restarted successfully');
+
+                await saveIntents(allIntents);
+                await initializeNlpManager();
             } else {
-                console.log('Application restarted successfully');
+                await initializeNlpManager();
             }
-        });
-    }catch (error) {
-        console.error('Error in scraping process:', error);
-        SCRAP_DATA = false; 
-    }
+            pm2.restart('app', (err) => {
+                if (err) {
+                    console.error('Error restarting application:', err);
+                    // console.log('Application restarted successfully');
+                } else {
+                    console.log('Application restarted successfully');
+                }
+            });
+        } catch (error) {
+            console.error('Error in scraping process:', error);
+            SCRAP_DATA = false;
+        }
 
     })();
 
@@ -220,12 +220,12 @@ const scrapDataSites = () => {
     async function initializeNlpManager() {
         const manager = new NlpManager({ languages: ['en'] });
         const intentsFile = path.join(__dirname, 'intents.json');
-    
+
         try {
             if (fs.existsSync(intentsFile)) {
                 const intentsContent = fs.readFileSync(intentsFile, 'utf8');
                 const intents = JSON.parse(intentsContent);
-    
+
                 intents.forEach(intent => {
                     if (intent.patterns && Array.isArray(intent.patterns) && intent.responses && Array.isArray(intent.responses)) {
                         intent.patterns.forEach(pattern => {
@@ -238,11 +238,11 @@ const scrapDataSites = () => {
                         console.error('Invalid intent format found in intents.json:', intent);
                     }
                 });
-    
+
                 console.log('Training NLP manager...');
                 await manager.train();
                 console.log('NLP manager trained successfully.');
-    
+
                 // Optionally save the model
                 manager.save();
             } else {
@@ -252,7 +252,7 @@ const scrapDataSites = () => {
             console.error('Error parsing intents JSON or training NLP manager:', error);
         }
     }
-    
+
 }
 
 async function initializeNlpManager() {
@@ -262,9 +262,9 @@ async function initializeNlpManager() {
     if (fs.existsSync(intentsFile)) {
         const intentsContent = fs.readFileSync(intentsFile, 'utf8');
 
-        console.log("content",intentsContent)
+        console.log("content", intentsContent)
         try {
-           
+
             const intents = JSON.parse(intentsContent);
             intents.forEach(intent => {
                 if (intent.patterns && intent.responses) {
@@ -358,7 +358,7 @@ async function generateIntents(data) {
             apiKey: 'sk-svcacct-iJEIzFLomkRX1AXfzxppT3BlbkFJKQesbAN7C4fuBCupHN4E',
         });
 
-        let prompt = 'Based on the following data, generate extensive detailed and intelligent yet common intents for a chatbot in JSON format: as tag patterns and responses in json format, patterns should be extensive questions which user could ask\n\n'+data;
+        let prompt = 'Based on the following data, generate extensive detailed and intelligent yet common intents for a chatbot in JSON format: as tag patterns and responses in json format, patterns should be extensive questions which user could ask\n\n' + data;
 
         const chatCompletion = await openai.chat.completions.create({
             model: "gpt-3.5-turbo",
@@ -367,11 +367,11 @@ async function generateIntents(data) {
 
         // Clean the response to ensure it is valid JSON
         const responseText = chatCompletion.choices[0].message.content;
-       a=JSON.parse(responseText);
-       console.log("responsea ",a.intents)
-       return a.intents;
+        a = JSON.parse(responseText);
+        console.log("responsea ", a.intents)
+        return a.intents;
 
-     } catch (error) {
+    } catch (error) {
         console.error('Error calling OpenAI API:', error);
         return [];
     }
@@ -397,10 +397,10 @@ app.post('/chat', async (req, res) => {
     const userMessage = req.body.message;
     console.log('Received user message:', userMessage);
 
-    if (userMessage.toLowerCase().includes('live chat') || userMessage.toLowerCase().includes('agent') || userMessage.toLowerCase().includes('person')  ||userMessage.toLowerCase().includes('livechat') ) {
+    if (userMessage.toLowerCase().includes('live chat') || userMessage.toLowerCase().includes('agent') || userMessage.toLowerCase().includes('person') || userMessage.toLowerCase().includes('livechat')) {
         // Replace <phone_number> with the actual phone number including country code, but without any '+' or '-'
         const whatsappUrl = 'https://wa.me/971506683114';
-        return res.status(200).json({ response: 'Redirecting to WhatsApp...', whatsappUrl: whatsappUrl,initiateLiveChat: true });
+        return res.status(200).json({ response: 'Redirecting to WhatsApp...', whatsappUrl: whatsappUrl, initiateLiveChat: true });
     }
 
     const chatbotResponse = await getChatbotResponse(userMessage);
@@ -497,9 +497,9 @@ async function getChatbotResponse(message) {
     if (score > 0.3) {
         console.log(score)
         return answer;
-      } else {
+    } else {
         console.log("I am unable to understand Should I Start Live chat? kindly enter live chat to start it?")
-      }
+    }
 }
 
 app.get('/info', (req, res) => {
@@ -550,27 +550,27 @@ app.get('/v1/getnodes', (req, res) => {
 });
 
 
-    app.post('/v1/addurl', (req, res) => {
-        if (req.method === 'POST') {
-            const { url } = req.body;
-            const sql = 'INSERT INTO scrap_data_site (url, timestamp) VALUES (?, CURRENT_TIMESTAMP)';
-            db.query(sql, [url], (error, results, fields) => {
-                if (error) {
-                    console.error('Error inserting URL into database:', error);
-                    res.status(500).json({ message: 'Failed to insert URL' });
-                    return;
-                }
+app.post('/v1/addurl', (req, res) => {
+    if (req.method === 'POST') {
+        const { url } = req.body;
+        const sql = 'INSERT INTO scrap_data_site (url, timestamp) VALUES (?, CURRENT_TIMESTAMP)';
+        db.query(sql, [url], (error, results, fields) => {
+            if (error) {
+                console.error('Error inserting URL into database:', error);
+                res.status(500).json({ message: 'Failed to insert URL' });
+                return;
+            }
 
-                console.log('URL inserted successfully');
-                getLastUrlFromDatabase();
-                scrapDataSites();
-                
-                res.status(200).json({ message: 'URL inserted successfully', SCRAP_DATA });
-            });
-        } else {
-            res.status(405).json({ message: 'Method Not Allowed' });
-        }
-    });
+            console.log('URL inserted successfully');
+            getLastUrlFromDatabase();
+            scrapDataSites();
+
+            res.status(200).json({ message: 'URL inserted successfully', SCRAP_DATA });
+        });
+    } else {
+        res.status(405).json({ message: 'Method Not Allowed' });
+    }
+});
 
 
 app.get('/api/scrap_data_site', (req, res) => {
@@ -595,7 +595,7 @@ app.delete('/api/deleteurl/:id', async (req, res) => {
     try {
         // Delete from intents array
         const deletedUrl = await deleteFromIntents(id);
- 
+
         await new Promise((resolve, reject) => {
             db.query(sql, [id], (error, results, fields) => {
                 if (error) {
@@ -631,25 +631,25 @@ app.delete('/api/deleteurl/:id', async (req, res) => {
 async function getUrlById(id) {
     let connection;
     try {
-      connection = await pool.getConnection();
-      const [rows, fields] = await connection.query('SELECT url FROM scrap_data_site WHERE id = ?', [id]);
-      if (rows.length > 0) {
-        return rows[0].url;
-      } else {
-        console.log(`URL with ID ${id} not found.`);
-        return null;
-      }
+        connection = await pool.getConnection();
+        const [rows, fields] = await connection.query('SELECT url FROM scrap_data_site WHERE id = ?', [id]);
+        if (rows.length > 0) {
+            return rows[0].url;
+        } else {
+            console.log(`URL with ID ${id} not found.`);
+            return null;
+        }
     } catch (error) {
-      console.error('Error querying URL by ID:', error);
-      return null;
+        console.error('Error querying URL by ID:', error);
+        return null;
     } finally {
-      if (connection) {
-        connection.release();
-      }
+        if (connection) {
+            connection.release();
+        }
     }
-  }
+}
 
-  
+
 // Define allIntents globally to store all intents
 let allIntents = [];
 
