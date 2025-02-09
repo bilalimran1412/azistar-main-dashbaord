@@ -1,0 +1,563 @@
+.custom-node .buttons-container {
+  display: flex;
+  flex-direction: column; /* Stacks buttons vertically */
+  gap: 10px; /* Adds spacing between the buttons */
+}
+
+.button-handle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures the button and handle are spaced correctly */
+}
+
+/* 
+  //flow css */
+
+a.tidio-5hhiig {
+  display: none;
+}
+.drag_drop span {
+  width: 100%;
+}
+.drag_drop ul,
+.drag_drop li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.drag_drop ul {
+  position: relative;
+  width: 300px;
+}
+
+.drag_drop li {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 15px 18px;
+  /* position: relative; */
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: grab;
+}
+
+.drag_drop li svg {
+  width: 18px;
+  height: 18px;
+  cursor: grab;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.newsetmessage button.chakra-button.close_icns.css-1w5nryu {
+  background: transparent;
+  color: #45496e;
+  background-image: none !important;
+  box-shadow: none !important;
+  font-size: 20px;
+  font-weight: 700;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+.newsetmessage button.chakra-button.close_icns.css-1w5nryu:hover {
+  background-color: #dfe4e8;
+}
+.builder-sidebar {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  z-index: 50;
+  transition: all ease 0.5s;
+  /* padding: 2rem 0 2rem 1rem; */
+  /* margin-right: 1rem; */
+  /* padding: 20px 20px 40px; */
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f8f8f8;
+  height: calc(100% - 0px);
+}
+.closeform {
+  transform: translateX(-120%);
+  transition: all ease 0.5s;
+}
+.openform {
+  transition: all ease 0.5s;
+  transform: translateX(0%);
+}
+.newsetmessage button {
+  background-color: transparent;
+  padding: 0px 16px;
+  margin: 0px;
+  border: 0;
+  border-radius: 4px;
+  color: rgb(51, 64, 94);
+  font-size: 16px;
+  font-family:
+    DM Sans,
+    sans-serif;
+  white-space: nowrap;
+  border: 1px solid rgb(51, 64, 94);
+  min-width: 80px;
+
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.newsetmessage .form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.newsetmessage .form button {
+  color: rgb(51, 64, 94);
+  cursor: pointer;
+  width: 100%;
+}
+.newsetmessage button:hover {
+  color: rgb(51, 64, 94);
+  background-color: #f0f5ff;
+}
+.newsetmessage textarea {
+  border: 1px solid #7c7c7c;
+  border-radius: 3px;
+  height: 110px;
+  box-shadow: 0 2px 24px #0000001c;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid rgba(16, 22, 26, 0.2);
+  cursor: text;
+  font-size: 13px;
+  padding: 11px 13px;
+  overflow: auto;
+}
+.close_icns {
+  top: 0;
+  min-width: 0;
+  padding: 8px !important;
+  height: auto;
+}
+
+.newsetmessage input {
+  margin-bottom: 20px;
+  height: auto !important;
+  box-shadow: 0 2px 24px #0000001c;
+  background-color: #fff;
+}
+.react-flow__node {
+  min-height: 30px;
+  padding: 5px 16px;
+  gap: 16px;
+  font-size: 11px;
+  width: max-content;
+}
+.box_node svg,
+.box_node svg span {
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+}
+.box_node:hover button {
+  color: #fff;
+}
+.box_node {
+  display: flex;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  justify-content: start;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.newsetmessage label {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  color: rgb(51, 64, 94);
+  line-height: 22px;
+}
+.selected_dropdown-main {
+  background: #fff;
+  width: 275px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.selected_dropdown-menu {
+  background: #fff;
+  z-index: 1000;
+  padding-right: 10px;
+  border: 0px solid rgb(200, 200, 250);
+  overflow-x: hidden;
+  height: 250px;
+}
+.selected_dropdown-menu button,
+.selected_dropdown-menu .menu_btn {
+  width: 100%;
+  border: 0px;
+  background: transparent;
+  height: auto;
+  cursor: pointer;
+  width: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  border-radius: 4px;
+}
+.selected_dropdown-menu button:hover {
+  background: transparent;
+}
+.box_node:hover {
+  background: #0cb7fc;
+}
+.box_node:hover {
+  color: #fff;
+}
+
+.newsetmessage input {
+  padding: 12px 10px;
+  width: 100%;
+  border-radius: 2px;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 24px #0000001c;
+  background-color: #fff;
+  outline: none;
+  width: 100%;
+  border: 1px solid #cfd0d1;
+}
+
+.newsetmessage textarea {
+  margin-bottom: 30px;
+  outline: none;
+  width: 100%;
+}
+
+.frm_hdr_ttle h2 {
+  margin: 0px;
+  color: rgb(51, 64, 94);
+}
+.newsetmessage .grid.grid-cols-2 {
+  background-color: #f8f8f8;
+  height: 60px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  justify-content: space-between;
+  /* margin-bottom: 30px; */
+}
+.newsetmessage fieldset.chakra-form-control.css-0 {
+  margin-bottom: 30px;
+}
+.newsetmessage span.chakra-radio__control.css-ssalds {
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.chatbot_flow button.MuiButtonBase-root {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+}
+
+.pcBUt {
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-color: rgb(210, 213, 218);
+  border-radius: 0.25rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(156, 163, 175);
+  cursor: text;
+  height: 2.5rem;
+  margin-bottom: 8px;
+  padding: 0px 1rem;
+  display: flex;
+  align-items: center;
+}
+.hFCtfK {
+  align-items: center;
+  display: flex;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.lfziQO {
+  margin: 0rem 0.5rem 0rem 0rem;
+  padding: 0rem;
+}
+.Cxxqa {
+  display: inline-flex;
+}
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+.Cxxqa svg {
+  color: inherit;
+  height: 1rem;
+  width: 1rem;
+}
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.hwwsqP {
+  color: rgb(51, 64, 94);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  flex-grow: 1;
+  min-width: 0px;
+  border: 0px;
+  outline: 0px;
+  background-color: transparent;
+}
+.MuiPopper-root.css-136m6w0 button {
+  position: relative;
+}
+input.item-button {
+  margin: 0px !important;
+}
+button.delete-button svg {
+  fill: #fff;
+  font-size: 24px;
+  width: auto;
+  margin: 0;
+}
+input.item-button {
+  margin: 0 !important;
+  background: #cd3c79;
+  border: 0;
+  color: #fff;
+}
+button.delete-button {
+  width: auto;
+  margin: 0 !important;
+  max-width: 100px;
+  min-width: 43px;
+  position: absolute;
+  right: 30px;
+  padding: 4px !important;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-with-gap > * {
+  margin-right: 10px;
+}
+.flex-with-gap > *:last-child {
+  margin-right: 0;
+}
+
+.react-flow__node {
+  border-color: #464d6c !important;
+}
+
+.item-buttons {
+  background: #cd3c79;
+  border-radius: 4px;
+  display: flex;
+  margin: 3px 0px !important;
+  position: relative;
+  justify-content: space-between;
+  padding: 2px 6px;
+  justify-content: start;
+  color: #fff;
+  text-transform: capitalize;
+}
+.placeholder-button {
+  background: rgb(221, 221, 255);
+  outline: 1px solid #6361f0;
+  color: #6361f0;
+  border-radius: 4px;
+  display: flex;
+  margin: 3px 0px !important;
+  position: relative;
+  justify-content: space-between;
+  padding: 2px 6px;
+  justify-content: start;
+  text-transform: capitalize;
+  padding: 6px 25px;
+  width: 100%;
+  font-size: 14px;
+}
+.button_editor .item-list {
+  margin-top: 16px;
+}
+.button_editor .item-list {
+  padding: 10px 10px 5px;
+  background-color: #42456a;
+  border-radius: 3px;
+  margin-bottom: 7px;
+}
+button.chakra-button.add-new-button.css-ez23ye {
+  border-radius: 100px;
+  text-align: left;
+  background: #3a3c5d !important;
+  border-radius: 100px !important;
+  height: 36px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  font-size: 14px !important;
+  font-weight: 400;
+}
+.button_editor .item-buttons {
+  padding: 0px;
+}
+.item-list {
+  width: 100%;
+}
+.node_outer {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 10px;
+}
+.item-buttons {
+  padding: 6px 25px;
+  width: 100%;
+  font-size: 14px;
+  outline: 0;
+  border: 0;
+  color: #fff;
+}
+button.item-button {
+  padding: 12px 20px;
+  width: 74%;
+  border: 0;
+  text-align: left;
+}
+.add_newbtn {
+  margin-top: 12px !important;
+  width: 100%;
+  padding: 12px !important;
+  background: #fff !important;
+}
+
+.custom-node {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background: #fff;
+  position: relative; /* Needed for absolute positioning of children */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.node-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center contents horizontally */
+}
+
+.icon_dropdown,
+.node-header button.chakra-button.delete-button svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -11px;
+  background: #cc3c79;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  background: #4ab8b3 !important;
+  z-index: 1;
+}
+.node-header button.chakra-button.delete-button svg {
+  padding: 2px;
+}
+.node-header button.chakra-button.delete-button {
+  top: 1%;
+  width: 20px !important;
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  right: 0px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-handle-container {
+  position: relative;
+}
+
+.button-handle-container,
+.button-handle-container button {
+  width: 100%;
+}
+.button-handle-container button {
+  background: #cc3c79;
+  color: #fff;
+  font-size: 10px;
+  padding: 6px 10px;
+  height: auto !important;
+  border-radius: 3px;
+  width: 100% !important;
+}
+.custom-node .buttons-container {
+  width: 100%;
+}
+.button-handle-container button:hover {
+  color: #323232;
+  background: #cc3c79cf;
+}
+.dropdown-selector > div {
+  flex-direction: row-reverse;
+}
+.dropdown-selector > div > div {
+  padding-left: 0;
+}

@@ -1,0 +1,194 @@
+.tab-container {
+    display: flex;
+    gap: 15px;
+}
+
+.tab-menu {
+    --color-background: #f5f7f9;
+    --color-background-hover: rgba(100, 116, 145, 0.08);
+    --color-text: #354869;
+    --color-text-exact: #001433;
+    --color-icon: #354869;
+    --color-icon-exact: #001433;
+    list-style-type: none;
+    margin: 0px;
+    min-height: 100%;
+    border-right: 1px solid #EFF2F6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px 0px 0px;
+    width: 232px;
+    background: transparent;
+}
+.tab-menu-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    color: var(--color-text);
+    padding: 0px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.tab-menu-item {
+    border-radius: 8px;
+}
+.tab-menu-item {
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    background-color: var(--color-background-exact);
+    font-weight: 500;
+    color: var(--color-text-exact);
+    padding: 8px 12px;
+    min-height: 36px;
+}
+.tab-menu-item {
+    padding: 10px;
+    cursor: pointer;
+    display: flex; /* Use flexbox to align icon and label */
+    align-items: center; /* Center items vertically */
+    transition: background-color 0.3s;
+}
+
+.tab-menu-item:hover {
+    background-color: #DCE9FF;
+}
+
+.active {
+    background-color: #DCE9FF;
+    font-weight: bold;
+}
+
+.tab-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.tab-content h4, .par_text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+.par_text {
+    margin-top: 12px;
+}
+.flex {
+    display: flex;
+}
+.gap-10 {
+    gap: 10px;
+}
+
+.tab-content .circle{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: 600;
+    border-radius: 50%;
+    color: rgb(0, 73, 189);
+    background-color: rgb(220, 233, 255);
+}
+
+
+
+
+
+.code-snippet-fieldset {
+    padding: 0px 4px;
+    border-radius: 4px;
+    border: 2px solid rgb(226, 232, 239);
+    background-color: rgb(239, 242, 246);
+    margin: 16px 0px;
+}
+
+.code-snippet-legend {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: rgb(100, 116, 145);
+    width: auto;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    white-space: nowrap;
+}
+
+.code-snippet-legend > span {
+    padding: 0px 8px;
+}
+.code-snippet-textarea {
+    border-color: rgb(211, 219, 229);
+    width: 100%;
+    background: transparent;
+    padding: 4px 10px 0px;
+}
+
+.code-snippet-buttons {
+    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    gap: 12px;
+}
+.code-snippet-buttons .btn {
+    border-radius: 8px;
+    font-size: 18px;
+    height: 46px;
+    line-height: 23px;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+.code-snippet-buttons .btn {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+.code-snippet-buttons .btn {
+    background-color: #dce9ff;
+    border-color: #dce9ff;
+    color: #0049bd;
+}
+.code-snippet-buttons .btn svg {
+    height: 24px;
+    margin-right: 8px;
+    width: 24px;
+}
+.code-snippet-buttons .btn svg {
+    fill: currentColor;
+    margin-left: -2px;
+    margin-right: 6px;
+}
+
+.pad_left {
+    padding-left: 36px;
+}
+
+.next_steps_space {
+    margin-top: 30px;
+}

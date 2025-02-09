@@ -1,0 +1,108 @@
+.dashboard-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .messages-section {
+    margin-bottom: 20px;
+  }
+ 
+  .messages-list {
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .message {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .message.user {
+    background-color: #d1e7dd;
+    text-align: right;
+  }
+  
+  .message.customer {
+    background-color: #f8d7da;
+  }
+  
+  .input-section {
+    display: flex;
+  }
+  
+  input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 25%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+  }
+  
+  .customer-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .customer-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .customer-list li.active {
+    background-color: #ddd;
+  }
+  
+  .messages-section {
+    width: 75%;
+    padding: 10px;
+  }
+  
+  .messages-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .input-section {
+    margin-top: 10px;
+  }
+  
+  .input-section input {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+  }
+  
+  .input-section button {
+    padding: 10px 20px;
+  }
+  
+

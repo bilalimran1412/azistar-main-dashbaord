@@ -1,0 +1,39 @@
+.DraftEditor-editorContainer,
+.DraftEditor-root,
+.public-DraftEditor-content {
+  height: inherit;
+  width: inherit;
+}
+
+.public-DraftEditor-content h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.draft-editor-quote-block {
+  font-style: italic;
+  border-left: 4px solid rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+}
+
+.draft-editor-code-block {
+  font-family: 'monaco', 'Consolas', 'Lucida Console', monospace;
+  font-size: inherit;
+  background: rgb(51, 58, 93);
+  color: #fff;
+  line-height: 1.5;
+  padding: 0.2rem 0.5rem;
+}
+
+.leftAlign {
+  text-align: left;
+}
+.rightAlign {
+  text-align: right;
+}
+.centerAlign {
+  text-align: center;
+}
+.justifyAlign {
+  text-align: justify;
+}

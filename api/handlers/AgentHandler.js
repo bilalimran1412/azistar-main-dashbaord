@@ -1,5 +1,5 @@
 // controllers/agentController.js
-const Agent = require('../model/agentModel');
+const Agent = require('../model/AgentModel');
 const nodemailer = require('nodemailer');
 const bcrypt = require('bcrypt');
 require('dotenv').config(); 
@@ -98,3 +98,4 @@ exports.loginAgent = async (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 };
+

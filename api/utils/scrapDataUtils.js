@@ -74,45 +74,81 @@ exports.customdata = [
 ]
 
 
-const SCRAP_DATA = false;
+// const SCRAP_DATA = false;
+
+// async function saveIntents(intents) {
+//     const fileName = path.join(__dirname, '../../intents.json');
+//     try {
+//         // Ensure responses are arrays
+//         if (!Array.isArray(intents)) {
+//             throw new Error('Intents should be an array');
+//         }
+
+//         intents.forEach(intent => {
+//             if (!intent.responses || !Array.isArray(intent.responses)) {
+//                 intent.responses = []; 
+//             }
+//         });
+//         await fs.promises.writeFile(fileName, JSON.stringify(intents, null, 2));
+//         console.log(`Intents saved to file: ${fileName}`);
+//     } catch (err) {
+//         console.error('Error saving intents:', err);
+//     }
+// }
 
 async function saveIntents(intents) {
     const fileName = path.join(__dirname, '../../intents.json');
+    let existingIntents = [];
+
     try {
-        // Ensure responses are arrays
-        intents.forEach(intent => {
-            if (!Array.isArray(intent.responses)) {
-                intent.responses = [];
-            }
-        });
-        await fs.promises.writeFile(fileName, JSON.stringify(intents, null, 2));
-        console.log(`Intents saved to file: ${fileName}`);
-    } catch (err) {
-        console.error('Error saving intents:', err);
+        const intentsContent = fs.readFileSync(fileName, 'utf8');
+        existingIntents = JSON.parse(intentsContent);
+    } catch (error) {
+        console.error('Error loading existing intents, starting fresh:', error);
     }
+
+    // Merge existing intents with new ones
+    const mergedIntents = [...existingIntents, ...intents];
+
+
+    fs.writeFile(fileName, JSON.stringify(mergedIntents, null, 2), (err) => {
+        if (err) {
+            console.error('Error saving intents:', err);
+        } else {
+            console.log(`Intents saved to file: ${fileName}`);
+        }
+    });
 }
 
 
 async function initializeNlpManager() {
     const intentsFile = path.join(__dirname, '../../intents.json');
 
-    const intentsContent = fs.readFileSync(intentsFile, 'utf8');
-    const intents = JSON.parse(intentsContent);
-
-    console.log('Loaded intents:', intents); // Debug log
+    let intents;
+    try {
+        const intentsContent = fs.readFileSync(intentsFile, 'utf8');
+        intents = JSON.parse(intentsContent);
+    } catch (error) {
+        console.error('Error loading intents file:', error);
+        return; // Exit if there's an error
+    }
 
     intents.forEach(intent => {
-        if (intent.patterns && Array.isArray(intent.patterns) && intent.responses && Array.isArray(intent.responses)) {
+        if (intent && intent.patterns && Array.isArray(intent.patterns) && intent.responses && Array.isArray(intent.responses)) {
             intent.patterns.forEach(pattern => {
-                console.log(`Adding pattern: ${pattern} with tag: ${intent.tag}`); // Debug log
-                manager.addDocument('en', pattern, intent.tag);
+                if (pattern) {
+                    manager.addDocument('en', pattern, intent.tag);
+                } else {
+                    console.warn(`Pattern is null for tag: ${intent.tag}`);
+                }
             });
             intent.responses.forEach(response => {
-                console.log(`Adding response: ${response} for tag: ${intent.tag}`); // Debug log
-                manager.addAnswer('en', intent.tag, response);
+                if (response) {
+                    manager.addAnswer('en', intent.tag, response);
+                }
             });
         } else {
-            console.error('Invalid intent format found in intents.json:', intent);
+            // console.error('Invalid intent format found in intents.json:', intent);
         }
     });
 
@@ -121,8 +157,14 @@ async function initializeNlpManager() {
     console.log('NLP manager trained successfully.');
 
     // Optionally save the model
-    await manager.save();
+    try {
+        await manager.save();
+        console.log('Model saved successfully.');
+    } catch (error) {
+        console.error('Error saving the model:', error);
+    }
 }
+
 
 
 
@@ -141,7 +183,7 @@ async function initNlp() {
 }
 
 // Call the initialization function
-initNlp();
+// initNlp();
 
 const GLOBALS = {
     appName:"swanchatbot",
@@ -185,30 +227,79 @@ async function getWebData(url) {
 
 require('dotenv').config();
 
+// async function generateIntents(data) {
+//     try {
+//         const OpenAI = await import('openai');
+//         const openai = new OpenAI.default({
+//             apiKey: 'sk-svcacct-iJEIzFLomkRX1AXfzxppT3BlbkFJKQesbAN7C4fuBCupHN4E',
+//         });
+        
+//         let prompt = `Based on the following data, generate extensive detailed and intelligent yet
+//          common intents for a chatbot in JSON format: as tag patterns and responses in json format, patterns should be extensive questions which user could ask\n\n` + data;
+
+//         const chatCompletion = await openai.chat.completions.create({
+//             model: "gpt-3.5-turbo",
+//             messages: [{ "role": "user", "content": prompt }],
+//         });
+
+//         // Clean the response to ensure it is valid JSON
+//         const responseText = chatCompletion.choices[0].message.content;
+//         a = JSON.parse(responseText);
+//         console.log("responsea ", a.intents)
+//         return a.intents;
+
+//     } catch (error) {
+//         console.error('Error calling OpenAI API:', error);
+//         return [];
+//     }
+// }
+
 async function generateIntents(data) {
     try {
         const OpenAI = await import('openai');
         const openai = new OpenAI.default({
-            apiKey: process.env.OPENAI_API_KEY,
+            apiKey: 'sk-svcacct-iJEIzFLomkRX1AXfzxppT3BlbkFJKQesbAN7C4fuBCupHN4E',
         });
+        
+        // Structure the prompt to request JSON format with multiple responses per tone
+        let prompt = `
+            Based on the following data, generate detailed and structured intents for a chatbot in JSON format with the following structure:
+            - "tag": a unique identifier for the intent
+            - "patterns": a list of questions or phrases the user might ask
+            - "responses": an object with three keys ("formal", "informal", "neutral"), each containing multiple unique responses
 
-        let prompt = 'Based on the following data, generate extensive detailed and intelligent yet common intents for a chatbot in JSON format: ...';
+            Ensure the JSON format is strictly followed as shown below:
+
+            {
+              "tag": "<intent_tag>",
+              "patterns": ["<pattern1>", "<pattern2>", "..."],
+              "responses": {
+                "formal": ["<response1>", "<response2>", "..."],
+                "informal": ["<response1>", "<response2>", "..."],
+                "neutral": ["<response1>", "<response2>", "..."]
+              }
+            }
+
+            Input data:\n\n${data}
+        `;
 
         const chatCompletion = await openai.chat.completions.create({
             model: "gpt-3.5-turbo",
             messages: [{ "role": "user", "content": prompt }],
         });
 
+        // Clean and parse the response to ensure valid JSON format
         const responseText = chatCompletion.choices[0].message.content;
-        console.log('genrate ho gya');
-        return JSON.parse(responseText).intents;
+        const parsedResponse = JSON.parse(responseText);
+        console.log("Parsed Intents:", parsedResponse.intents);
+
+        return parsedResponse.intents;
 
     } catch (error) {
         console.error('Error calling OpenAI API:', error);
         return [];
     }
 }
-
 
 
 

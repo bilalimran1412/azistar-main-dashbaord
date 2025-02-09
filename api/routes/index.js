@@ -7,7 +7,7 @@ const AgentRoutes = require("./agentRoutes")
 const ScrapData = require("./scraproutes")
 const Chat = require("./chatRoutes")
 const media = require('./media')
-
+const fileData=require('./fileData')
 
 router.use("/auth", user);
 router.use("/bot", bot);
@@ -17,6 +17,6 @@ router.use("/agents", AgentRoutes);
 router.use("/scrap_data", ScrapData);
 router.use("/chat", Chat);
 router.use('/media', media)
-
+router.use('/filedata', fileData)
 
 module.exports = router;

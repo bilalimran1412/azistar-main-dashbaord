@@ -1,0 +1,4123 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hey",
+      "How are you",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "Hi there",
+      "Greetings",
+      "Yo",
+      "Hiya"
+    ],
+    "responses": [
+      "Hey :-)",
+      "Hello, thanks for visiting",
+      "Hi there, what can I do for you?",
+      "Hi there, how can I help?",
+      "Greetings! How may I assist you?",
+      "Yo! What's up?"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "Bye",
+      "See you later",
+      "Goodbye",
+      "Catch you later",
+      "Take care",
+      "Adios",
+      "So long"
+    ],
+    "responses": [
+      "See you later, thanks for visiting",
+      "Have a nice day",
+      "Bye! Come back again soon.",
+      "Take care!",
+      "Goodbye! Have a great day.",
+      "Adios! Until next time."
+    ]
+  },
+  {
+    "tag": "thanks",
+    "patterns": [
+      "Thanks",
+      "Thank you",
+      "That's helpful",
+      "Thank's a lot!",
+      "Appreciate it",
+      "Thanks a bunch",
+      "Cheers"
+    ],
+    "responses": [
+      "Happy to help!",
+      "Any time!",
+      "My pleasure",
+      "You're welcome!",
+      "Glad I could assist!",
+      "Cheers!"
+    ]
+  },
+  {
+    "tag": "services_full_account_management",
+    "patterns": [
+      "What services do you offer for Full Account Management?",
+      "Can you provide details on your Full Account Management services?",
+      "Tell me more about your Full Account Management service."
+    ],
+    "responses": [
+      "Our Full Account Management service includes managing all aspects of your Amazon account to ensure optimal performance and growth."
+    ]
+  },
+  {
+    "tag": "services_seo_listing_optimization",
+    "patterns": [
+      "What is included in your SEO and Listing Optimization services?",
+      "Can you explain the process of SEO and Listing Optimization?",
+      "How can you help with SEO and Listing Optimization?"
+    ],
+    "responses": [
+      "Our SEO and Listing Optimization services focus on improving your product listings to increase visibility and search rankings on Amazon."
+    ]
+  },
+  {
+    "tag": "services_listing_reinstatement",
+    "patterns": [
+      "How can you help with Listing Reinstatement?",
+      "Do you offer services for Listing Reinstatement?",
+      "Can you assist with reinstating my listings on Amazon?"
+    ],
+    "responses": [
+      "Our Listing Reinstatement service includes helping you reinstate any suspended or inactive listings on Amazon."
+    ]
+  },
+  {
+    "tag": "services_ppc_campaign_management",
+    "patterns": [
+      "What services do you provide for PPC Campaign Management?",
+      "Can you explain your PPC Campaign Management process?",
+      "How do you manage PPC campaigns for clients?"
+    ],
+    "responses": [
+      "Our PPC Campaign Management service involves optimizing and managing your pay-per-click advertising campaigns on Amazon."
+    ]
+  },
+  {
+    "tag": "services_creatives_and_graphic_design",
+    "patterns": [
+      "Tell me more about your Creatives and Graphic Design services.",
+      "What does your Creatives and Graphic Design service include?",
+      "How can you help with graphic design for Amazon?"
+    ],
+    "responses": [
+      "Our Creatives and Graphic Design services cover creating high-quality visual assets like listing images, A+ Content, brand stories, and more for your Amazon products."
+    ]
+  },
+  {
+    "tag": "services_refunds_and_reimbursement",
+    "patterns": [
+      "How do you assist with Refunds and Reimbursement?",
+      "Can you explain your Refunds and Reimbursement services?",
+      "What is included in your Refunds and Reimbursement service?"
+    ],
+    "responses": [
+      "Our Refunds and Reimbursement service helps you navigate the process of receiving refunds from Amazon for eligible cases."
+    ]
+  },
+  {
+    "tag": "services_growth_strategy_consultation",
+    "patterns": [
+      "What services do you offer for Growth Strategy and Consultation?",
+      "Can you provide details on your Growth Strategy service?",
+      "How can you help with growth planning and strategy?"
+    ],
+    "responses": [
+      "Our Growth Strategy and Consultation service involves analyzing your business goals and providing guidance on strategies to drive growth on Amazon."
+    ]
+  },
+  {
+    "tag": "case_studies",
+    "patterns": [
+      "Do you have any case studies available?",
+      "Can you share your success stories with clients?",
+      "What are some examples of successful projects you've worked on?"
+    ],
+    "responses": [
+      "We have several case studies showcasing successful collaborations with clients, including Breaking Boundaries, Turning Challenges, Prime Day Success, and YOY Growth."
+    ]
+  },
+  {
+    "tag": "about_us",
+    "patterns": [
+      "Tell me about your company and team.",
+      "What does your company stand for?",
+      "Can you provide information about your company values and partnerships?"
+    ],
+    "responses": [
+      "Our company, PAS Agency, is a trusted partner in e-commerce solutions, empowering businesses of all sizes to thrive in the digital marketplace. We are part of the Amazon Service Partner Network and collaborate with partners like Amazon Ads Partner, Ads Badger Partner, and Merchant Spring Partner."
+    ]
+  },
+  {
+    "tag": "contact_us",
+    "patterns": [
+      "How can I contact your team?",
+      "What is the best way to get in touch with you?",
+      "Do you have a contact page or form for inquiries?"
+    ],
+    "responses": [
+      "You can reach out to us via phone at (561)-464-5333, email at info@pasagency.com, or visit our office at 20283 FL-7, Boca Raton, FL 33498."
+    ]
+  },
+  {
+    "tag": "start_your_audit",
+    "patterns": [
+      "How can I start my audit with PAS Agency?",
+      "Can you guide me on beginning an audit of my Amazon account?",
+      "What is the process for starting an audit with your team?"
+    ],
+    "responses": [
+      "You can start your audit by contacting us through our website form or by reaching out directly via phone or email. Our team will assist you in getting started."
+    ]
+  },
+  {
+    "tag": "about_agency",
+    "patterns": [
+      "Can you tell me more about PAS Agency?",
+      "What services does PAS Agency offer?",
+      "Who is PAS Agency?",
+      "What sets PAS Agency apart from others?"
+    ],
+    "responses": [
+      "PAS Agency offers full account management, SEO and listing optimization, PPC campaign management, creatives and graphic design, listing reinstatement, refunds and reimbursement, and growth strategy consultation. PAS Agency is known for its tailored, data-driven approach to maximizing profitability and growth for brands on Amazon."
+    ]
+  },
+  {
+    "tag": "services_list",
+    "patterns": [
+      "What services does PAS Agency provide?",
+      "Can you list the services offered by PAS Agency?",
+      "I'm interested in knowing about the services provided by PAS Agency."
+    ],
+    "responses": [
+      "PAS Agency provides full account management, SEO and listing optimization, listing reinstatement, PPC campaign management, creatives and graphic design, refunds and reimbursement, and growth strategy consultation for businesses looking to scale profitably on Amazon."
+    ]
+  },
+  {
+    "tag": "case_studies",
+    "patterns": [
+      "Can you share some case studies of PAS Agency?",
+      "Do you have any successful case studies to share?",
+      "What are the success stories of brands working with PAS Agency?"
+    ],
+    "responses": [
+      "PAS Agency has case studies showcasing breaking boundaries, turning challenges, Prime Day success, and year-over-year growth. These case studies highlight the success stories of brands that have benefitted from PAS Agency's services."
+    ]
+  },
+  {
+    "tag": "blog_articles",
+    "patterns": [
+      "Where can I find blog articles by PAS Agency?",
+      "Do you have a blog section on your website?",
+      "Can you recommend some blog articles from PAS Agency?"
+    ],
+    "responses": [
+      "You can explore the blog section on PAS Agency's website to read informative articles on Amazon strategies, e-commerce trends, and industry insights."
+    ]
+  },
+  {
+    "tag": "contact_us",
+    "patterns": [
+      "How can I get in touch with PAS Agency?",
+      "What are the contact details for PAS Agency?",
+      "Is there a way to contact PAS Agency for inquiries?"
+    ],
+    "responses": [
+      "You can reach out to PAS Agency via phone at +1 (561) 464-533 or email at info@pasagency.com. The office address is 20283 FL-7, Boca Raton, FL 33498."
+    ]
+  },
+  {
+    "tag": "start_audit",
+    "patterns": [
+      "How can I start an audit with PAS Agency?",
+      "What is the process to begin an audit with PAS Agency?",
+      "Can I get more information on starting an audit with PAS Agency?"
+    ],
+    "responses": [
+      "To start your audit with PAS Agency, you can visit the website and click on the 'Start Your Audit' button. The team will guide you through the onboarding process, data transfer, SEO/copywriting, launch, catalog setup, and creatives for your Amazon business."
+    ]
+  },
+  {
+    "tag": "services_full_account_management",
+    "patterns": [
+      "What is included in Full Account Management?",
+      "How does Full Account Management work?",
+      "Can you explain the benefits of Full Account Management?",
+      "What services are part of Full Account Management?",
+      "How does Full Account Management help with Amazon?",
+      "Why should I consider Full Account Management?"
+    ],
+    "responses": "Full Account Management includes catalog merchandising, troubleshooting, promotions, and brand registry services. It helps optimize your Amazon account, manage promotions, improve brand visibility, and ensure account health."
+  },
+  {
+    "tag": "contact_sales",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email for sales inquiries?",
+      "How do I reach the sales department?",
+      "Can you provide me with the sales contact information?",
+      "I want to get in touch with the sales team, how can I do that?"
+    ],
+    "responses": [
+      {
+        "text": "To contact our sales team, you can email us at web@astudio.agency or call us at +971522210876."
+      }
+    ]
+  },
+  {
+    "tag": "contact_career",
+    "patterns": [
+      "How can I inquire about career opportunities?",
+      "What is the email for job applications?",
+      "How do I apply for a job at your agency?",
+      "Can you provide me with the career contact information?",
+      "I want to join your team, how can I apply for a job?"
+    ],
+    "responses": [
+      {
+        "text": "To inquire about career opportunities and apply for a job, please email us at joinus@astudio.agency."
+      }
+    ]
+  },
+  {
+    "tag": "contact.sales",
+    "patterns": [
+      "How can I contact your sales team?",
+      "What is the email for sales inquiries?",
+      "How can I reach out to sales department?",
+      "Do you have a phone number for sales inquiries?"
+    ],
+    "responses": [
+      "You can reach our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "contact.career",
+    "patterns": [
+      "How do I inquire about career opportunities?",
+      "What is the email for job applications?",
+      "How can I apply for a job at your agency?",
+      "Do you have a contact for careers?"
+    ],
+    "responses": [
+      "For career opportunities, please contact joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "future.store",
+    "patterns": [
+      "Tell me more about the Future Store project",
+      "What was the Future Store project about?",
+      "Can you provide details on the Future Store initiative?"
+    ],
+    "responses": [
+      "The Future Store project involved producing over 340 content pieces displayed at the Mall of the Emirates. Learn more about it on our website."
+    ]
+  },
+  {
+    "tag": "our.work.style",
+    "patterns": [
+      "What is your approach to work?",
+      "How do you operate in a project?",
+      "Can you explain your work style?",
+      "What sets your work process apart?"
+    ],
+    "responses": [
+      "Our work style involves creativity and attention to detail. We start with planning, followed by execution and delivery of high-quality projects."
+    ]
+  },
+  {
+    "tag": "projects",
+    "patterns": [
+      "Tell me about some of your projects",
+      "Can you share details of your previous projects?",
+      "What kind of projects have you worked on?",
+      "Provide examples of your past work"
+    ],
+    "responses": [
+      "You can explore our various projects with prestigious clients like Mandarin Oriental Jumeira, Bvlgari, and more on our website."
+    ]
+  },
+  {
+    "tag": "client.testimonials",
+    "patterns": [
+      "What do your clients say about you?",
+      "Can I see some client testimonials?",
+      "Do you have feedback from previous clients?",
+      "What are the reviews from your clients?"
+    ],
+    "responses": [
+      "Our clients have praised our unique creativity and strategic approach. Find testimonials from Valentino, Mandarin Oriental, and other renowned brands on our site."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I contact sales?",
+      "What is the email for sales inquiries?",
+      "I want to reach out to the sales team, how can I do that?",
+      "Can you provide me with the sales contact information?",
+      "How do I get in touch with the sales department?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency",
+      "For sales inquiries, please email web@astudio.agency",
+      "If you have any sales-related questions, reach out to web@astudio.agency",
+      "Sales inquiries can be directed to web@astudio.agency",
+      "To contact the sales department, email web@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "I am interested in a career opportunity, how can I apply?",
+      "What is the email for job applications?",
+      "How can I join the team at Astudio?",
+      "I want to know more about career opportunities at Astudio",
+      "How do I apply for a job at Astudio?"
+    ],
+    "responses": [
+      "Join our team by emailing your resume to joinus@astudio.agency",
+      "For career opportunities, please send your CV to joinus@astudio.agency",
+      "Interested in a career at Astudio? Submit your application to joinus@astudio.agency",
+      "To apply for a job at Astudio, send your resume to joinus@astudio.agency",
+      "Career inquiries can be directed to joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Contact",
+    "patterns": [
+      "How can I get in touch with you?",
+      "What are your contact details?",
+      "Do you have a phone number I can call?",
+      "I want to contact you, how can I do that?",
+      "Can you provide me with your contact information?",
+      "What is the best way to reach you?"
+    ],
+    "responses": [
+      "You can contact us via email at web@astudio.agency or call us at +971522210876.",
+      "For any inquiries or assistance, please feel free to contact us at web@astudio.agency or on +971522210876.",
+      "Our contact information is web@astudio.agency for email inquiries and +971522210876 for phone calls.",
+      "To reach us, you can send an email to web@astudio.agency or call us at +971522210876."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I reach your sales team?",
+      "Do you have a sales department?",
+      "I am interested in sales, how can I get in touch?",
+      "Can I contact your sales team?",
+      "Who should I speak to regarding sales inquiries?",
+      "How do I get more information about your sales?"
+    ],
+    "responses": [
+      "To connect with our sales department, please email us at web@astudio.agency or call us at +971522210876.",
+      "For sales-related queries, you can reach out to us by sending an email to web@astudio.agency or calling us on +971522210876.",
+      "If you have any sales inquiries, feel free to contact us at web@astudio.agency or on +971522210876."
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "Do you have any job openings?",
+      "I am interested in a career at your company, what is the process?",
+      "Can I send my CV for job opportunities?",
+      "Who should I contact regarding job positions?",
+      "How do I join your team?"
+    ],
+    "responses": [
+      "If you are looking to join our team, please email your CV to joinus@astudio.agency.",
+      "For career opportunities, please send your resume to joinus@astudio.agency.",
+      "To apply for a job at our agency, kindly send your CV to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Sales Inquiry",
+    "patterns": [
+      "How can I get in touch with sales?",
+      "What is the email address for sales inquiries?",
+      "Who can I contact for sales information?",
+      "How do I reach the sales department?",
+      "What is the phone number for sales?",
+      "Where can I find sales contact information?"
+    ],
+    "responses": [
+      "For sales inquiries, you can contact us at web@astudio.agency or call us at +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email for career opportunities?",
+      "Who can I contact for job openings?",
+      "How do I join your team?",
+      "Where can I find information on careers at your agency?",
+      "What is the process to apply for a job?"
+    ],
+    "responses": [
+      "If you are interested in career opportunities, please email us at joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "What do your clients say about your work?",
+      "Do you have any client testimonials?",
+      "Can you share feedback from your clients?",
+      "What are the testimonials from your customers?",
+      "Are there any reviews from your clients?",
+      "How satisfied are your clients with your services?"
+    ],
+    "responses": [
+      "Our clients have shared positive feedback about our work. Here are some testimonials from them:"
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I get in touch with sales?",
+      "What is the email for sales?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can contact sales at web@astudio.agency or +971522210876."
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How do I apply for a job at your agency?",
+      "What is the email for job applications?"
+    ],
+    "responses": [
+      "If you are interested in a career opportunity, you can email your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "About Us",
+    "patterns": [
+      "What does ASTUDIO do?",
+      "What are the services offered by ASTUDIO?",
+      "Where is ASTUDIO located?"
+    ],
+    "responses": [
+      "ASTUDIO is a video production company and marketing agency based in Dubai. We offer services in social media marketing, digital marketing, creative marketing, video production, photographic shooting, case studies, branding, and marketing solutions. You can find us at 41, 14b Al Safa 1, 212803 Dubai, UAE."
+    ]
+  },
+  {
+    "tag": "Projects",
+    "patterns": [
+      "Can you tell me about your projects?",
+      "What kind of projects have you worked on?"
+    ],
+    "responses": [
+      "Here are some of our projects: [List of projects with brief descriptions]"
+    ]
+  },
+  {
+    "tag": "contact_sales",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email for sales inquiries?",
+      "Is there a phone number for sales?",
+      "How do I get in touch with the sales department?"
+    ],
+    "responses": [
+      "You can contact the sales team at web@astudio.agency",
+      "For sales inquiries, please email web@astudio.agency",
+      "You can reach sales at +971522210876",
+      "Contact the sales department at web@astudio.agency"
+    ]
+  },
+  {
+    "tag": "contact_career",
+    "patterns": [
+      "How do I apply for a job at your company?",
+      "What is the email for career opportunities?",
+      "Do you have any job openings?",
+      "How can I join your team?"
+    ],
+    "responses": [
+      "For career opportunities, email joinus@astudio.agency",
+      "To apply for a job, contact joinus@astudio.agency",
+      "You can find job openings by emailing joinus@astudio.agency",
+      "Join our team by contacting joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "azurde_summary",
+    "patterns": [
+      "Can you tell me about the L'azurde project?",
+      "What was the goal of the L'azurde video?",
+      "Tell me more about the L'azurde video project",
+      "What was the concept behind the L'azurde video?"
+    ],
+    "responses": [
+      "The L'azurde project aimed to create an inspiring one-minute video to celebrate the new year and send best wishes to followers on social media.",
+      "The goal of the L'azurde video was to showcase the beautiful jewelry pieces and create emotional moments that align with the charm and spirit of the season.",
+      "With the L'azurde video project, a story filled with imaginative scenes was created to capture joy, excitement, and the magical charm associated with the start of a new year.",
+      "The L'azurde video concept focused on portraying the joy, excitement, and magical charm of the new year in a creative and emotional way."
+    ]
+  },
+  {
+    "tag": "director_notes",
+    "patterns": [
+      "What were the director's notes for the L'azurde project?",
+      "Can you share insights from the director of the L'azurde video?",
+      "What challenges did the director face during the L'azurde video shoot?",
+      "Tell me about the director's experience in filming the L'azurde video"
+    ],
+    "responses": [
+      "The director aimed to capture the pure coldness of snow in 'Noy Blanc' and the team's efforts were dedicated to making each shot in the film truly stunning.",
+      "The challenges faced during the 18-hour continuous shoot in the extremely cold landscapes of Tbilisi, Georgia did not deter the team from executing the breathtaking project.",
+      "From capturing beautiful jewelry details with macro imagery to stunning aerial shots of Georgian mountains using drones, the director's vision for the L'azurde project was realized.",
+      "Efforts were made to ensure every frame in the film was truly mesmerizing, from intricate jewelry details to spellbinding cinematic shots of Georgia's snow-covered landscapes."
+    ]
+  },
+  {
+    "tag": "result_achievement",
+    "patterns": [
+      "What were the results of the L'azurde project?",
+      "How successful was the L'azurde video campaign?",
+      "Can you share the achievements of the L'azurde campaign?",
+      "What impact did the L'azurde video have on viewers?"
+    ],
+    "responses": [
+      "The L'azurde video was one of the most successful visual identity campaigns in 2018.",
+      "It garnered over a million views on Facebook and more than 300,000 views on YouTube.",
+      "The L'azurde campaign was highly successful, reaching a wide audience and creating a significant impact.",
+      "Audiences were captivated by the L'azurde video, resulting in impressive view counts and engagement on social media platforms."
+    ]
+  },
+  {
+    "tag": "sales",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email address for sales inquiries?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for job applications?"
+    ],
+    "responses": [
+      "To apply for a job with us, please send your resume and cover letter to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "projects",
+    "patterns": [
+      "Can you tell me about some of your recent projects?",
+      "What are some of the successful campaigns you have worked on?"
+    ],
+    "responses": [
+      "Some of our recent projects include campaigns for brands like Bulgari, La Petite Maison, and L'azurde. You can find more details on our website."
+    ]
+  },
+  {
+    "tag": "Sales Contact",
+    "patterns": [
+      "How can I contact you for sales inquiries?",
+      "What is your sales email?",
+      "Can you provide your sales contact details?",
+      "I would like to reach out for sales information, how can I do so?",
+      "Do you have a sales phone number?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or at +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Contact",
+    "patterns": [
+      "How can I contact you for career opportunities?",
+      "What is your career email?",
+      "Can you provide your career contact details?",
+      "I would like to inquire about career openings, how can I do so?",
+      "Do you have a career phone number?"
+    ],
+    "responses": [
+      "You can contact our HR team for career opportunities at joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I get in touch with sales?",
+      "What is the email for sales inquiries?",
+      "How can I reach the sales department?",
+      "Do you have a contact number for sales?",
+      "I would like to talk to someone in sales, how can I do that?"
+    ],
+    "responses": [
+      "You can contact our sales department at web@astudio.agency",
+      "For sales inquiries, please reach out to web@astudio.agency",
+      "To get in touch with the sales team, send an email to web@astudio.agency",
+      "Sales inquiries can be directed to web@astudio.agency",
+      "For sales, please contact web@astudio.agency or call +971522210876"
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How do I join your team?",
+      "I am interested in a career opportunity, what should I do?",
+      "Who should I contact regarding job openings?",
+      "Do you have any job vacancies?",
+      "How can I apply for a job at your agency?"
+    ],
+    "responses": [
+      "For career opportunities, please email joinus@astudio.agency",
+      "To join our team, reach out to joinus@astudio.agency",
+      "Contact joinus@astudio.agency for information on job openings",
+      "To apply for a job at our agency, email joinus@astudio.agency",
+      "Job vacancies can be found by contacting joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "What is the email for sales inquiries?",
+      "How can I contact the sales department?",
+      "What is the sales email address?",
+      "Who should I reach out to for sales questions?",
+      "Can you provide the sales contact information?"
+    ],
+    "responses": [
+      "You can reach our sales department at web@astudio.agency",
+      "For sales inquiries, please email web@astudio.agency",
+      "If you have sales questions, contact web@astudio.agency",
+      "Sales inquiries can be directed to web@astudio.agency",
+      "Contact our sales department at web@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for job applications?",
+      "Who should I contact for career opportunities?",
+      "How can I join your team?",
+      "What is the career email address?"
+    ],
+    "responses": [
+      "To apply for a job, please email joinus@astudio.agency",
+      "For career opportunities, contact joinus@astudio.agency",
+      "If you are interested in joining our team, email joinus@astudio.agency",
+      "Career inquiries can be directed to joinus@astudio.agency",
+      "Contact our career department at joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I contact you?",
+      "What is your email for sales inquiries?",
+      "How can I reach your sales team?",
+      "What is your phone number for sales?"
+    ],
+    "responses": [
+      "You can reach our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email for career opportunities?",
+      "How can I join your team?",
+      "How do I submit my resume for a job?"
+    ],
+    "responses": [
+      "You can submit your resume for career opportunities to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Sales Contacts",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email address for sales inquiries?",
+      "Who should I contact for sales?",
+      "How can I reach the sales department?",
+      "Please provide me with the sales contact information."
+    ],
+    "responses": [
+      "You can contact the sales team at web@astudio.agency or call +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Contacts",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for job applications?",
+      "Who should I contact for career opportunities?",
+      "How can I reach the HR department?",
+      "Please provide me with the career contact information."
+    ],
+    "responses": [
+      "To apply for a job, please send your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Projects Inquiry",
+    "patterns": [
+      "Can you tell me more about your projects?",
+      "What kind of projects have you worked on?",
+      "Could you provide details about your previous projects?",
+      "Can you share information about your successful projects?",
+      "Tell me about the projects you have completed."
+    ],
+    "responses": [
+      "We have worked on a wide range of projects across various industries. You can find detailed information about our projects on our website."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "What do your clients say about your work?",
+      "Do you have any testimonials from your clients?",
+      "Can you share some feedback from your clients?",
+      "What are the reviews from your clients?",
+      "What are the testimonials from satisfied clients?"
+    ],
+    "responses": [
+      "Our clients have given positive feedback about our services and quality of work. You can read some of their testimonials on our website."
+    ]
+  },
+  {
+    "tag": "Services Available",
+    "patterns": [
+      "What services do you offer?",
+      "Can you list the services provided by your agency?",
+      "What are the services available at your agency?",
+      "Tell me about the services you offer.",
+      "Which services can I avail from your agency?"
+    ],
+    "responses": [
+      "We offer a wide range of services including social media marketing, content creation, video production, digital marketing, and more. You can find detailed information about our services on our website."
+    ]
+  },
+  {
+    "tag": "Global Presence",
+    "patterns": [
+      "Do you operate globally?",
+      "What countries do you work in?",
+      "Where are your offices located?",
+      "Can you tell me about your international presence?",
+      "Do you have clients from different parts of the world?"
+    ],
+    "responses": [
+      "We have a global presence with offices in various countries. Our international operations allow us to serve clients from around the world."
+    ]
+  },
+  {
+    "tag": "Sales Contact",
+    "patterns": [
+      "How can I contact your sales team?",
+      "What is the email address for sales inquiries?",
+      "How do I get in touch with your sales department?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or call us at +971522210876"
+    ]
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "What is the email address for job applications?",
+      "Are there any career opportunities available at your agency?",
+      "How do I join your team?"
+    ],
+    "responses": [
+      "To inquire about career opportunities or to apply for a job, please email us at joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Project Collaboration",
+    "patterns": [
+      "How can I start a project with your agency?",
+      "I want to collaborate on a project, how do I get in touch?",
+      "What are the steps to begin a project with your team?",
+      "Can you provide information on initiating a project?"
+    ],
+    "responses": [
+      "If you're interested in starting a project with us, please reach out to us at web@astudio.agency or call us at +971522210876"
+    ]
+  },
+  {
+    "tag": "Sales Inquiry",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "What is the email address for sales inquiries?",
+      "Do you have a contact number for sales?",
+      "How can I reach out to your sales department?"
+    ],
+    "responses": [
+      "You can reach our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for job applications?",
+      "Do you have any openings for careers?",
+      "How can I join your team?"
+    ],
+    "responses": [
+      "To explore career opportunities, please email your resume to joinus@astudio.agency or contact us at +971526794879."
+    ]
+  },
+  {
+    "tag": "Creative Projects",
+    "patterns": [
+      "Can you tell me about your creative projects?",
+      "What kind of creative work do you specialize in?",
+      "Do you have experience in producing award-winning content?",
+      "Can you showcase some of your creative projects?"
+    ],
+    "responses": [
+      "Explore our portfolio of creative projects, from strategic marketing campaigns to award-winning video production, and witness our dedication to excellence."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "What are your clients saying about your work?",
+      "Can I see some testimonials from your clients?",
+      "How do your clients describe working with you?",
+      "Do you have feedback from previous clients?"
+    ],
+    "responses": [
+      "Discover what our clients have to say about our services, from top-notch visual identity creation to comprehensive digital marketing solutions."
+    ]
+  },
+  {
+    "tag": "Contact Information",
+    "patterns": [
+      "Where are you located?",
+      "What is your address?",
+      "How can I contact you?",
+      "Do you have social media channels?"
+    ],
+    "responses": [
+      "You can find us at 41, 14b Al Safa 1, Dubai, UAE. For inquiries, email us at web@astudio.agency or call +971522210876. Follow us on social media for updates and insights."
+    ]
+  },
+  {
+    "tag": "Experience and Expertise",
+    "patterns": [
+      "How long have you been in business?",
+      "What sets you apart in the industry?",
+      "What makes your agency unique?",
+      "Can you provide examples of your successful projects?"
+    ],
+    "responses": [
+      "With over 22 years of experience and 14 international awards, we lead the way in digital marketing solutions for luxury brands, trusted by hundreds of visual identities."
+    ]
+  },
+  {
+    "tag": "Sales Contact",
+    "patterns": [
+      "How can I get in touch with the sales team?",
+      "What is the email for sales inquiries?",
+      "Who should I contact for sales?",
+      "How do I reach the sales department?",
+      "What is the contact number for sales?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency"
+      },
+      {
+        "phone number": "+971522210876"
+      }
+    ]
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "Where can I send my resume for job opportunities?",
+      "What email should I use for career inquiries?",
+      "Who do I contact for job openings?",
+      "How do I join your team?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "Contact Us",
+    "patterns": [
+      "How can I get in touch?",
+      "What is the contact information?",
+      "I want to contact you",
+      "How do I reach out to you?"
+    ],
+    "responses": [
+      "You can contact us at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Sales Email",
+    "patterns": [
+      "What is the sales email address?",
+      "Where can I email for sales inquiries?",
+      "How can I reach the sales department via email?"
+    ],
+    "responses": [
+      "You can email the sales department at web@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Sales Phone Number",
+    "patterns": [
+      "What is the sales phone number?",
+      "How can I contact the sales department by phone?",
+      "What is the contact number for sales inquiries?"
+    ],
+    "responses": [
+      "You can reach the sales department by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Email",
+    "patterns": [
+      "How can I apply for a job?",
+      "Where should I send my job application?",
+      "What is the email address for job opportunities?"
+    ],
+    "responses": [
+      "For career opportunities, you can send your application to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Project Portfolio",
+    "patterns": [
+      "Can I see your past projects?",
+      "Where can I view your work portfolio?",
+      "Do you have a showcase of your projects?"
+    ],
+    "responses": [
+      "You can view our project portfolio on our website or by contacting us directly."
+    ]
+  },
+  {
+    "tag": "Recent Projects",
+    "patterns": [
+      "What are some of your recent projects?",
+      "Can you share details about your latest work?",
+      "Do you have any new projects to showcase?"
+    ],
+    "responses": [
+      "We have worked on multiple recent projects that showcase our creativity and expertise."
+    ]
+  },
+  {
+    "tag": "Agency Services",
+    "patterns": [
+      "What services do you offer?",
+      "Can you tell me about your agency's services?",
+      "What are the main services provided by your agency?"
+    ],
+    "responses": [
+      "Our agency offers a wide range of services including social media marketing, content production, digital marketing, and more."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "What are your sales contact details?",
+      "How can I get in touch with your sales team?",
+      "Who can I contact for sales inquiries?",
+      "What is the email address for sales inquiries?",
+      "How can I reach your sales department?",
+      "Can you provide me with the sales contact information?"
+    ],
+    "responses": [
+      "You can reach our sales team at web@astudio.agency or by phone at +971522210876.",
+      "Contact our sales department at web@astudio.agency or give us a call at +971522210876.",
+      "For any sales inquiries, please email us at web@astudio.agency or call us at +971522210876.",
+      "If you have any sales questions, feel free to reach out to us at web@astudio.agency or call us at +971522210876.",
+      "Get in touch with our sales team by emailing web@astudio.agency or calling +971522210876.",
+      "Contact us for sales inquiries at web@astudio.agency or by phone at +971522210876."
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "What is the process for joining your team?",
+      "Who should I contact regarding career opportunities?",
+      "What is the email address for job applications?",
+      "How can I start a career with your agency?",
+      "Can you provide information on job openings and how to apply?"
+    ],
+    "responses": [
+      "If you're interested in a career with us, please email your resume to joinus@astudio.agency.",
+      "To apply for a job at our agency, send your CV to joinus@astudio.agency.",
+      "Contact our HR department for information on career opportunities at joinus@astudio.agency.",
+      "For job applications and career inquiries, please email joinus@astudio.agency.",
+      "Start your career with us by submitting your application to joinus@astudio.agency.",
+      "Information on job openings and how to apply can be found by emailing joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Contact Sales",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "What is the email address for sales inquiries?",
+      "I would like to contact your sales department, how can I do that?",
+      "Who should I reach out to for sales-related questions?",
+      "Do you have a phone number for sales inquiries?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or at +971522210876.",
+      "For sales inquiries, please email web@astudio.agency or call +971522210876.",
+      "To get in touch with our sales department, you can email web@astudio.agency or call +971522210876.",
+      "Our sales team can be reached at web@astudio.agency or +971522210876.",
+      "If you have any sales-related questions, feel free to contact us at web@astudio.agency or +971522210876."
+    ]
+  },
+  {
+    "tag": "Contact Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for career opportunities?",
+      "I'm interested in a career at your agency, how can I apply?",
+      "Who should I contact for job opportunities?",
+      "Do you have a phone number for career inquiries?"
+    ],
+    "responses": [
+      "To apply for a job at our agency, please email joinus@astudio.agency.",
+      "For career opportunities, please email joinus@astudio.agency.",
+      "To start your career at our agency, send your application to joinus@astudio.agency.",
+      "If you are interested in a career at our agency, contact us at joinus@astudio.agency.",
+      "You can reach our HR team for job opportunities at joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "About Neom Project",
+    "patterns": [
+      "Can you tell me more about the Neom project?",
+      "What is the vision behind the Neom project?",
+      "I'm interested in learning about the Neom project, can you provide more information?",
+      "Who is leading the Neom project?",
+      "What can we expect from the Neom project in the future?"
+    ],
+    "responses": [
+      "Neom is a groundbreaking project as part of Saudi Arabia's Vision 2030, led by Crown Prince Mohammed bin Salman.",
+      "The Neom project aims to transform the kingdom's economy with innovative experiences.",
+      "Although Neom's lands are still undeveloped, it offers various experiences that will be available when the futuristic city opens its doors to the world.",
+      "Our agency was commissioned to document the journey of four Saudi women exploring the luxury, self-discovery, sustainability, and innovation that Neom offers.",
+      "Neom aims to become a leading global destination in luxury, experiences, and technology."
+    ]
+  },
+  {
+    "tag": "Creative Work Approach",
+    "patterns": [
+      "How do you approach creative work at your agency?",
+      "Can you tell me about the creative process at your agency?",
+      "What is the style of work at your agency?",
+      "I'm interested in your work approach, can you explain it to me?",
+      "How do you handle creative projects at your agency?"
+    ],
+    "responses": [
+      "We adopt two dynamic creative approaches for different clients, showcasing their journeys in a documentary style.",
+      "For specific clients, we use a classic cinematic approach to highlight beautiful destinations and luxury experiences.",
+      "Our work includes drone footage and fast-paced visuals to capture the essence of each project.",
+      "We focus on creating simple and beautiful films with captivating music that aligns with the enchanting visuals and discussions.",
+      "Our team combines classic cinema and compelling visuals to create engaging and memorable films."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "Can you share testimonials from your clients?",
+      "Do you have any feedback from your clients?",
+      "What do your clients say about working with your agency?",
+      "Are there any success stories or testimonials from your clients?",
+      "How do your clients review your agency's services?"
+    ],
+    "responses": [
+      "Our clients have praised our unique creativity, attention to detail, and strategic approach in creating engaging content.",
+      "Feedback from our clients highlights the positive impact of our digital presence on their businesses.",
+      "Client testimonials commend our exceptional creativity and extensive production capabilities in delivering successful campaigns.",
+      "Our clients recommend us for our ability to turn creative ideas into tangible results.",
+      "Client feedback showcases our commitment to exceeding expectations and delivering high-quality services."
+    ]
+  },
+  {
+    "tag": "contact_us",
+    "patterns": [
+      "How can I contact you?",
+      "What are your contact details?",
+      "How do I reach out to you?"
+    ],
+    "responses": [
+      "You can contact us through email at web@astudio.agency or call us at +971522210876."
+    ]
+  },
+  {
+    "tag": "sales_inquiry",
+    "patterns": [
+      "How can I inquire about sales?",
+      "I have a sales inquiry, what should I do?"
+    ],
+    "responses": [
+      "For sales inquiries, please reach out to us at web@astudio.agency or call +971522210876."
+    ]
+  },
+  {
+    "tag": "career_opportunities",
+    "patterns": [
+      "Do you have career opportunities?",
+      "How can I apply for a job at your agency?",
+      "Are there any job openings?",
+      "How can I join your team?"
+    ],
+    "responses": [
+      "For career opportunities, send your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "visual_identity_services",
+    "patterns": [
+      "What services do you offer in visual identity development?",
+      "Can you tell me more about your visual identity services?"
+    ],
+    "responses": [
+      "We redefine the concept of luxury in visual identities, offering services that create memorable and engaging experiences that align with a luxurious lifestyle."
+    ]
+  },
+  {
+    "tag": "graphic_design_services",
+    "patterns": [
+      "What graphic design services do you provide?",
+      "How can you help with graphic design?"
+    ],
+    "responses": [
+      "We provide services such as logo design, visual identity guidelines, visual identity strategies, visual identity creation, and visual identity assurance."
+    ]
+  },
+  {
+    "tag": "luxury_marketing_strategies",
+    "patterns": [
+      "What makes your luxury marketing strategies unique?",
+      "Can you explain your approach to luxury marketing strategies?"
+    ],
+    "responses": [
+      "Our deep understanding of the luxury market in the region and our experience with luxury branding set us apart in creating effective strategies to attract an upscale audience."
+    ]
+  },
+  {
+    "tag": "successful_projects",
+    "patterns": [
+      "Can you tell me about some successful projects you have worked on?",
+      "What are some of your successful projects?"
+    ],
+    "responses": [
+      "We have worked on successful projects such as 'Events in Sharjah', 'Discover Oman', 'Zaat Store', 'Ether by Cloud Spaces', 'Elie Saab Watches Launch', and 'Vogue x Wired x Neom'. Each project reflecting our commitment to excellence."
+    ]
+  },
+  {
+    "tag": "client_testimonials",
+    "patterns": [
+      "What do your clients say about you?",
+      "Can you share some client testimonials?",
+      "How do your clients feel about your work?"
+    ],
+    "responses": [
+      "Our clients have praised our unique creativity, attention to detail, and strategic approach to creating engaging content that has strengthened their online presence. Testimonials reflect our significant business growth."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I contact you for sales inquiries?",
+      "What is the email address for sales inquiries?",
+      "How can I get in touch with your sales team?",
+      "Do you have a phone number for sales inquiries?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone": "+971522210876"
+      }
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for job applications?",
+      "How can I join your team?",
+      "Do you have a contact for career opportunities?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "Services",
+    "patterns": [
+      "What services do you offer for visual identity development?",
+      "Can you tell me more about your visual identity development services?",
+      "How do you help in building visual identities?",
+      "What unique visual identity services do you provide?"
+    ],
+    "responses": [
+      "We redefine the concept of luxury by creating unique visual identities that resonate with the high-end lifestyle. Our services go beyond just creating visual identities; we craft experiences, memories, and connections that align with the refined way of life in our region. Contact us to start a new success story in the world of luxury with aStudio!"
+    ]
+  },
+  {
+    "tag": "Creative Design",
+    "patterns": [
+      "How do you view the importance of design in your work?",
+      "Can you explain your approach to design and strategy?",
+      "How do you build strong visual identities?",
+      "What distinguishes your design approach in creating visual identities?"
+    ],
+    "responses": [
+      "At aStudio, design is at the core of our work, not just a part of it. We believe that our design-centric approach brings every decision, strategy, and execution to life. This commitment ensures that we create solutions that are not just visually appealing, but also leave an emotional impact and build strong connections."
+    ]
+  },
+  {
+    "tag": "Visual Identity Services",
+    "patterns": [
+      "What services do you offer for visual identity development?",
+      "Can you tell me more about your visual identity services?",
+      "How do you help in building visual identities?",
+      "What unique visual identity services do you provide?"
+    ],
+    "responses": [
+      "Our services in developing visual identities are based on a deep understanding of the unique characteristics of each identity. From strategic planning to design execution, we work closely in each stage to achieve the aspirations of the visual identity. Partnering with aStudio means getting an identity that reflects the values and aspirations of the brand effectively."
+    ]
+  },
+  {
+    "tag": "Luxury Marketing",
+    "patterns": [
+      "Why is it important to collaborate with aStudio for luxury marketing?",
+      "How do you enhance visual identities through your marketing strategies?",
+      "What real connections do you focus on in luxury marketing?",
+      "How do your effective luxury visual identity approach distinguish aStudio?"
+    ],
+    "responses": [
+      "At aStudio, we redefine luxury from a new perspective. Our creative and design-driven strategies focus on innovative campaigns for high-end visual identities to help you stand out, interact perfectly with your audience, and achieve your goals effectively. Contact us to get started on a distinct communication with your target audience."
+    ]
+  },
+  {
+    "tag": "sales_contact",
+    "patterns": [
+      "How can I contact you for sales inquiries?",
+      "What is your sales email?",
+      "How can I get in touch with your sales team?",
+      "I need to reach out to sales, how can I do that?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone_number": "+971522210876"
+      }
+    ]
+  },
+  {
+    "tag": "career_contact",
+    "patterns": [
+      "How can I contact you for careers/jobs?",
+      "What is your career email?",
+      "How can I join your team?",
+      "I am interested in working with you, how do I apply?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "services_offered",
+    "patterns": [
+      "What development services do you offer for visual identities?",
+      "Can you explain your services for visual identity development?",
+      "What are the services provided by your studio for visual identity development?",
+      "How can you help with developing a visual identity?"
+    ],
+    "responses": [
+      {
+        "description": "ASTUDIO redefines the concept of luxury visual identities. We not only create visual identities, but we also craft experiences, memories, and connections that resonate with the refined lifestyle in our region."
+      }
+    ]
+  },
+  {
+    "tag": "design_services",
+    "patterns": [
+      "What services do you offer for visual identity design?",
+      "Can you tell me about your logo design services?",
+      "What design services do you provide for visual identities?",
+      "How can you help with visual identity design?"
+    ],
+    "responses": [
+      {
+        "description": "ASTUDIO offers unique logo design services that reflect the visual identity of your brand and make it unforgettable."
+      }
+    ]
+  },
+  {
+    "tag": "Sales Contact Information",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email address for sales inquiries?",
+      "Do you have a phone number for sales?",
+      "How do I get in touch with sales?",
+      "Who should I contact for sales information?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone": "+971522210876"
+      }
+    ]
+  },
+  {
+    "tag": "Career Opportunities Contact Information",
+    "patterns": [
+      "How can I apply for a job at ASTUDIO?",
+      "What is the email address for career opportunities?",
+      "Do you have a phone number for job applications?",
+      "How do I contact the HR team for job openings?",
+      "Who should I email about career opportunities?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "Can you provide testimonials from your clients?",
+      "What do your clients say about working with ASTUDIO?",
+      "Do you have any success stories from your clients?",
+      "Can you share feedback from your clients?",
+      "How satisfied are your clients with your services?"
+    ],
+    "responses": [
+      "Here are some testimonials from our clients:",
+      "Our clients have shared great feedback about our work:",
+      "Read what our clients have to say about their experience with us:",
+      "Check out the success stories and testimonials from our satisfied clients:",
+      "We value our client feedback, here are some testimonials:"
+    ]
+  },
+  {
+    "tag": "Company Expertise",
+    "patterns": [
+      "What sectors does ASTUDIO specialize in?",
+      "In which industries does ASTUDIO have extensive experience?",
+      "Can you provide information on ASTUDIO's expertise in various sectors?",
+      "What are the specialty areas of ASTUDIO's marketing services?",
+      "Which sectors does ASTUDIO cater to with its marketing strategies?"
+    ],
+    "responses": [
+      {
+        "sectors": [
+          {
+            "name": "Jewelry",
+            "description": "ASTUDIO has elevated marketing in the jewelry industry with clients like Bvlgari and Piaget."
+          },
+          {
+            "name": "Luxury Visual Identities",
+            "description": "ASTUDIO has provided marketing services to leading luxury visual identities like Chanel, Maserati, and Bulgari."
+          },
+          {
+            "name": "Government / Public Sector",
+            "description": "Successful government marketing campaigns start with ASTUDIO. Experience includes working with the Sharjah Media Office and the Omani Ministry of Tourism."
+          },
+          {
+            "name": "Fashion and Style",
+            "description": "Brands like Vogue Arabia, Tommy Hilfiger, Elle, and Harper's Bazaar have relied on ASTUDIO's expertise in film and digital marketing services."
+          },
+          {
+            "name": "Tourist Destinations",
+            "description": "With the success of events in Sharjah and discover Oman, it's no wonder ASTUDIO is a leading agency for marketing tourist visual identities."
+          },
+          {
+            "name": "Hospitality and Hotel Entertainment",
+            "description": "When it comes to marketing hotel visual identities, ASTUDIO offers everything from marketing strategies and advertising campaigns to digital marketing and producing the best videos and photography."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Company Awards and Recognition",
+    "patterns": [
+      "How many international awards has ASTUDIO won?",
+      "How long has ASTUDIO been in business?",
+      "What is the key achievement of showcasing ASTUDIO's visual identity film at the Louvre Abu Dhabi?",
+      "How many advertising campaigns has ASTUDIO produced?",
+      "What makes ASTUDIO the leading agency in the Middle East for digital marketing?"
+    ],
+    "responses": [
+      {
+        "awardsWon": 14,
+        "yearsInBusiness": 22,
+        "keyAchievement": "Showcasing ASTUDIO's visual identity film at the Louvre Abu Dhabi",
+        "campaignsProduced": "1K+",
+        "recognition": "The leading agency in the Middle East for digital marketing of luxury products trusted by hundreds of visual identities"
+      }
+    ]
+  },
+  {
+    "tag": "Company Global Reach",
+    "patterns": [
+      "How far does ASTUDIO operate?",
+      "In how many countries does ASTUDIO have a presence?",
+      "Which continents does ASTUDIO cover in its business operations?",
+      "What is ASTUDIO's global footprint?",
+      "Where does ASTUDIO have offices?"
+    ],
+    "responses": [
+      {
+        "countries": 14,
+        "continents": 4,
+        "footprint": "From New York to Dubai, our business extends across 14 countries and 4 continents."
+      }
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I get in touch with the sales team?",
+      "What is the email address for sales inquiries?",
+      "How can I contact the sales department?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can reach out to the sales team at web@astudio.agency",
+      "For any sales inquiries, please email web@astudio.agency",
+      "To contact our sales department, please email web@astudio.agency",
+      "Sales inquiries can be directed to web@astudio.agency or by calling +971522210876"
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "What is the email address for job opportunities?",
+      "How do I join your team?",
+      "Where can I find information about career opportunities?"
+    ],
+    "responses": [
+      "To apply for a job at our company, please email your resume to joinus@astudio.agency",
+      "For career opportunities, please reach out to joinus@astudio.agency",
+      "If you are interested in joining our team, please email your resume to joinus@astudio.agency",
+      "Information about career opportunities can be found by contacting joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I get in touch with sales?",
+      "I would like to speak to someone in sales",
+      "How can I contact the sales team?",
+      "What is the email for sales enquiries?",
+      "Do you have a phone number for sales?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone": "+971522210876"
+      }
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "I am interested in a career at your company",
+      "Do you have any job openings?",
+      "Can I send my resume for a job opportunity?",
+      "What is the email for job applications?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "Jewelry Advertising Campaigns",
+    "patterns": [
+      "Tell me about your advertising campaigns in the jewelry industry",
+      "Which famous jewelry brands have you worked with?",
+      "Can you provide examples of your marketing services for jewelry brands?",
+      "How do you help jewelry brands stand out in the market?",
+      "What marketing strategies do you offer for jewelry companies?"
+    ],
+    "responses": [
+      "We have worked with luxury jewelry brands like Bulgari, Cartier, Piaget, and Elie Saab to create successful advertising campaigns and marketing strategies that set them apart in the industry. Contact us for more information."
+    ]
+  },
+  {
+    "tag": "360-Degree Marketing for Jewelry Stores",
+    "patterns": [
+      "How do you provide 360-degree marketing services for jewelry stores?",
+      "What unique experiences do you offer for jewelry brands?",
+      "Can you explain your approach to marketing for jewelry retail?",
+      "What sets your marketing services apart in the jewelry sector?",
+      "How do you help jewelry brands achieve a competitive edge?"
+    ],
+    "responses": [
+      "Our team of consultants, creatives, content producers, and digital marketing experts work closely with jewelry brands to develop unique marketing strategies, enhance ROI, and gain a competitive advantage in the industry."
+    ]
+  },
+  {
+    "tag": "Importance of Digital Marketing for Jewelry Brands",
+    "patterns": [
+      "Why is digital marketing essential for promoting jewelry?",
+      "How can digital marketing boost jewelry sales?",
+      "What digital marketing services do you offer for jewelers?",
+      "Can you explain the benefits of digital marketing for jewelry brands?",
+      "How does digital marketing impact jewelry businesses?"
+    ],
+    "responses": [
+      "Digital marketing is crucial for jewelry brands, with online sales increasing by over 80%. Our digital marketing services include website design, e-commerce marketing, SEO, mobile app development, influencer marketing, and social media marketing for jewelry brands."
+    ]
+  },
+  {
+    "tag": "Strategic Marketing Solutions for Jewelry Companies",
+    "patterns": [
+      "Why is a strong marketing strategy important for jewelry businesses?",
+      "What strategic marketing solutions do you offer for jewelers?",
+      "How can a marketing strategy help a jewelry brand succeed?",
+      "Do you provide branding, digital, or content marketing strategies?",
+      "What benefits does a marketing strategy bring to jewelry companies?"
+    ],
+    "responses": [
+      "A strong marketing strategy is essential for success in the jewelry industry. We offer brand strategy, digital strategy, social media strategy, content strategy, video marketing strategy, and e-commerce strategy to elevate your brand to new heights."
+    ]
+  },
+  {
+    "tag": "Choosing the Right Marketing Agency for Jewelry Brands",
+    "patterns": [
+      "How can I select the right marketing agency for my jewelry brand?",
+      "What makes your agency the ideal choice for jewelry marketing?",
+      "Can you provide examples of your work with luxury jewelry brands?",
+      "Why should I choose your agency for my jewelry marketing needs?",
+      "What sets your marketing agency apart in the jewelry sector?"
+    ],
+    "responses": [
+      "With over 17 years of experience working with renowned brands like Bulgari, Piaget, Elie Saab, and Garrard, we are the leading agency for jewelry marketing. Our innovative approach, creative solutions, and track record of success make us the right choice for your brand."
+    ]
+  },
+  {
+    "tag": "Sales Contact",
+    "patterns": [
+      "How can I get in touch with the sales team?",
+      "Who can I contact for sales inquiries?",
+      "What is the sales email?",
+      "How do I reach the sales department?"
+    ],
+    "responses": [
+      "For sales inquiries, you can contact us at web@astudio.agency or call us at +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Contact",
+    "patterns": [
+      "How can I reach the career team?",
+      "Who should I contact for job opportunities?",
+      "What is the career email?",
+      "How do I apply for a job at your agency?"
+    ],
+    "responses": [
+      "To learn more about career opportunities, please reach out to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Jewelry Marketing Campaigns",
+    "patterns": [
+      "Tell me about your marketing campaigns for jewelry brands",
+      "What famous jewelry brands have you worked with?",
+      "Can you provide examples of successful jewelry marketing campaigns?",
+      "How can you help with jewelry marketing?"
+    ],
+    "responses": [
+      "Bvlgari, Cartier, Piaget, and Elie Saab are just some of the global jewelry brands that have leveraged our marketing services for competitive edge. Contact us to excel in jewelry marketing."
+    ]
+  },
+  {
+    "tag": "Marketing Services",
+    "patterns": [
+      "What marketing services do you offer for jewelry stores?",
+      "How can your marketing services benefit jewelry brands?",
+      "What sets your 360-degree marketing services apart for jewelry businesses?"
+    ],
+    "responses": [
+      "With unique experience and innovative insights in the jewelry industry, our team at ASTUDIO collaborates with jewelry brands to help them become industry leaders and gain a competitive advantage."
+    ]
+  },
+  {
+    "tag": "Digital Marketing Importance for Jewelry Brands",
+    "patterns": [
+      "Why is digital marketing important for jewelry brands?",
+      "How can digital marketing boost jewelry sales?",
+      "What digital marketing services do you provide for jewelry brands?"
+    ],
+    "responses": [
+      "Digital marketing is essential for promoting jewelry brands, with over 80% increase in sales digitally. Our services include website design, e-commerce marketing, SEO, app development, influencer marketing, and social media marketing for jewelry brands."
+    ]
+  },
+  {
+    "tag": "Choosing the Right Marketing Agency",
+    "patterns": [
+      "Why is choosing the right marketing agency crucial for jewelry brands?",
+      "What sets ASTUDIO apart as the right choice for jewelry marketing?",
+      "Why should jewelry brands choose ASTUDIO for marketing services?"
+    ],
+    "responses": [
+      "Choosing the right marketing agency can make a significant difference in success. ASTUDIO, with over 17 years of experience in working with renowned jewelry brands, is the ideal choice for impactful communication and influence among the target audience."
+    ]
+  },
+  {
+    "tag": "Contact Sales",
+    "patterns": [
+      "How can I contact sales?",
+      "What is the email for sales?",
+      "How do I get in touch with the sales team?",
+      "Who can I reach out to for sales inquiries?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can contact our sales team by emailing web@astudio.agency or calling +971522210876.",
+      "For sales inquiries, please reach out to web@astudio.agency or call +971522210876.",
+      "To get in touch with our sales team, send an email to web@astudio.agency or call +971522210876.",
+      "Contact our sales team at web@astudio.agency or by calling +971522210876.",
+      "For sales assistance, you can email web@astudio.agency or call +971522210876."
+    ]
+  },
+  {
+    "tag": "Contact Career",
+    "patterns": [
+      "How can I contact about career opportunities?",
+      "What is the email for career inquiries?",
+      "How do I join the team?",
+      "Who can I reach out to for career opportunities?",
+      "What is the email for job applications?"
+    ],
+    "responses": [
+      "To inquire about career opportunities, please email joinus@astudio.agency.",
+      "For career inquiries, reach out to joinus@astudio.agency.",
+      "To join our team, send an email to joinus@astudio.agency.",
+      "Contact us about career opportunities by emailing joinus@astudio.agency.",
+      "For job applications, please email joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Jewelry Advertising Campaigns",
+    "patterns": [
+      "What famous jewelry brands have you worked with for advertising campaigns?",
+      "Can you tell me about successful jewelry advertising campaigns you have done?",
+      "Which global jewelry brands have you marketed for?",
+      "How do you excel in marketing for renowned jewelry brands?",
+      "Tell me about your expertise in jewelry marketing campaigns."
+    ],
+    "responses": [
+      "We have worked with well-known jewelry brands like Bulgari, Cartier, Piaget, and Elie Saab for successful advertising campaigns.",
+      "Our expertise lies in marketing for global jewelry brands such as Bulgari, Cartier, Piaget, and Elie Saab.",
+      "Marketing campaigns for renowned jewelry brands like Bulgari, Cartier, Piaget, and Elie Saab are where we excel.",
+      "We have a reputation for marketing excellence with famous jewelry brands like Bulgari, Cartier, Piaget, and Elie Saab.",
+      "Successfully marketing for globally recognized jewelry brands such as Bulgari, Cartier, Piaget, and Elie Saab is one of our strengths."
+    ]
+  },
+  {
+    "tag": "360 Marketing Services for Jewelry Stores",
+    "patterns": [
+      "What services do you offer for marketing jewelry stores from a 360-degree perspective?",
+      "Can you explain your unique marketing services for jewelry stores?",
+      "What differentiates your marketing services for jewelry stores?",
+      "How do you help jewelry brands become industry leaders?",
+      "Tell me about your comprehensive marketing services for jewelry."
+    ],
+    "responses": [
+      "We provide unique and comprehensive marketing services for jewelry stores from a 360-degree perspective.",
+      "Our services for jewelry stores are designed to help brands become industry leaders through strategic marketing.",
+      "What sets us apart is our ability to create a full-circle marketing approach for jewelry stores.",
+      "Our marketing services for jewelry brands cover every aspect to help them succeed and lead in the industry.",
+      "We offer a tailored approach in marketing services for jewelry stores, ensuring they stand out and lead in the industry."
+    ]
+  },
+  {
+    "tag": "Content Production for Jewelry Industry",
+    "patterns": [
+      "How do you approach content production for the jewelry industry?",
+      "What makes your content production strategy unique for jewelry brands?",
+      "Can you describe your approach to creating content for jewelry brands?",
+      "How do you capture the essence of jewelry brands in your content?",
+      "Tell me about your innovative content production for the jewelry industry."
+    ],
+    "responses": [
+      "Our content production strategy for the jewelry industry captures the essence and elegance of each brand.",
+      "We take a unique approach to content production, ensuring the beauty and spirit of jewelry brands shine through.",
+      "Capturing the detail and brilliance of jewelry brands is our specialty in content production.",
+      "Our content production for jewelry brands focuses on showcasing the unique designs and elegance of each brand.",
+      "Innovative content production for the jewelry industry is where we excel, bringing out the best in each brand."
+    ]
+  },
+  {
+    "tag": "Importance of Digital Marketing for Jewelry Brands",
+    "patterns": [
+      "Why is digital marketing crucial for jewelry brands?",
+      "How does digital marketing impact jewelry sales?",
+      "Can you explain the significance of digital marketing for jewelry?",
+      "What role does digital marketing play in promoting jewelry brands?",
+      "Tell me about the importance of digital marketing in the jewelry industry."
+    ],
+    "responses": [
+      "Digital marketing is essential for jewelry brands as it significantly impacts sales by reaching a wider audience.",
+      "The significance of digital marketing for jewelry brands lies in its ability to boost sales by over 80% digitally.",
+      "Digital marketing plays a key role in promoting jewelry brands through various online channels and increasing sales.",
+      "In the jewelry industry, digital marketing is crucial for enhancing brand visibility and driving sales growth.",
+      "The importance of digital marketing for jewelry brands cannot be overstated, with over 80% of sales growth attributed to online marketing."
+    ]
+  },
+  {
+    "tag": "Choosing the Right Marketing Company for Jewelry Brand",
+    "patterns": [
+      "How do I choose the right marketing company for my jewelry brand?",
+      "What factors should I consider when selecting a marketing agency for jewelry?",
+      "Can you provide tips on choosing the best marketing company for jewelry brands?",
+      "What makes a marketing agency the right choice for promoting jewelry brands?",
+      "Tell me about the criteria for selecting the perfect marketing company for jewelry."
+    ],
+    "responses": [
+      "When choosing a marketing company for your jewelry brand, consider their experience, creativity, and past successes.",
+      "Factors to consider when selecting a marketing agency include their track record, industry expertise, and creativity.",
+      "Look for a marketing company with a proven track record in promoting jewelry brands successfully.",
+      "The right marketing agency for jewelry brands will have a combination of creativity, experience, and strategic capabilities.",
+      "Choose a marketing company for your jewelry brand based on their expertise, creativity, and understanding of the industry."
+    ]
+  },
+  {
+    "tag": "sales_inquiry",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "What is the email address for sales inquiries?",
+      "How do I contact sales?",
+      "I need to reach out to the sales department, how can I do that?"
+    ],
+    "responses": [
+      "You can contact our sales team through web@astudio.agency or by calling +971 52 221 0876."
+    ]
+  },
+  {
+    "tag": "career_opportunities",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "Do you have any career opportunities available?",
+      "Where can I send my job application?",
+      "I'm interested in joining your team, how can I apply?"
+    ],
+    "responses": [
+      "To explore career opportunities, please send your job application to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "about_astudio",
+    "patterns": [
+      "What services does your agency offer?",
+      "Can you tell me more about ASTUDIO?",
+      "What sets ASTUDIO apart from other agencies?",
+      "How long has ASTUDIO been in business?"
+    ],
+    "responses": [
+      "ASTUDIO is a leading digital marketing agency providing services such as social media marketing, digital production, creative marketing, and more. The agency has been in business for over 22 years, offering innovative solutions and award-winning campaigns."
+    ]
+  },
+  {
+    "tag": "client_testimonials",
+    "patterns": [
+      "Do you have any testimonials from your clients?",
+      "Can you share success stories with your clients?",
+      "How have clients benefitted from working with ASTUDIO?",
+      "What do clients say about your agency?"
+    ],
+    "responses": [
+      "Here are a few testimonials from our clients:\n1. Testimonial 1\n2. Testimonial 2\n3. Testimonial 3\nFeel free to explore more on our website."
+    ]
+  },
+  {
+    "tag": "services_provided",
+    "patterns": [
+      "What services do you offer?",
+      "Can you list the services provided by ASTUDIO?",
+      "Do you specialize in digital marketing?",
+      "I'm interested in your services, what do you offer?"
+    ],
+    "responses": [
+      "ASTUDIO offers a range of services including strategic planning, creativity, production, and more. Visit our website to explore the full list of services."
+    ]
+  },
+  {
+    "tag": "sales_inquiry",
+    "patterns": [
+      "How can I get in touch with the sales team?",
+      "What is the email for sales inquiries?",
+      "How can I contact the sales department?",
+      "Who should I reach out to for sales?",
+      "I have a sales question, who should I speak to?"
+    ],
+    "responses": [
+      "You can reach out to our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "career_opportunities",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "What is the email for career opportunities?",
+      "Do you have any job openings?",
+      "How can I join your team?",
+      "I'm interested in a career at AStudio, how do I apply?"
+    ],
+    "responses": [
+      "For career opportunities, please send your inquiries to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "company_info",
+    "patterns": [
+      "Can you tell me more about AStudio?",
+      "What services does AStudio offer?",
+      "Where is AStudio located?",
+      "Who are the clients of AStudio?",
+      "What makes AStudio unique?"
+    ],
+    "responses": [
+      "AStudio is a leading digital marketing agency that specializes in serving luxury brands. Our services include social media marketing, digital production, creative marketing, and more. You can find us at 41, 14b Al Safa 1, Dubai, UAE. We have worked with renowned clients like Chanel, Maserati, Elie Saab, and Mandarin Oriental."
+    ]
+  },
+  {
+    "tag": "client_feedback",
+    "patterns": [
+      "What do your clients say about your work?",
+      "Can you share client testimonials?",
+      "Do you have any client success stories?",
+      "How do your clients rate your services?",
+      "What feedback have you received from clients?"
+    ],
+    "responses": [
+      "Our clients have praised our exceptional work and creative solutions. Here are some testimonials: [List of client feedback/testimonials]"
+    ]
+  },
+  {
+    "tag": "project_portfolio",
+    "patterns": [
+      "Can you show me some of your projects?",
+      "What kind of projects have you worked on?",
+      "Do you have a portfolio of your work?",
+      "What are some notable projects of AStudio?",
+      "Can I see examples of your work?"
+    ],
+    "responses": [
+      "Here are some of our projects: [List of project names and descriptions]"
+    ]
+  },
+  {
+    "tag": "awards_recognition",
+    "patterns": [
+      "Have you won any awards?",
+      "What awards has AStudio received?",
+      "Do you have any international recognition?",
+      "Can you tell me about your awards and achievements?",
+      "Have you been recognized for your work?"
+    ],
+    "responses": [
+      "We are proud to have won 14 international awards and have been in the industry for 22 years. AStudio is known for its creative excellence and exceptional productions."
+    ]
+  },
+  {
+    "tag": "sales_website_email",
+    "patterns": [
+      "How can I contact you for sales inquiries?",
+      "What is your sales email address?",
+      "I need to get in touch with your sales team, how can I do that?"
+    ],
+    "responses": [
+      "You can contact us for sales inquiries through our website or via email at web@astudio.agency."
+    ]
+  },
+  {
+    "tag": "sales_phone",
+    "patterns": [
+      "How can I contact your sales team via phone?",
+      "What is the phone number for sales inquiries?",
+      "Can I reach out to your sales department through phone call?"
+    ],
+    "responses": [
+      "You can contact our sales team directly by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "career_email",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for job applications?",
+      "I am interested in a career at your agency, how can I apply?"
+    ],
+    "responses": [
+      "To apply for a job at our agency, please send your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "contact",
+    "patterns": [
+      "How can I contact you?",
+      "What are your contact details?",
+      "Do you have a phone number I can reach you at?",
+      "What is your email address?",
+      "I want to get in touch with you, how can I do that?"
+    ],
+    "responses": [
+      "You can reach us at web@astudio.agency or at +971522210876.",
+      "Our contact details are web@astudio.agency and +971522210876.",
+      "For any inquiries, feel free to contact us at web@astudio.agency or +971522210876.",
+      "You can contact us via email at web@astudio.agency or give us a call at +971522210876.",
+      "If you want to get in touch with us, you can reach us at web@astudio.agency or +971522210876."
+    ]
+  },
+  {
+    "tag": "sales",
+    "patterns": [
+      "How can I connect with your sales team?",
+      "Do you have a sales email I can use?",
+      "I'm interested in sales, how can I get more information?",
+      "Can you provide me with the sales contact information?",
+      "What is the best way to reach your sales department?"
+    ],
+    "responses": [
+      "For sales inquiries, you can email us at web@astudio.agency or call us at +971522210876.",
+      "To connect with our sales team, please use the email web@astudio.agency or call +971522210876.",
+      "If you're interested in sales, reach out to us at web@astudio.agency or dial +971522210876.",
+      "The sales contact information is web@astudio.agency and +971522210876.",
+      "Contact our sales department via web@astudio.agency or +971522210876 for more information."
+    ]
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "How can I join your team?",
+      "Do you have any career opportunities?",
+      "I'm interested in a career at your agency, how can I apply?",
+      "Can you provide me with the career email?",
+      "What is the process to apply for a job at your agency?"
+    ],
+    "responses": [
+      "To explore career opportunities, please email joinus@astudio.agency.",
+      "If you're looking to join our team, reach out to us at joinus@astudio.agency.",
+      "Career opportunities are available at joinus@astudio.agency.",
+      "To apply for a job at our agency, contact us at joinus@astudio.agency.",
+      "For more information on careers, email joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "marketing_services",
+    "patterns": [
+      "What marketing services do you offer?",
+      "Can you tell me about your marketing services?",
+      "I'm interested in your marketing services, what do you provide?",
+      "Do you offer comprehensive marketing campaigns?",
+      "What kind of marketing solutions do you specialize in?"
+    ],
+    "responses": [
+      "We offer a range of marketing services including comprehensive campaigns for effective ROI.",
+      "Our marketing services cover a wide spectrum, tailored for maximum ROI.",
+      "From social media to influencer marketing, we specialize in creating impactful campaigns.",
+      "Our marketing solutions have helped government agencies achieve maximum ROI.",
+      "Specializing in creative marketing for government services, our services ensure impactful communication."
+    ]
+  },
+  {
+    "tag": "video_production",
+    "patterns": [
+      "Tell me about your video production services.",
+      "What kind of video production do you offer?",
+      "Do you specialize in government video production?",
+      "Can you provide examples of your video production work?",
+      "What sets your video production apart from others?"
+    ],
+    "responses": [
+      "We excel in government video production, from tourism videos to promotional films.",
+      "Our video production team creates compelling visual content for government projects.",
+      "Specializing in government video production, we deliver superior quality films and documentaries.",
+      "Our portfolio includes successful video production for government ministries and tourism agencies.",
+      "From government tourism videos to city project documentaries, our video production captures the essence effectively."
+    ]
+  },
+  {
+    "tag": "sales",
+    "patterns": [
+      "How can I contact sales?",
+      "What is the email address for sales?",
+      "How can I reach the sales department?",
+      "I would like to inquire about sales."
+    ],
+    "responses": "You can contact our sales department at web@astudio.agency or by calling +971522210876."
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "How can I join your team?",
+      "What is the email address for career opportunities?",
+      "How can I apply for a job at your company?",
+      "Do you have any openings for job positions?"
+    ],
+    "responses": "To explore career opportunities with us, please email your inquiries to joinus@astudio.agency."
+  },
+  {
+    "tag": "marketing_services",
+    "patterns": [
+      "What marketing services do you offer?",
+      "Can you tell me about your marketing services?",
+      "How can your marketing services benefit my business?",
+      "Do you provide comprehensive marketing campaigns?"
+    ],
+    "responses": "We offer comprehensive marketing services that have helped government entities like the Sharjah Media Office and the Oman Ministry of Tourism achieve maximum return on investment. Contact us for more details."
+  },
+  {
+    "tag": "creative_marketing",
+    "patterns": [
+      "What is creative marketing for the government sector?",
+      "Can you explain how your creative marketing services benefit government organizations?",
+      "What makes your creative marketing approach unique for the public sector?",
+      "How can your creative marketing strategies help government agencies?"
+    ],
+    "responses": "Our creative marketing services for the government sector involve creating successful advertising campaigns, effective brand-building strategies, targeted content creation, and video production for maximum ROI. Contact us to learn more."
+  },
+  {
+    "tag": "video_production",
+    "patterns": [
+      "Tell me about your video production and government photography services.",
+      "How can your video production services benefit government agencies?",
+      "What government projects have you worked on for video and photography?",
+      "Do you excel in providing video and photography services to the government sector?"
+    ],
+    "responses": "Our team of producers, photographers, filmmakers, and strategists excel in providing video production and photography services for government entities. From promotional videos to documentary films, we have the experience to meet and exceed government demands."
+  },
+  {
+    "tag": "digital_marketing",
+    "patterns": [
+      "What digital marketing services do you offer for government agencies?",
+      "How can digital marketing benefit public sector organizations?",
+      "What digital marketing solutions do you provide for government entities?",
+      "Can you explain your digital marketing strategies for the government sector?"
+    ],
+    "responses": "As a leader in digital marketing for government services, we offer a range of digital solutions, digital marketing consultations, SEO, social media advertising, influencer marketing, app development, website design, and development tailored for government and public sectors. Contact us to learn more."
+  },
+  {
+    "tag": "government_marketing_strategy",
+    "patterns": [
+      "How important is a marketing strategy for government campaigns?",
+      "Can you explain the role of a marketing strategy in government initiatives?",
+      "Why is a clear marketing strategy essential for public sector organizations?",
+      "What are the key elements of a successful government marketing strategy?"
+    ],
+    "responses": "Successful marketing campaigns in the public or government sector all start with a clear strategy. Whether it's a brand strategy, digital marketing strategy, social media strategy, or content strategy, our experienced consultants ensure the right content is delivered to engage the target audience on preferred communication platforms."
+  },
+  {
+    "tag": "government_marketing_services",
+    "patterns": [
+      "Why choose your government marketing services?",
+      "What sets your government marketing services apart?",
+      "How can your agency elevate my government brand?",
+      "What makes your government marketing services stand out from the competition?"
+    ],
+    "responses": "Our extensive experience in creating successful government advertising campaigns for Sharjah, Oman, and Saudi Arabia is why we are the leading agency for government marketing services. Choose a company that can take your brand to the next level, choose A Studio."
+  },
+  {
+    "tag": "client_projects",
+    "patterns": [
+      "Can you tell me about some of your client projects?",
+      "What projects have you worked on?",
+      "What are some examples of your client work?",
+      "Can you provide details on your previous client projects?"
+    ],
+    "responses": "We have worked on various projects including campaigns for Azza Fahmy Jewelry, Sharjah Events, Piaget, Mandarin Oriental Jumeira, Oman at the Venice Biennale, BVLGARI, and more. Explore our portfolio for more details."
+  },
+  {
+    "tag": "client_testimonials",
+    "patterns": [
+      "Do you have any client testimonials?",
+      "Can you share some client feedback or reviews?",
+      "What do your clients say about your services?",
+      "Do you have testimonials from satisfied clients?"
+    ],
+    "responses": "Our clients have praised us for our exceptional support, quick responsiveness, creative designs, and strategic executions. Check out what our clients have to say about working with A Studio."
+  },
+  {
+    "tag": "Sales Contact Information",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "What is the email address for sales inquiries?",
+      "How can I contact your sales department?",
+      "Do you have a phone number for sales enquiries?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Contact Information",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "What is the email address for job applications?",
+      "How can I contact your HR department regarding job opportunities?",
+      "Do you have a phone number for career inquiries?"
+    ],
+    "responses": [
+      "To explore career opportunities with us, please email your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Marketing Services",
+    "patterns": [
+      "What marketing services do you offer?",
+      "Can you tell me about your marketing campaigns?",
+      "How can your marketing services benefit my business?",
+      "Which government organizations have you worked with for marketing campaigns?"
+    ],
+    "responses": [
+      "We offer a range of successful marketing services that have helped government entities like Sharjah Media Office, Oman Ministry of Tourism, and Saudi Arabian Government. Contact us to learn more."
+    ]
+  },
+  {
+    "tag": "Video Production and Government Photography",
+    "patterns": [
+      "Tell me about your video production and government photography services?",
+      "What government projects have you worked on for video production and photography?",
+      "How can your video production services benefit government agencies?"
+    ],
+    "responses": [
+      "Our team excels in providing video production and government photography services that meet and exceed government requirements. Contact us for more information."
+    ]
+  },
+  {
+    "tag": "Digital Marketing for Government Services",
+    "patterns": [
+      "How does digital marketing benefit government and public sector organizations?",
+      "What digital marketing solutions do you offer for government entities?",
+      "Can you explain the strategy behind your digital marketing services for government agencies?"
+    ],
+    "responses": [
+      "We help government organizations adapt to technological advancements and leverage digital marketing solutions to increase awareness, reach, and interaction. Contact us for tailored digital marketing strategies."
+    ]
+  },
+  {
+    "tag": "Why Choose Government Marketing Services from AStudio?",
+    "patterns": [
+      "What makes AStudio the leading choice for government marketing services?",
+      "Why should I trust AStudio for my government marketing needs?",
+      "What sets AStudio apart in the government marketing sector?",
+      "Can you explain the success of AStudio in government marketing campaigns?"
+    ],
+    "responses": [
+      "Our extensive experience in successful government advertising campaigns for Sharjah, Oman, and Saudi Arabia makes us the top choice for government marketing services. Contact us to elevate your brand."
+    ]
+  },
+  {
+    "tag": "Contact Sales",
+    "patterns": [
+      "How can I contact your sales team?",
+      "What is the email for sales inquiries?",
+      "How do I get in touch with sales?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email for job applications?",
+      "Do you have any job openings?",
+      "How do I join your team?"
+    ],
+    "responses": [
+      "For career opportunities, you can send your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Fashion Marketing",
+    "patterns": [
+      "What services do you offer for fashion marketing?",
+      "How can you help with marketing in the fashion industry?",
+      "Can you assist with branding in the fashion sector?",
+      "What expertise do you have in fashion marketing?"
+    ],
+    "responses": [
+      "Whether it's classic American fashion marketing with Tommy Hilfiger, French fashion marketing with Galerie Lafayette, or creating perfect content for Vogue Arabia, we are a comprehensive digital marketing agency that understands style and enhances visibility for fashion brands. Let us make you a trendsetter."
+    ]
+  },
+  {
+    "tag": "Fashion Brand Strategy",
+    "patterns": [
+      "How can you assist with brand strategy in the fashion industry?",
+      "What specialized marketing strategies do you offer for fashion brands?",
+      "Can you provide tailored marketing strategies for fashion labels?",
+      "Do you have expertise in fashion brand strategy?"
+    ],
+    "responses": [
+      "Our strategic marketing tailored for fashion brands can increase sales. As the leading fashion marketing company in Dubai, we understand the buyer mentality, both in-store and online. Therefore, we offer a range of strategic marketing services such as fashion brand strategy, content strategy, e-commerce strategy, and social media strategy for fashion brands – all to put your brand in the spotlight."
+    ]
+  },
+  {
+    "tag": "Why Choose A Studio",
+    "patterns": [
+      "What makes A Studio the right choice for marketing in the fashion industry?",
+      "Why should I choose A Studio for my branding needs?",
+      "What sets A Studio apart in the fashion marketing sector?",
+      "What benefits do I get by partnering with A Studio?"
+    ],
+    "responses": [
+      "There are many reasons you need us - to gain new clients, to increase brand visibility, and to tell your fashion brand's story. But perhaps the most important reason is our extreme passion for the fashion world. So, we will not settle for anything less than extraordinary. Contact us today."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "Can I see testimonials from your clients?",
+      "What do your clients say about your work?",
+      "Do you have any client reviews or feedback?",
+      "How satisfied are your clients with your services?"
+    ],
+    "responses": [
+      "From winning awards to having years of experience, showcasing over a thousand advertising campaigns, A Studio has been trusted by hundreds of high-profile visual identities."
+    ]
+  },
+  {
+    "tag": "contact_sales",
+    "patterns": [
+      "How can I get in touch with the sales team?",
+      "What is the email for sales inquiries?",
+      "How do I contact the sales department?",
+      "Who should I reach out to for sales?",
+      "I have a sales question, how can I reach someone?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone": "+971522210876"
+      }
+    ]
+  },
+  {
+    "tag": "contact_career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email for job applications?",
+      "How do I contact the HR department for job opportunities?",
+      "Who should I reach out to for careers?",
+      "I am interested in working at your agency, how can I apply?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "marketing_fashion",
+    "patterns": [
+      "Do you offer marketing services for fashion brands?",
+      "Can you help with marketing for a fashion brand?",
+      "How can you help with marketing in the fashion industry?",
+      "What services do you provide for fashion marketing?",
+      "I am in the fashion industry, can you assist with marketing?"
+    ],
+    "responses": [
+      "Whether it's classic American elegance with Tommy Hilfiger, French fashion with Galleries Lafayette, or creating perfect content for Vogue Arabia, we are a comprehensive digital marketing company. We understand the look, enhance the vision, and ignite desire for your fashion brand. Let us make you a trendsetter."
+    ]
+  },
+  {
+    "tag": "production_video",
+    "patterns": [
+      "Do you provide video production services?",
+      "Can you help with film production and photography?",
+      "How can you transform targeted audiences with high-quality content?",
+      "What projects have you done in film production and photography?",
+      "I need assistance with creative video production, can you help?"
+    ],
+    "responses": [
+      "Turning your target audience into brand ambassadors starts with producing high-quality, engaging, and interesting content. We are one of the leading companies in fashion photography, known for reshaping shopping through distinctive content for the future store of Majid Al Futtaim, filming movies with great influencers for Lacoste, and capturing the fall look for Tommy Hilfiger. Now imagine the amazing things we can do for your brand."
+    ]
+  },
+  {
+    "tag": "digital_marketing_fashion",
+    "patterns": [
+      "How can digital marketing increase revenues for fashion brands?",
+      "What is the key to making a fashion brand stand out digitally?",
+      "Can you help my fashion brand excel in digital marketing competition?",
+      "How can you make my fashion brand shine in the online market?",
+      "I need help making my fashion brand more visible online, can you provide digital marketing solutions?"
+    ],
+    "responses": [
+      "Digital marketing can increase your brand's revenues in the fashion industry by up to 15%. But how can you make your brand stand out in that digital competition? The answer is simple – join us. With services including website design and development, SEO, influencer marketing, e-commerce marketing, and social media marketing services for fashion brands, you'll always be on trend."
+    ]
+  },
+  {
+    "tag": "brand_strategy_fashion",
+    "patterns": [
+      "How can a marketing strategy tailored for fashion brands boost sales?",
+      "What kind of marketing strategy can elevate my fashion brand?",
+      "Do you offer brand strategy services for fashion labels?",
+      "Can you provide an effective marketing strategy for my fashion brand?",
+      "I need a brand strategy to position my fashion brand in the spotlight, can you help?"
+    ],
+    "responses": [
+      "The right marketing strategy for your brand can boost sales. As the leading fashion marketing company in Dubai, we understand the buyer's psychology, whether in stores or through online purchases. Therefore, we offer a range of strategic marketing services, such as fashion brand strategy, content strategy, e-commerce strategy, and social media strategy for fashion brands – all to put your brand in the limelight."
+    ]
+  },
+  {
+    "tag": "why_choose_astudio",
+    "patterns": [
+      "Why do I need to choose AStudio?",
+      "What makes AStudio the ideal partner for my projects?",
+      "What sets AStudio apart from other agencies?",
+      "Why should I work with AStudio?",
+      "What are the reasons to choose AStudio?"
+    ],
+    "responses": [
+      "There are many reasons why you need us. To gain new clients, to increase the visibility of your brand, and to tell the story of your fashion brand. But perhaps the most important reason of all is that we are extremely passionate about the world of fashion. Therefore, we will settle for nothing less than excellence. Contact us today."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email for sales inquiries?",
+      "How do I reach the sales department?",
+      "Who can I contact for sales information?",
+      "How can I get in touch with the sales team?",
+      "What is the phone number for sales inquiries?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email for job applications?",
+      "Who should I contact for career opportunities?",
+      "How do I join your team?",
+      "What is the process for applying for a job at your company?"
+    ],
+    "responses": [
+      "To apply for a job at our agency, please send your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Fashion Marketing",
+    "patterns": [
+      "How can you help with marketing in the fashion industry?",
+      "What services do you offer for fashion marketing?",
+      "How can you assist with fashion brand promotion?",
+      "What experience do you have in fashion marketing?",
+      "Why should I choose your agency for fashion marketing?"
+    ],
+    "responses": [
+      "Whether it's marketing classic American fashion with Tommy Hilfiger, promoting French elegance with Galeries Lafayette, or creating perfect content for Vogue Arabia, we are a comprehensive digital marketing agency that understands fashion. Let us elevate your brand in the fashion industry."
+    ]
+  },
+  {
+    "tag": "Film Production",
+    "patterns": [
+      "How can your studio help with film production?",
+      "What services do you offer for video production?",
+      "How can you assist with creating high-quality video content?",
+      "What experience do you have in film production?",
+      "Why should I choose your studio for video production?"
+    ],
+    "responses": [
+      "Transforming your target audience into brand ambassadors starts with producing high-quality, engaging, and interesting content. We are one of the leading companies in fashion photography, having a reputation for reshaping shopping with distinctive content for the store of the future for Majid Al Futtaim, filming with amazing influencers for Lacoste, and capturing the fall look for Tommy Hilfiger. Now imagine the fantastic things we can do for your brand."
+    ]
+  },
+  {
+    "tag": "Digital Marketing",
+    "patterns": [
+      "How can digital marketing help with fashion brands?",
+      "What services do you offer for digital marketing in the fashion industry?",
+      "How can you make my fashion brand stand out digitally?",
+      "What strategies do you have for fashion brand digital marketing?",
+      "Why is digital marketing important for fashion brands?"
+    ],
+    "responses": [
+      "Digital marketing can increase your fashion brand's revenues by up to 15%. But how can you make your brand shine in that digital competition? The answer is simple – join us. With services including website design and development, search engine optimization, influencer marketing, e-commerce marketing, and social media marketing services for fashion brands, you will always be fashionable."
+    ]
+  },
+  {
+    "tag": "Marketing Strategy",
+    "patterns": [
+      "How can a marketing strategy help fashion brands?",
+      "What tailored marketing strategies do you offer for fashion brands?",
+      "How can your strategic marketing solutions increase sales?",
+      "What type of marketing strategy is best for fashion brands?",
+      "Why do fashion brands need a customized marketing strategy?"
+    ],
+    "responses": [
+      "The right marketing strategy for your brand can increase sales. As the leading fashion marketing company in Dubai, we understand the buyer's mentality, whether in stores or through online purchases. Therefore, we offer a range of strategic marketing services, such as fashion brand strategy, content strategy, e-commerce strategy, and social media strategy for fashion brands – all to put your brand in the spotlight."
+    ]
+  },
+  {
+    "tag": "Why Choose AStudio?",
+    "patterns": [
+      "What makes AStudio the right choice?",
+      "Why should I choose your agency over others?",
+      "What sets AStudio apart from competitors?",
+      "Why do clients recommend AStudio?",
+      "What makes AStudio a preferred partner?"
+    ],
+    "responses": [
+      "There are many reasons why you need us. To attract new customers, to increase the visibility of your brand, and to tell the story of your fashion brand. But perhaps the most important reason of all is that we are extremely passionate about the world of fashion. So, we will not settle for anything less than exceptional. Contact us today."
+    ]
+  },
+  {
+    "tag": "sales",
+    "patterns": [
+      "How can I reach the sales team?",
+      "What is the email for sales inquiries?",
+      "How can I contact the sales department?",
+      "Where can I find the sales contact information?",
+      "How do I get in touch with the sales team?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or by phone at +971522210876."
+    ]
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "What is the email for job applications?",
+      "How do I join your team?",
+      "Where can I find information about career opportunities?",
+      "How can I get in touch with the HR department for job inquiries?"
+    ],
+    "responses": [
+      "You can apply for a job at our company by sending an email to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "tourism_marketing_services",
+    "patterns": [
+      "What tourism marketing services do you offer?",
+      "Can you tell me more about your tourism marketing services?",
+      "How can you help promote tourist destinations?",
+      "What kind of marketing strategies do you offer for the tourism sector?",
+      "Can you assist in marketing travel brands?"
+    ],
+    "responses": [
+      "Our tourism marketing services include promoting attractions, encouraging tourism bookings, and increasing awareness of new destinations. We provide comprehensive marketing solutions for tourist destinations and travel brands."
+    ]
+  },
+  {
+    "tag": "creative_marketing_strategies",
+    "patterns": [
+      "What creative marketing strategies do you provide?",
+      "Can you help with creative marketing campaigns?",
+      "Do you offer innovative marketing solutions?",
+      "How can you assist in developing creative marketing content?",
+      "What sets your creative marketing services apart?"
+    ],
+    "responses": [
+      "We offer creative marketing strategies that include innovative campaigns, engaging content creation, and unique branding solutions. Our creative marketing services are designed to make your brand stand out and capture audience attention."
+    ]
+  },
+  {
+    "tag": "digital_marketing_travel",
+    "patterns": [
+      "How can you help with digital marketing in the travel sector?",
+      "What digital marketing services do you provide for travel businesses?",
+      "Do you offer digital marketing solutions for tourism companies?",
+      "Can you assist in online marketing for travel destinations?",
+      "What digital strategies do you offer for the travel industry?"
+    ],
+    "responses": [
+      "Our digital marketing services for the travel sector include influencer marketing, digital consultations, website development, SEO, and social media marketing. We specialize in helping travel brands succeed in the digital landscape."
+    ]
+  },
+  {
+    "tag": "strategic_marketing_services",
+    "patterns": [
+      "What strategic marketing services do you specialize in?",
+      "Can you help with marketing strategy development?",
+      "Do you offer branding strategy services?",
+      "How can you assist in strategic content marketing?",
+      "What are your strategic social media marketing solutions?"
+    ],
+    "responses": [
+      "Our strategic marketing services include brand strategy, digital marketing strategy, content strategy, video marketing strategy, and social media strategy in various industries, including tourism. We help you reach your target audience and boost sales."
+    ]
+  },
+  {
+    "tag": "collaboration",
+    "patterns": [
+      "How can we start working with A Studio?",
+      "Do you offer collaboration opportunities?",
+      "What is the process to collaborate with your agency?",
+      "Can we partner with your creative team?",
+      "How can we initiate a collaboration with your company?"
+    ],
+    "responses": [
+      "If you're ready to collaborate with A Studio, our extensive experience in tourism marketing and creative branding, make us the creative agency you need to ensure your brand is seen by the world."
+    ]
+  },
+  {
+    "tag": "projects",
+    "patterns": [
+      "Can you tell me about your recent projects?",
+      "What kind of projects have you worked on?",
+      "Do you showcase your successful projects?",
+      "How can I learn more about your agency's projects?",
+      "Can you share information about your agency's past projects?"
+    ],
+    "responses": [
+      "Our projects range from promotional videos for luxury hotels to brand identity designs for prestigious watchmakers. Explore our exceptional work and success stories here."
+    ]
+  },
+  {
+    "tag": "testimonials",
+    "patterns": [
+      "What do your clients say about you?",
+      "Can I see testimonials from your clients?",
+      "Do you have client testimonials?",
+      "How do your clients review your services?",
+      "What testimonials do you have from your clients?"
+    ],
+    "responses": [
+      "Our clients have praised our exceptional support, speed of response, and creative approach. Their reviews highlight our commitment to success. Explore what our clients have to say about working with A Studio."
+    ]
+  },
+  {
+    "tag": "agency_info",
+    "patterns": [
+      "Where are you located?",
+      "What are your contact details?",
+      "How can I get in touch with your agency?",
+      "Do you have an office address?",
+      "Can you provide information about your agency's location?"
+    ],
+    "responses": [
+      "You can find our office at 41, 14b Al Safa 1, 212803 Dubai, UAE. Reach out to us via web@astudio.agency or by phone at +971 52 221 0876."
+    ]
+  },
+  {
+    "tag": "about_us",
+    "patterns": [
+      "Tell me more about A Studio.",
+      "What does your agency specialize in?",
+      "Can you provide an overview of your agency's services?",
+      "How long have you been in business?",
+      "What sets your agency apart from others?"
+    ],
+    "responses": [
+      "A Studio is a leading agency in the Middle East for digital marketing, specializing in luxury products and trusted by hundreds of visual identities. With a strong independent foundation, our agency offers strategic, creative, and production services to clients worldwide."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I get in touch with the sales team?",
+      "What is the email for sales inquiries?",
+      "Can I contact the sales department?",
+      "How do I reach out to the sales team?",
+      "What is the phone number for sales queries?"
+    ],
+    "responses": [
+      "You can reach out to our sales team by emailing web@astudio.agency or calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email for career opportunities?",
+      "Can I contact the HR department for job openings?",
+      "How do I join your team?",
+      "What is the process to apply for a job at ASTUDIO?"
+    ],
+    "responses": [
+      "To explore career opportunities with us, please email your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Marketing Services",
+    "patterns": [
+      "What marketing services do you offer?",
+      "How can you help with marketing a tourism destination?",
+      "Can you assist with digital marketing for travel brands?",
+      "What are your marketing strategies for the tourism industry?",
+      "How can you help promote a travel destination?"
+    ],
+    "responses": [
+      "Our marketing services include promoting tourist attractions in Sharjah, encouraging tourism in Oman, and creating awareness for the new city in Saudi Arabia. Contact us for the best marketing services for your tourism destination or travel brand."
+    ]
+  },
+  {
+    "tag": "Creative Marketing",
+    "patterns": [
+      "What makes you the best creative marketing company?",
+      "How can you enhance a brand's image through creative marketing?",
+      "Can you provide a unique marketing voice for a target audience?",
+      "What sets you apart as a creative marketing agency?",
+      "Why should I choose ASTUDIO for creative marketing?"
+    ],
+    "responses": [
+      "Successful tourism marketing requires a key element - ensuring your brand speaks with a distinct voice that resonates with your target audience. Our expertise as a full-service creative marketing agency enables us to help boost your brand across digital platforms."
+    ]
+  },
+  {
+    "tag": "Digital Marketing",
+    "patterns": [
+      "How can digital marketing benefit the travel sector?",
+      "What digital marketing solutions do you offer for tourism?",
+      "Can you provide influencer marketing services for travel brands?",
+      "What digital strategies do you use for travel marketing?",
+      "How can you enhance online presence for travel destinations with digital marketing?"
+    ],
+    "responses": [
+      "People are constantly searching for the next big destination and the best travel deals. Our experience in digital marketing for tourism allows us to deliver digital solutions like influencer marketing, digital consultations, website development, SEO, and social media marketing in the travel industry to make your brand stand out online."
+    ]
+  },
+  {
+    "tag": "Strategic Marketing",
+    "patterns": [
+      "How important is strategic planning in tourism marketing?",
+      "What strategic services do you offer for travel brands?",
+      "Can you help with brand strategy in the travel sector?",
+      "What are your strategic marketing solutions for tourism?",
+      "How can strategic marketing tactics benefit travel destinations?"
+    ],
+    "responses": [
+      "Strategic planning is essential for effective marketing in travel and tourism. As a leading tourism marketing company, we build clear strategies that help you reach your desired target audience across digital platforms."
+    ]
+  },
+  {
+    "tag": "Collaboration",
+    "patterns": [
+      "Are you ready to work with ASTUDIO?",
+      "Why should a destination or brand collaborate with you?",
+      "What experience do you have in tourism and travel marketing?",
+      "How can you help showcase a destination to the world?",
+      "What makes you the creative agency needed for tourism?"
+    ],
+    "responses": [
+      "With extensive experience in marketing destinations and brands like Sharjah Events, tourism in Oman, and NEOM, the future city of Saudi Arabia, we are the creative tourism company you need to ensure your brand is seen globally."
+    ]
+  },
+  {
+    "tag": "Past Projects",
+    "patterns": [
+      "Can you showcase your past projects?",
+      "What projects have you worked on?",
+      "How have you collaborated with well-known brands?",
+      "Can you share success stories of your projects?",
+      "What achievements have you made in past campaigns?"
+    ],
+    "responses": [
+      "Some of our notable projects include working with Vogue and Wired, Bulgari's 'Wonders of Love' campaign, Bulgari's 'Jannah' collection launch at the Louvre Abu Dhabi, and more. Explore our achievements on our website."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "What do your clients say about you?",
+      "How have clients benefitted from working with you?",
+      "Can you share client testimonials?",
+      "What feedback have you received from clients?",
+      "How have clients' experiences been with your agency?"
+    ],
+    "responses": [
+      "Testimonials from our clients showcase their satisfaction with our exceptional support, quick response, creativity, and commitment to achieving success in each project. Contact us today to start your next campaign."
+    ]
+  },
+  {
+    "tag": "Agency Recognition",
+    "patterns": [
+      "What awards have you won?",
+      "Can you share your international achievements?",
+      "What accolades has your agency received?",
+      "How have you been recognized in the industry?",
+      "What makes you the number one choice for visual identity projects?"
+    ],
+    "responses": [
+      "With 14 international awards, 22 years of experience, and being the top choice for film and visual identity at the Louvre Abu Dhabi, we are the leading agency in digital marketing for high-end brands."
+    ]
+  },
+  {
+    "tag": "Global Presence",
+    "patterns": [
+      "Where does your agency operate from?",
+      "How flexible are your operations?",
+      "Can you provide services internationally?",
+      "How do you manage projects across different countries?",
+      "What is the reach of your business?"
+    ],
+    "responses": [
+      "From New York to Dubai, our business operations span across 14 countries, 4 continents, showcasing our global presence in diverse markets."
+    ]
+  },
+  {
+    "tag": "Contact Information",
+    "patterns": [
+      "How can I contact you?",
+      "What are the contact details for sales inquiries?",
+      "Can I email you for more information?",
+      "How do I get in touch with your team?",
+      "Where can I find your office?"
+    ],
+    "responses": [
+      "You can reach out to us by emailing web@astudio.agency for sales inquiries or calling +971522210876. Our office is located at 41, 14b Al Safa 1, Dubai, UAE."
+    ]
+  },
+  {
+    "tag": "contact_us",
+    "patterns": [
+      "How can I contact you?",
+      "What are your contact details?",
+      "Can you provide me with your contact information?"
+    ],
+    "responses": [
+      "You can contact us via email at web@astudio.agency or by phone at +971522210876"
+    ]
+  },
+  {
+    "tag": "sales",
+    "patterns": [
+      "How can I reach your sales team?",
+      "I'm interested in your sales services, how can I get in touch?"
+    ],
+    "responses": [
+      "For sales inquiries, please email us at web@astudio.agency or call us at +971522210876"
+    ]
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "Do you have any career opportunities available?",
+      "I am interested in joining your team, how can I apply?"
+    ],
+    "responses": [
+      "To apply for a job at our agency, please send your resume to joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "tourism_marketing",
+    "patterns": [
+      "Tell me about your tourism marketing services",
+      "What kind of tourism marketing solutions do you offer?",
+      "Can you provide details about your services in tourism marketing?"
+    ],
+    "responses": [
+      "Our tourism marketing services include promoting tourist attractions, encouraging bookings in various destinations, and raising awareness about new cities. Contact us for the best marketing solutions for your travel destination or brand."
+    ]
+  },
+  {
+    "tag": "creative_marketing",
+    "patterns": [
+      "What makes your creative marketing stand out?",
+      "How can your creative marketing services benefit my brand?",
+      "Tell me more about your approach to creative marketing"
+    ],
+    "responses": [
+      "Our creative marketing services aim to give a unique voice to your brand, capturing the attention of your target audience. From strategic marketing to stunning video content, we are the agency you need to join."
+    ]
+  },
+  {
+    "tag": "production_services",
+    "patterns": [
+      "What production services do you offer in tourism?",
+      "How can your production services enhance tourism marketing?",
+      "Tell me about your expertise in producing tourism-related content"
+    ],
+    "responses": [
+      "When it comes to tourism, content is king, and our team of professional photographers, film directors, and videographers excel in producing impactful content. Whether capturing the essence of a destination or showcasing tourist landmarks, we are your go-to creative marketing agency."
+    ]
+  },
+  {
+    "tag": "digital_marketing",
+    "patterns": [
+      "Why is digital marketing important in the travel industry?",
+      "How can digital marketing help in promoting travel destinations?",
+      "Tell me about your expertise in digital marketing for travel"
+    ],
+    "responses": [
+      "Our experience in digital marketing for travel allows us to offer digital solutions like influencer marketing, digital consulting, website development, SEO, and social media marketing that will make your brand heard in the crowded digital space."
+    ]
+  },
+  {
+    "tag": "strategic_marketing",
+    "patterns": [
+      "Why is strategic planning essential in tourism marketing?",
+      "How can strategic marketing benefit a travel brand?",
+      "Explain the importance of strategic marketing in the tourism sector"
+    ],
+    "responses": [
+      "Strategic planning is the key element for effective marketing in tourism. As a leading tourism marketing agency, we build clear strategies that enable you to reach the desired target audience on digital platforms. Contact us for strategic marketing services tailored to the tourism industry."
+    ]
+  },
+  {
+    "tag": "contact_sales",
+    "patterns": [
+      "How can I get in touch with sales?",
+      "What is the sales contact email?",
+      "How do I contact sales?",
+      "How can I reach the sales department?",
+      "Contact details for sales?"
+    ],
+    "responses": [
+      "You can reach our sales department via email at web@astudio.agency or by phone at +971522210876."
+    ]
+  },
+  {
+    "tag": "contact_careers",
+    "patterns": [
+      "How do I apply for a job?",
+      "Where can I get information about careers?",
+      "How can I join your team?",
+      "Contact details for careers?"
+    ],
+    "responses": [
+      "For career opportunities, please email joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "creative_services",
+    "patterns": [
+      "What creative services do you offer?",
+      "Can you tell me about your creative services?",
+      "What services do you provide for creativity?"
+    ],
+    "responses": [
+      "Our creative services include strategic marketing, digital production, video marketing, and more to help build successful brand strategies."
+    ]
+  },
+  {
+    "tag": "digital_marketing",
+    "patterns": [
+      "How do you help with digital marketing?",
+      "Can you explain your digital marketing services?",
+      "What digital marketing solutions do you offer?"
+    ],
+    "responses": [
+      "We offer digital marketing consultations, website design, SEO optimization, mobile app development, influencer marketing, and social media marketing for the hospitality and hotel industry."
+    ]
+  },
+  {
+    "tag": "brand_strategy",
+    "patterns": [
+      "Why is brand strategy important?",
+      "What does a brand strategy involve?",
+      "Can you explain the importance of marketing strategy?"
+    ],
+    "responses": [
+      "A effective brand strategy has the power to influence your guests' purchasing decisions. Our marketing team offers a range of strategic services including brand strategy, digital marketing strategy, social media strategy, content strategy, and video marketing strategy."
+    ]
+  },
+  {
+    "tag": "client_projects",
+    "patterns": [
+      "Can you tell me about some of your projects?",
+      "What projects have you worked on?",
+      "Could you share details about your client projects?"
+    ],
+    "responses": [
+      "We have worked on a variety of projects including creative campaigns for luxury brands like hotel Mandarin Oriental, events like Sharjah Events, and visual identity design for companies like Ethar."
+    ]
+  },
+  {
+    "tag": "sales",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "I have a query related to sales, how can I contact you?",
+      "What is the email address for sales inquiries?",
+      "I am interested in sales, how do I reach out to you?"
+    ],
+    "responses": "You can contact our sales team at web@astudio.agency or call us at +971 52 221 0876."
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "How do I apply for a job at your agency?",
+      "I am looking for career opportunities, how can I reach out?",
+      "Do you have any openings? How can I apply?",
+      "What is the email address for job applications?"
+    ],
+    "responses": "To explore career opportunities with us, you can reach out to joinus@astudio.agency."
+  },
+  {
+    "tag": "services_marketing",
+    "patterns": [
+      "What marketing services do you offer?",
+      "Can you tell me about your marketing services?",
+      "I'm interested in marketing, what services do you provide?",
+      "How can you help me with marketing my business?"
+    ],
+    "responses": "Our marketing services include strategic, creative, digital, and production strategies to build successful brand strategies. Contact us to learn more."
+  },
+  {
+    "tag": "projects",
+    "patterns": [
+      "Can you tell me about some of your recent projects?",
+      "I'm interested in seeing your projects, can you share details?",
+      "What kind of projects have you worked on recently?",
+      "Do you have any case studies or project examples?"
+    ],
+    "responses": "Explore our recent projects, from events in Sharjah to online campaigns in Oman, and discover the creativity and success we've achieved with our clients."
+  },
+  {
+    "tag": "contact_sales",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email for sales inquiries?",
+      "I want to get in touch with the sales department",
+      "How do I reach the sales team?",
+      "What is the phone number for sales?",
+      "Who should I contact for sales information?"
+    ],
+    "responses": [
+      "You can contact the sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "career_inquiries",
+    "patterns": [
+      "How can I apply for a job?",
+      "Where can I send my resume for career opportunities?",
+      "I want to join the team, how do I do that?",
+      "How do I inquire about career openings?",
+      "Who should I contact for job vacancies?"
+    ],
+    "responses": [
+      "You can send your resume for career opportunities to joinus@astudio.agency. For further information, you can also call +971526794879."
+    ]
+  },
+  {
+    "tag": "marketing_strategies",
+    "patterns": [
+      "What marketing strategies do you offer?",
+      "Can you tell me about your marketing services?",
+      "How can you help in marketing my brand?",
+      "What type of marketing strategies do you specialize in?",
+      "Do you create marketing strategies for successful brands?"
+    ],
+    "responses": [
+      "As a leading company in hospitality and hotel marketing, we offer a wide range of marketing services including strategy, creative, production, and digital. We focus on creating successful brand strategies to boost sales and increase brand visibility."
+    ]
+  },
+  {
+    "tag": "video_production_services",
+    "patterns": [
+      "What are your video production services?",
+      "Can you tell me about your video production capabilities?",
+      "How do you handle video production for hospitality?",
+      "I'm interested in video production for my hotel, what can you offer?",
+      "Do you provide video production services for hotels and restaurants?"
+    ],
+    "responses": [
+      "Our video production services specialize in creating professional videos for hotels and restaurants, capturing the essence of your brand to attract your target audience successfully. Our team of professional photographers and videographers ensure that your brand resonates with the right audience."
+    ]
+  },
+  {
+    "tag": "digital_marketing_services",
+    "patterns": [
+      "What digital marketing services do you provide?",
+      "Can you explain your digital marketing consultancy?",
+      "How do you approach digital marketing for hotels and restaurants?",
+      "Do you offer social media marketing for the hospitality industry?",
+      "What are your services in digital marketing for hotels and restaurants?"
+    ],
+    "responses": [
+      "We offer digital marketing consultations, website design and development, SEO, mobile app development, influencer marketing, and social media marketing services for hotels, restaurants, and the hospitality industry in general."
+    ]
+  },
+  {
+    "tag": "importance_of_marketing_strategy",
+    "patterns": [
+      "Why is a marketing strategy important?",
+      "What can an effective marketing strategy do for a hotel or restaurant?",
+      "How does a marketing strategy influence guest decisions?",
+      "What are the components of a successful marketing strategy?",
+      "How can marketing strategies enhance the purchasing decisions of guests?"
+    ],
+    "responses": [
+      "An effective marketing strategy for a hotel or restaurant has the power to strongly influence guest purchasing decisions. Our marketing team provides a range of strategic services including brand strategy, digital marketing strategy, social media strategy, content strategy, and video marketing strategy to encourage your audience to complete their buying journey."
+    ]
+  },
+  {
+    "tag": "contact_for_marketing_needs",
+    "patterns": [
+      "How can I reach out for marketing needs for hotels and restaurants?",
+      "Who should I contact for marketing services in the hospitality industry?",
+      "I need assistance with marketing for hotels and restaurants, how do I contact you?",
+      "Who handles marketing inquiries for the hospitality sector?",
+      "What is the best way to get marketing help for hotels and restaurants?"
+    ],
+    "responses": [
+      "Thanks to our extensive experience working with some of the best brands in hospitality, including Mandarin Oriental Hotel, we can help attract a wider target audience for your brand with the right content on the right platforms at the right time. Contact AStudio today for a successful marketing journey."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I contact your sales team?",
+      "What is your sales team's email?",
+      "How can I get in touch with your sales team?",
+      "Do you have a phone number for sales inquiries?",
+      "Can you provide me with the contact details for your sales department?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone": "+971522210876"
+      }
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for job applications?",
+      "Do you have any openings for career opportunities?",
+      "How can I join your team?",
+      "Can you provide me with information on job vacancies?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "Sector Expertise",
+    "patterns": [
+      "What sectors do you specialize in?",
+      "Can you tell me about the sectors you work with?",
+      "Do you have experience in specific industries?",
+      "Which sectors have you worked in?",
+      "Can you provide details about the sectors you cater to?"
+    ],
+    "responses": [
+      {
+        "sectors": [
+          {
+            "name": "Jewelry",
+            "description": "Marketing and production expertise in the jewelry industry with clients like Bulgari and Piaget."
+          },
+          {
+            "name": "Luxury Brands",
+            "description": "Providing marketing services to renowned luxury brands like Bulgari, Maserati, Chanel, Elie Saab, and Mandarin Oriental."
+          },
+          {
+            "name": "Government/Public Sector",
+            "description": "Successful government marketing campaigns with experience working with the Sharjah Government Media Office and the Oman Ministry of Tourism."
+          },
+          {
+            "name": "Fashion & Beauty",
+            "description": "Worked with prestigious fashion brands like Vogue Arabia, Tommy Hilfiger, Elle, and Harper's Bazaar."
+          },
+          {
+            "name": "Tourism Destinations",
+            "description": "Leading agency in marketing for tourism visual identities with successful campaigns for Sharjah Events and Discover Oman."
+          },
+          {
+            "name": "Hospitality & Hotel Entertainment",
+            "description": "Expertise in hotel visual identity marketing, offering comprehensive marketing strategies, digital marketing, video production, and photography."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "What do your clients say about you?",
+      "Can you share testimonials from your clients?",
+      "Do you have any feedback from your clients?",
+      "What are some testimonials from your clients?",
+      "Can you provide client reviews of your services?"
+    ],
+    "responses": [
+      {
+        "testimonials": [
+          {
+            "name": "Lulu Al Otaiba",
+            "position": "Senior Creative Director / Public Investment Fund Projects",
+            "testimonial": "We are grateful to the A Studio team for their wonderful support throughout this project."
+          },
+          {
+            "name": "Jaley Deltar",
+            "position": "Marketing & Communications Director / Valentino",
+            "testimonial": "We highly recommend A Studio for their unique creativity and strategic approach in creating engaging content."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Agency Achievements",
+    "patterns": [
+      "What are some of your agency's achievements?",
+      "Can you share some of your agency's awards?",
+      "Do you have any notable accomplishments as an agency?",
+      "What sets your agency apart in terms of achievements?",
+      "Can you provide details on your agency's international recognition?"
+    ],
+    "responses": [
+      {
+        "awards": "14 international awards",
+        "years_in_business": "22 years",
+        "notable_project": "#1 display for Louvre Abu Dhabi's visual identity film",
+        "campaigns_produced": "Over 1,000 advertising campaigns"
+      }
+    ]
+  },
+  {
+    "tag": "Services Offered",
+    "patterns": [
+      "What services do you offer?",
+      "Can you tell me about the services you provide?",
+      "What are the main services offered by your agency?",
+      "Do you have a list of services available?",
+      "Can you provide an overview of the services you offer?"
+    ],
+    "responses": [
+      {
+        "services": [
+          {
+            "name": "Strategy",
+            "description": "Comprehensive marketing strategies tailored to each visual identity."
+          },
+          {
+            "name": "Creativity",
+            "description": "Unique and innovative creative concepts for impactful brand storytelling."
+          },
+          {
+            "name": "Production",
+            "description": "Award-winning video production services for visually stunning content."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Contact Information",
+    "patterns": [
+      "How can I get in touch with you?",
+      "What is your contact information?",
+      "Can you provide me with your address and phone number?",
+      "How do I contact your agency?",
+      "Do you have a contact form on your website?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone": "+971522210876",
+        "address": "41, 14b Al Safa 1, Dubai, UAE"
+      }
+    ]
+  },
+  {
+    "tag": "Contact Information",
+    "patterns": [
+      "How can I contact you?",
+      "What is your email address?",
+      "Please provide me with your contact details.",
+      "How can I reach out to you?",
+      "I need your contact information."
+    ],
+    "responses": [
+      "You can contact us at web@astudio.agency",
+      "Our email address is web@astudio.agency",
+      "To get in touch with us, please email web@astudio.agency",
+      "You can reach us at web@astudio.agency",
+      "For contact information, please email web@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Sales Contact",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "Do you have a sales contact?",
+      "I need to contact your sales department.",
+      "How do I reach your sales team?",
+      "Can you provide me with details to contact your sales?"
+    ],
+    "responses": [
+      "You can contact our sales team at +971522210876",
+      "To reach our sales team, please call +971522210876",
+      "For sales inquiries, contact +971522210876",
+      "To get in touch with sales, call +971522210876",
+      "Our sales contact number is +971522210876"
+    ]
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "Do you have career opportunities available?",
+      "I am interested in joining your team, how do I apply?",
+      "What is the email address for job applications?",
+      "Please provide details on career openings at your agency."
+    ],
+    "responses": [
+      "To apply for a job, email your resume to joinus@astudio.agency",
+      "Career opportunities are available, send your resume to joinus@astudio.agency",
+      "For job applications, contact joinus@astudio.agency",
+      "To join our team, please email your CV to joinus@astudio.agency",
+      "To apply for a position, send your application to joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "Company Services",
+    "patterns": [
+      "What services does your company offer?",
+      "Can you tell me about your agency's services?",
+      "What are the services provided by your company?",
+      "Do you offer digital marketing services?",
+      "Can you give me details about your services?"
+    ],
+    "responses": [
+      "Our company offers a range of services including digital marketing, video production, and strategic branding.",
+      "Services provided by our agency include digital marketing, video production, and strategic branding.",
+      "We offer services such as digital marketing, video production, and strategic branding at our agency.",
+      "Digital marketing, video production, and strategic branding are some of the services we provide.",
+      "For details on our services, visit our website or contact us directly."
+    ]
+  },
+  {
+    "tag": "Company Overview",
+    "patterns": [
+      "Tell me about your company",
+      "Can you provide an overview of your agency?",
+      "What is your company's background?",
+      "Give me information about your agency.",
+      "I want to know more about your company."
+    ],
+    "responses": [
+      "We are a leading agency in the Middle East offering digital marketing, video production, and strategic branding services.",
+      "With over 22 years in the industry, we are a trusted agency for digital marketing and creative services.",
+      "Our agency has won 14 international awards and has a strong presence in 14 countries across 4 continents.",
+      "From New York to Dubai, we offer a full range of services including digital marketing, video production, and strategic branding.",
+      "For more information about our agency and services, feel free to reach out to us."
+    ]
+  },
+  {
+    "tag": "Sales Contact",
+    "patterns": [
+      "How can I contact sales?",
+      "What is the email for sales?",
+      "What is the phone number for sales?",
+      "I want to reach out to sales."
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Contact",
+    "patterns": [
+      "How can I contact the career department?",
+      "What is the email for career opportunities?",
+      "I want to inquire about job openings.",
+      "How do I apply for a job at your agency?"
+    ],
+    "responses": [
+      "You can reach out to our career department at joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "Services",
+    "patterns": [
+      "What services do you offer?",
+      "Can you tell me more about your services?",
+      "What kind of marketing services do you provide?",
+      "What are the digital marketing services you offer?",
+      "I'm interested in learning about your production services."
+    ],
+    "responses": [
+      "We offer a wide range of services including digital marketing, creative marketing, production, social media management, content creation, and more. Please visit our website for detailed information."
+    ]
+  },
+  {
+    "tag": "Projects",
+    "patterns": [
+      "Can you showcase some of your projects?",
+      "What type of projects have you worked on?",
+      "I'd like to see examples of your work.",
+      "What are some success stories or case studies from your agency?"
+    ],
+    "responses": [
+      "We have worked on a variety of projects ranging from branding and creative marketing to video production and social media campaigns. You can explore our projects on our website."
+    ]
+  },
+  {
+    "tag": "Digital Marketing",
+    "patterns": [
+      "How can you help with digital marketing?",
+      "What digital marketing strategies do you implement?",
+      "Tell me more about your digital marketing services.",
+      "What is your approach to digital marketing?",
+      "What are the benefits of digital marketing for businesses?"
+    ],
+    "responses": [
+      "We specialize in digital marketing strategies tailored to help businesses reach their online goals, increase website traffic, and boost sales. Our services include social media marketing, influencer marketing, community management, analytics, and reporting."
+    ]
+  },
+  {
+    "tag": "Design and Production",
+    "patterns": [
+      "How do you approach design and production?",
+      "What services do you offer for design and production?",
+      "Can you tell me about your video production and photography services?",
+      "What is your process for developing creative content?",
+      "Do you provide website design and user interface services?"
+    ],
+    "responses": [
+      "We provide design and production services including video production, photography, UX/UI design, website development, backend programming, content creation, and e-commerce development. Our team focuses on creating engaging and high-quality content for various platforms."
+    ]
+  },
+  {
+    "tag": "Sales Inquiry",
+    "patterns": [
+      "How can I contact sales?",
+      "How do I reach the sales team?",
+      "What is the email address for sales inquiries?",
+      "How can I inquire about sales?",
+      "How do I get in touch with the sales department?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job?",
+      "Where can I find career opportunities?",
+      "What is the email address for job applications?",
+      "How can I join the team?",
+      "How do I inquire about job openings?"
+    ],
+    "responses": [
+      "For career opportunities, you can reach us at joinus@astudio.agency or call +971526794879."
+    ]
+  },
+  {
+    "tag": "About ASTUDIO",
+    "patterns": [
+      "Tell me about ASTUDIO.",
+      "What services does ASTUDIO offer?",
+      "Where is ASTUDIO located?",
+      "What makes ASTUDIO unique?",
+      "How long has ASTUDIO been in business?"
+    ],
+    "responses": [
+      "ASTUDIO is a leading digital marketing and social media agency in the UAE and Saudi Arabia. We offer tailored solutions for your marketing and branding needs with exceptional creativity and outstanding achievements."
+    ]
+  },
+  {
+    "tag": "Why Choose ASTUDIO",
+    "patterns": [
+      "Why should I choose ASTUDIO?",
+      "What sets ASTUDIO apart?",
+      "What expertise does ASTUDIO have?",
+      "How does ASTUDIO stand out in the market?",
+      "What makes ASTUDIO different?"
+    ],
+    "responses": [
+      "ASTUDIO stands out with its deep marketing understanding, comprehensive services, regional insights, data-driven strategies, and a commitment to creating experiences that align with your brand."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "What do clients say about ASTUDIO?",
+      "Can you share client testimonials?",
+      "What are the client reviews for ASTUDIO?",
+      "How have clients benefited from ASTUDIO?",
+      "What feedback do clients give about ASTUDIO?"
+    ],
+    "responses": [
+      "Our clients praise ASTUDIO for its exceptional creativity, attention to detail, and strategic approach in creating engaging content that enhances their online presence."
+    ]
+  },
+  {
+    "tag": "Services Offered",
+    "patterns": [
+      "What services does ASTUDIO provide?",
+      "Can you list the services offered by ASTUDIO?",
+      "What solutions does ASTUDIO offer?",
+      "What are the service categories at ASTUDIO?",
+      "How can ASTUDIO assist with my needs?"
+    ],
+    "responses": [
+      "ASTUDIO offers services in social media marketing, digital marketing, production, creative marketing, and strategic branding to meet all your digital marketing needs."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "What is the email address for sales inquiries?",
+      "How do I contact your sales department?",
+      "I'm interested in your services, how can I reach your sales team?",
+      "Can you provide me with the contact details for sales?"
+    ],
+    "responses": [
+      "For sales inquiries, you can contact us at web@astudio.agency or call us on +971522210876."
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "I would like to know more about your career opportunities.",
+      "How can I apply for a job at your company?",
+      "What is the email address for job applications?",
+      "Do you have any open positions?",
+      "I'm interested in joining your team, how can I apply?"
+    ],
+    "responses": [
+      "To inquire about career opportunities and job openings, you can reach out to us at joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "About Us",
+    "patterns": [
+      "Can you tell me more about your company?",
+      "What services do you offer?",
+      "Where are you located?",
+      "What sets your company apart?",
+      "How long has your company been in business?"
+    ],
+    "responses": [
+      "We are a leading digital marketing and social media agency based in the UAE and KSA. Our unique approach and experience allow us to create tailored solutions for your needs. Feel free to reach out to us to learn more."
+    ]
+  },
+  {
+    "tag": "Services",
+    "patterns": [
+      "What kind of services do you provide?",
+      "Can you list the services you offer?",
+      "Do you offer social media marketing services?",
+      "Are content creation services part of your offerings?",
+      "What services can I expect from your agency?"
+    ],
+    "responses": [
+      "We provide a range of services including social media marketing, content creation, digital marketing, video production, photography, and more. Contact us to learn more about our services."
+    ]
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "What do your clients say about you?",
+      "Can you share some testimonials from your clients?",
+      "Do you have any client testimonials I can read?",
+      "How do your clients feel about your services?",
+      "Can you provide examples of client feedback?"
+    ],
+    "responses": [
+      "Our clients have been extremely satisfied with our services. Here are some testimonials from our valuable clients."
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email for sales inquiries?",
+      "Is there a phone number for sales?",
+      "How do I reach the sales department?",
+      "Where can I find information about sales?",
+      "Who should I speak to for sales?",
+      "Do you have a sales contact?",
+      "How can I get in touch with sales?"
+    ],
+    "responses": [
+      {
+        "email": "web@astudio.agency",
+        "phone": "+971 52 221 0876"
+      }
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "Where can I send my resume for job opportunities?",
+      "Do you have any job openings?",
+      "Is there an email for career inquiries?",
+      "How do I join your team?",
+      "Who should I contact for employment?"
+    ],
+    "responses": [
+      {
+        "email": "joinus@astudio.agency"
+      }
+    ]
+  },
+  {
+    "tag": "contact",
+    "patterns": [
+      "How can I get in touch with you?",
+      "What are your contact details?",
+      "Do you have an email for inquiries?",
+      "How can I contact your sales team?",
+      "What is the best way to reach you?"
+    ],
+    "responses": [
+      "You can contact us at web@astudio.agency",
+      "For sales inquiries, please email web@astudio.agency",
+      "To get in touch with our team, send an email to web@astudio.agency",
+      "Our contact email is web@astudio.agency for any inquiries",
+      "Feel free to reach out to us at web@astudio.agency"
+    ]
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "Do you have any job opportunities?",
+      "How can I apply for a job at your agency?",
+      "Are you hiring new employees?",
+      "Where can I find information about job openings?",
+      "Can I send my CV to apply for a position?"
+    ],
+    "responses": [
+      "For career opportunities, please email joinus@astudio.agency",
+      "To apply for a job at our agency, send your CV to joinus@astudio.agency",
+      "We are currently accepting job applications, please contact joinus@astudio.agency for more information",
+      "If you are interested in working with us, please email your CV to joinus@astudio.agency",
+      "For any career inquiries, reach out to joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "projects",
+    "patterns": [
+      "Can you tell me about your recent projects?",
+      "What kind of projects have you worked on?",
+      "Do you have any successful case studies to share?",
+      "What are some of your notable achievements?",
+      "Can you provide examples of your recent work?"
+    ],
+    "responses": [
+      "Here are some of our recent projects: [List of projects]",
+      "We have worked on a variety of projects, including [List of projects]",
+      "Explore our successful case studies and achievements: [List of projects]",
+      "Check out our notable projects and achievements: [List of projects]",
+      "Examples of our recent work include: [List of projects]"
+    ]
+  },
+  {
+    "tag": "testimonials",
+    "patterns": [
+      "Do you have any client testimonials?",
+      "Can you share feedback from your clients?",
+      "What do your clients say about your work?",
+      "Are there any reviews from your satisfied clients?",
+      "Do you have testimonials from previous projects?"
+    ],
+    "responses": [
+      "Here are some testimonials from our clients: [List of testimonials]",
+      "We have received positive feedback from our clients, here are some testimonials: [List of testimonials]",
+      "Check out what our clients have to say about our work: [List of testimonials]",
+      "Read reviews and testimonials from our satisfied clients: [List of testimonials]",
+      "Testimonials from previous projects showcase the satisfaction of our clients: [List of testimonials]"
+    ]
+  },
+  {
+    "tag": "services",
+    "patterns": [
+      "What services do you offer?",
+      "Can you list your marketing services?",
+      "Do you provide social media marketing services?",
+      "What kind of digital marketing services do you specialize in?",
+      "Can you explain your content marketing services?"
+    ],
+    "responses": [
+      "We offer a range of services including: [List of services]",
+      "Our marketing services include: [List of services]",
+      "Specializing in social media marketing, our services cover: [List of services]",
+      "Explore our digital marketing services tailored to your needs: [List of services]",
+      "From content marketing to SEO, our services cater to diverse marketing needs: [List of services]"
+    ]
+  },
+  {
+    "tag": "Sales Inquiries",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "What is the email address for sales inquiries?",
+      "Can you provide the phone number for sales inquiries?"
+    ],
+    "responses": "You can reach out to our sales team via email at web@astudio.agency or by calling +971522210876"
+  },
+  {
+    "tag": "Career Opportunities",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "What is the email address for job applications?",
+      "Do you have any career opportunities available?"
+    ],
+    "responses": "To explore career opportunities, please contact us at joinus@astudio.agency"
+  },
+  {
+    "tag": "Project Portfolio",
+    "patterns": [
+      "Can you share some of your projects with me?",
+      "What type of projects have you worked on?",
+      "Do you have a portfolio of your work available?"
+    ],
+    "responses": "You can view a selection of our projects on our website, showcasing a diverse range of creative and strategic work."
+  },
+  {
+    "tag": "Client Testimonials",
+    "patterns": [
+      "Do you have any client testimonials?",
+      "Can I see feedback from your clients?",
+      "What do your clients say about working with you?"
+    ],
+    "responses": "We have received positive testimonials from many of our clients, praising our creativity, attention to detail, and strategic approach. Their feedback speaks to our commitment to excellence."
+  },
+  {
+    "tag": "Company Overview",
+    "patterns": [
+      "Tell me more about your company.",
+      "What services do you offer?",
+      "How long have you been in business?"
+    ],
+    "responses": "ASTUDIO is a leading independent agency in the Middle East, specializing in digital marketing, creative services, and strategic solutions. With over 22 years of experience, we have received 14 international awards and worked with renowned brands across 14 countries and 4 continents."
+  },
+  {
+    "tag": "Sales inquiry",
+    "patterns": [
+      "How can I contact the sales team?",
+      "What is the email for sales inquiries?",
+      "Can I get in touch with the sales department?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can contact the sales team via email at web@astudio.agency or by phone at +971522210876."
+    ]
+  },
+  {
+    "tag": "Career opportunities",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email for career opportunities?",
+      "Where can I find job openings at your agency?",
+      "Is there a way to join your team?"
+    ],
+    "responses": [
+      "You can apply for a job by sending an email to joinus@astudio.agency with your resume and cover letter."
+    ]
+  },
+  {
+    "tag": "Client testimonials",
+    "patterns": [
+      "Can I see testimonials from your clients?",
+      "What do your clients say about working with you?",
+      "Do you have any reviews from past clients?",
+      "How satisfied are your clients with your services?"
+    ],
+    "responses": [
+      "We have received positive feedback from our clients. Click here to read testimonials and recommendations from our satisfied clients."
+    ]
+  },
+  {
+    "tag": "Services offered",
+    "patterns": [
+      "What services do you provide?",
+      "Can you tell me about your marketing services?",
+      "Do you offer video production services?",
+      "What kind of digital marketing services do you offer?"
+    ],
+    "responses": [
+      "We offer a range of services including social media marketing, content creation, video production, digital strategy, and more. Click here to learn more about our services."
+    ]
+  },
+  {
+    "tag": "Work portfolio",
+    "patterns": [
+      "Can I see examples of your work?",
+      "What projects have you worked on?",
+      "Do you have a portfolio of your projects?",
+      "What kind of clients have you worked with?"
+    ],
+    "responses": [
+      "Explore our diverse portfolio showcasing our award-winning projects for various clients and industries. Click here to view our work."
+    ]
+  },
+  {
+    "tag": "contact_info",
+    "patterns": [
+      "How can I contact you?",
+      "What are your contact details?",
+      "Do you have a phone number and email for contact?"
+    ],
+    "responses": [
+      "You can reach us at web@astudio.agency or by phone at +971522210876 for sales inquiries.",
+      "Contact us via email at web@astudio.agency or call us at +971522210876 for any queries."
+    ]
+  },
+  {
+    "tag": "sales_inquiry",
+    "patterns": [
+      "How do I get in touch for sales inquiries?",
+      "I would like to contact sales, how do I do that?",
+      "Who should I reach out to for sales questions?"
+    ],
+    "responses": [
+      "For sales inquiries, please email us at web@astudio.agency or call +971522210876.",
+      "To inquire about sales, reach out to us at web@astudio.agency or call +971522210876."
+    ]
+  },
+  {
+    "tag": "career_opportunities",
+    "patterns": [
+      "How can I apply for a job at your company?",
+      "Do you have any career opportunities? Where can I send my resume?",
+      "I am interested in joining your team, how do I apply?"
+    ],
+    "responses": [
+      "To explore career opportunities with us, please email your resume to joinus@astudio.agency.",
+      "For career inquiries, send your resume to joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "services",
+    "patterns": [
+      "What services do you offer?",
+      "Can you tell me about your services?",
+      "I would like more information about the services you provide."
+    ],
+    "responses": [
+      "We offer strategic marketing services, visual identity creation, digital marketing, creative marketing, and production services. Contact us for more details."
+    ]
+  },
+  {
+    "tag": "case_studies",
+    "patterns": [
+      "Can you share some case studies of your work?",
+      "I'm interested in your past projects, do you have any case studies?",
+      "Could you provide examples of your successful projects?"
+    ],
+    "responses": [
+      "We have worked with a variety of clients on projects such as Vogue Arabia, Wire Magazine, and more. Contact us for detailed case studies."
+    ]
+  },
+  {
+    "tag": "Contact Us",
+    "patterns": [
+      "How can I contact you?",
+      "What is your email address?",
+      "What is your phone number?",
+      "Can I reach out to you?",
+      "What are your contact details?"
+    ],
+    "responses": [
+      "You can contact us at web@astudio.agency or at +971522210876"
+    ]
+  },
+  {
+    "tag": "Sales",
+    "patterns": [
+      "I want to inquire about your services",
+      "How can I get in touch with your sales team?",
+      "Who should I contact for sales queries?",
+      "What services do you offer for sales?"
+    ],
+    "responses": [
+      "You can email our sales team at web@astudio.agency or call us at +971522210876"
+    ]
+  },
+  {
+    "tag": "Career",
+    "patterns": [
+      "I am interested in a career opportunity with your agency",
+      "How can I apply for a job at your company?",
+      "What is the recruitment process at your agency?",
+      "Who should I contact for career opportunities?"
+    ],
+    "responses": [
+      "For career opportunities, please email us at joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "sales",
+    "patterns": [
+      "How can I get in touch with your sales team?",
+      "What is the email address for sales inquiries?",
+      "How can I contact your sales department?",
+      "I would like to reach out to the sales team, what should I do?"
+    ],
+    "responses": [
+      "You can contact our sales team at web@astudio.agency",
+      "For sales inquiries, please email us at web@astudio.agency",
+      "To get in touch with our sales department, send an email to web@astudio.agency",
+      "If you would like to contact our sales team, please use the email address web@astudio.agency"
+    ]
+  },
+  {
+    "tag": "career",
+    "patterns": [
+      "How can I apply for a job at your agency?",
+      "What is the email address for career opportunities?",
+      "I am interested in joining your team, how can I apply?",
+      "What is the process for applying for a job at your company?"
+    ],
+    "responses": [
+      "To apply for a job at our agency, please email your resume to joinus@astudio.agency",
+      "For career opportunities, send your application to joinus@astudio.agency",
+      "If you are interested in joining our team, please apply by emailing your resume to joinus@astudio.agency",
+      "To know more about job opportunities at our company, contact us at joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "sales_contact",
+    "patterns": [
+      "How can I get in touch with the sales team?",
+      "What is the email address for sales?",
+      "Who should I contact for sales inquiries?",
+      "How do I reach the sales department?",
+      "Can you provide me with the contact details for sales?"
+    ],
+    "responses": [
+      "You can reach out to our sales team via email at web@astudio.agency or by calling +971522210876"
+    ]
+  },
+  {
+    "tag": "career_opportunities",
+    "patterns": [
+      "How can I apply for a career opportunity at AStudio?",
+      "What is the email address for job applications?",
+      "Who should I contact for career opportunities at AStudio?",
+      "Is there any job opening at AStudio?",
+      "How do I join AStudio's team?"
+    ],
+    "responses": [
+      "If you are interested in a career opportunity at AStudio, you can send your application to joinus@astudio.agency"
+    ]
+  },
+  {
+    "tag": "project_experience",
+    "patterns": [
+      "Can you share some projects AStudio has worked on?",
+      "What are some of the notable projects by AStudio?",
+      "Could you provide examples of AStudio's projects?",
+      "How has AStudio contributed to various projects?",
+      "What kind of projects does AStudio specialize in?"
+    ],
+    "responses": [
+      "ASstudio has worked on a variety of projects, ranging from marketing campaigns to branding and production. For more information, you can visit our website."
+    ]
+  },
+  {
+    "tag": "contact_sales",
+    "patterns": [
+      "How can I contact the sales department?",
+      "What is the email for sales inquiries?",
+      "How do I reach the sales team?",
+      "Who should I contact for sales?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can contact our sales department at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "contact_career",
+    "patterns": [
+      "How can I inquire about career opportunities?",
+      "What is the email for job applications?",
+      "How do I join the team?",
+      "Who should I contact for career inquiries?"
+    ],
+    "responses": [
+      "To inquire about career opportunities, please email joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "about_magazine",
+    "patterns": [
+      "Tell me about 'حضارة' magazine.",
+      "What is the focus of 'حضارة' magazine?",
+      "Can you provide information about 'حضارة' magazine?",
+      "What topics does 'حضارة' magazine cover?"
+    ],
+    "responses": [
+      "'حضارة' magazine covers culture, arts, design, architecture, business, entrepreneurship, travel, and lifestyle. It aims to provide a modern perspective on the region and its people."
+    ]
+  },
+  {
+    "tag": "projects",
+    "patterns": [
+      "Can you tell me about the projects you've worked on?",
+      "What are some of your notable projects?",
+      "Tell me about your collaborations with different brands."
+    ],
+    "responses": [
+      "We have worked on various projects including collaborations with brands like BVLGARI, Mandarin Oriental, and many more. Our projects range from video production to website development."
+    ]
+  },
+  {
+    "tag": "client_testimonials",
+    "patterns": [
+      "Do you have any client testimonials?",
+      "What do your clients say about working with you?",
+      "Can you share feedback from your clients?"
+    ],
+    "responses": [
+      "Our clients have praised our unique creativity, attention to detail, and strategic approach to creating engaging content. Working with us has led to tangible business growth for many."
+    ]
+  },
+  {
+    "tag": "services_social_media_marketing",
+    "patterns": [
+      "What social media marketing services do you offer?",
+      "Can you explain your social media marketing strategies?",
+      "How can you help with managing social media accounts?"
+    ],
+    "responses": [
+      "We offer a range of social media marketing services including strategy development, content creation, influencer marketing, and social media management."
+    ]
+  },
+  {
+    "tag": "services_video_production",
+    "patterns": [
+      "Tell me about your video production services.",
+      "What kinds of videos do you produce?",
+      "Can you explain your approach to video production?"
+    ],
+    "responses": [
+      "Our video production services cover a wide range of formats including commercial videos, promotional videos, and creative content. We focus on delivering visually dynamic and impactful videos."
+    ]
+  },
+  {
+    "tag": "services_digital_marketing",
+    "patterns": [
+      "What digital marketing services do you offer?",
+      "Can you explain your digital marketing strategies?",
+      "How can you help with online marketing?"
+    ],
+    "responses": [
+      "Our digital marketing services include strategy development, online advertising, content marketing, and media planning. We tailor our strategies to each client's unique needs."
+    ]
+  },
+  {
+    "tag": "sales_contact",
+    "patterns": [
+      "How can I contact sales?",
+      "What is the email for sales?",
+      "How do I get in touch with sales?",
+      "I need to contact sales, can you help?",
+      "What is the phone number for sales?"
+    ],
+    "responses": [
+      "You can reach out to our sales team at web@astudio.agency or by calling +971522210876."
+    ]
+  },
+  {
+    "tag": "career_contact",
+    "patterns": [
+      "How can I contact the career department?",
+      "What is the email for career inquiries?",
+      "How do I apply for a career at your agency?",
+      "I want to get in touch with the career department, can you provide the details?",
+      "How can I join your team?"
+    ],
+    "responses": [
+      "For career inquiries, please contact us at joinus@astudio.agency."
+    ]
+  },
+  {
+    "tag": "magazine_info",
+    "patterns": [
+      "Tell me more about 'مجلة حضارة'",
+      "What is 'مجلة حضارة' about?",
+      "Can you provide information about 'مجلة حضارة'?",
+      "What topics does 'مجلة حضارة' cover?",
+      "I'd like to know more about 'مجلة حضارة'."
+    ],
+    "responses": [
+      "مجلة 'حضارة' covers culture, arts, design, architecture, business, entrepreneurship, travel, and lifestyle. It is a leading bi-annual magazine based in Sharjah."
+    ]
+  },
+  {
+    "tag": "our_work",
+    "patterns": [
+      "Can you show me some of your projects?",
+      "I'd like to see your portfolio of work",
+      "What kind of projects have you worked on?",
+      "Do you have any examples of your work?",
+      "Can you showcase your previous projects?"
+    ],
+    "responses": [
+      "Here are some of the projects we have worked on:",
+      "1. [Project Name 1] - [Brief Description]",
+      "2. [Project Name 2] - [Brief Description]",
+      "3. [Project Name 3] - [Brief Description]",
+      "And many more. Feel free to explore our portfolio on our website."
+    ]
+  },
+  {
+    "tag": "client_testimonials",
+    "patterns": [
+      "What do your clients say about you?",
+      "Can you provide testimonials from your clients?",
+      "Do you have any client reviews or feedback?",
+      "How satisfied are your clients with your services?",
+      "What are the clients' opinions on working with you?"
+    ],
+    "responses": [
+      "Here are testimonials from some of our clients:",
+      "- [Client Name 1]: '[Client Testimonial 1]'",
+      "- [Client Name 2]: '[Client Testimonial 2]'",
+      "- [Client Name 3]: '[Client Testimonial 3]'",
+      "And many more. We value the feedback and satisfaction of our clients."
+    ]
+  }
+]

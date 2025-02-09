@@ -1,0 +1,202 @@
+.edgebutton {
+    width: 20px;
+    height: 20px;
+    background: #eee;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 1;
+}
+.calendly-inline-widget iframe {
+    height: 600px;
+}
+.edgebutton:hover {
+    background: #5e35b1;
+    color: #eee;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08);
+}
+
+.edgebutton-foreignobject div {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
+
+.reactflow-parent-wrapper {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.reactflow-parent-wrapper .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+}
+
+
+
+/* Avatar.css */
+.avatar {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 6px;
+    transition: opacity 0.2s ease;
+    position: relative;
+}
+
+.customer-list .avatar.hidden {
+    display: none; 
+}
+
+.active-dot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8px; 
+    height: 8px;
+    background-color: var(#f5f7f9, #21324e); 
+    border-radius: 50%;
+    box-shadow: rgb(232, 19, 50) 0px 0px 0px 2px inset;
+}
+
+
+
+.customer-icon .avatar {
+    background: no-repeat 50%;
+    background-size: cover;
+    border-radius: 50%;
+    color: #fff;
+    cursor: default;
+    flex-shrink: 0;
+    float: left;
+    font-size: 18px;
+    height: 30px;
+    line-height: 1.66;
+    margin-right: 10px;
+    text-align: center;
+    user-select: none;
+    width: 30px;
+    margin:0px !important;
+}
+.customer-info {
+    position: relative;
+}
+
+.action-menu {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px 0 rgba(60, 72, 91, .32);
+    color: #080f1a;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    right: -60%;
+    top: 40%;
+    line-height: 1.4;
+    white-space: normal;
+    outline: 0;
+    max-width: 220px;
+
+}
+.action-menu button {
+    margin-left: 0px;
+}
+
+.tippy-box {
+    background-color: #fff !important;
+    padding: 0px !important;
+    border-radius: 4px;
+}
+.tippy-box svg {
+    fill: #8796AF;
+    width:22px;
+    height: 22px;
+}
+.tootip_un li {
+    background-color: transparent !important;
+    margin: 0px 0px 0px 0px !important;
+    box-shadow: none !important;
+    border: 0px !important;
+    padding: 0px !important;
+}
+.tootip_un li button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    padding: 6px 6px;
+}
+.tootip_un li button:hover {
+    background-color: #DCE9FF;
+}
+.tootip_un li button:hover svg {
+    fill: #0566FF;
+}
+
+
+
+
+
+.righ_side_info input {
+    background: transparent !important;
+    padding-left: 10px;
+}
+
+.righ_side_info form p {
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    transition: 0.3s;
+    margin: 0px;
+    border-radius: 6px;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+.righ_side_info form p:hover {
+    background-color: #F5F7F9;
+}
+.righ_side_info form p svg{
+    width: 18px;
+    height: 18px;
+    fill: rgba(100, 116, 145, 0.6);
+    margin-right: 8px;
+    transition: fill 0.2s ease-in-out;
+}
+
+.righ_side_info button {
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 34px;
+    line-height: 18px;
+    cursor: pointer;
+    background: transparent;
+    padding: 0 14px;
+    align-items: center;
+    border: 1px solid #EFF2F6;
+    display: inline-flex;
+    justify-content: center;
+}
+.righ_side_info {
+    border: 1px solid #DDDDDD;
+    border-left: 0;
+    border-radius: 0px 20px 20px 0px;
+}

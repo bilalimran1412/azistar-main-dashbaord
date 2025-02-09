@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src"
+    },
+    "include": ["src", "src/components/BlockSideViewContent/.jsx", "src/components/BlockSideViewContent/.jsx"]
+  }

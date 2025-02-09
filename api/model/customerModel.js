@@ -8,6 +8,8 @@ const customerSchema = new mongoose.Schema({
   newuserId: { type: String},
   assignto: { type: String},
   websiteId: { type: String, required: true },
+  phone: { type: String, default: '' },
+  location: { type: String, default: '' },
   status: { type: String, required: true, default: 'true' },
   timestamp: { type: Date, default: Date.now }
 });

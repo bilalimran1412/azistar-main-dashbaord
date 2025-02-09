@@ -24,8 +24,8 @@ exports.saveScrapData = async (url, userId) => {
 };
 
 // Update scraping status
-exports.updateScrapingStatus = async (id, status) => {
-    return await ScrapDataSite.findByIdAndUpdate(id, { status }, { new: true });
+exports.updateScrapingStatus = async (id, status, scrap_data) => {
+    return await ScrapDataSite.findByIdAndUpdate(id, { status, scrap_data }, { new: true });
 };
 
 // Delete a ScrapDataSite entry by ID

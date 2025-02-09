@@ -1,0 +1,174 @@
+/* styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.custom-node {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.buttons-container {
+  margin-top: 10px;
+}
+
+.add-node-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Add this CSS to your component's stylesheet or an appropriate global file */
+.text-node {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  padding: 8px;
+  min-height: 55px;
+  padding: 8px 16px;
+  gap: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.node-content h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.node-content {
+  color: #333333;
+}
+.text-node {
+  animation: 0.3s ease-in-out 0s 1 normal none running bounceIn;
+}
+.text-node:hover {
+    --box-shadow-color: #c8c8fa;
+    box-shadow: 0 0 0 4px var(--box-shadow-color);
+}
+
+.icon_dropdown {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 50%;
+  background-color: #E0E0E0; /* Light grey background for the icon area */
+}
+
+
+
+.ql-snow.ql-toolbar button, .ql-snow .ql-toolbar button, .ql-snow.ql-toolbar button, .ql-snow .ql-toolbar button {
+  min-width: 4px !important;
+  width: max-content;
+  padding: 5px !important;
+}
+.quill {
+  display: flex;
+  flex-direction: column-reverse;
+  border-top: 1px solid #CCCCCC;
+}
+
+.ql-toolbar.ql-snow {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+}
+.node-content li {
+  list-style: initial;
+}
+.ql-toolbar.ql-snow .ql-formats {
+  margin-right: 4px;
+}
+.ql-toolbar.ql-snow {
+  border: 0px !important;
+  box-sizing: border-box;
+  padding: 8px 0px !important;
+}
+button.ql-bold {
+  padding-left: 0px !important;
+}
+.ql-editor {
+  height: 110px;
+  background-color: #fff;
+  border-radius: 2px;
+  position: relative;
+  border: 1px solid rgba(16,22,26,.2);
+  cursor: text;
+  font-size: 13px;
+  padding: 11px 13px;
+  overflow: auto;
+}
+.ql-editor p {
+  height: 120px;
+}
+
+.drop_down {
+  cursor: pointer;
+}
+.dropdown_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 100%;
+  margin: 0rem;
+  padding: 0.5rem;
+}
+
+.dropdown_menu {
+  position: absolute;
+  left: 92%;
+  top: 28%;
+  z-index: 10000;
+}
+
+.btn_node_action {
+  color: rgb(51, 64, 94);
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 4px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 32px;
+  min-width: 80px;
+  padding: 0px 16px;
+  white-space: nowrap;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.dropdown_menu > [role="menuitem"] {
+  padding: 8px 12px;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.dropdown_menu > [role="menuitem"]:hover {
+  background: #f0f0f0;
+  color: #323232;
+}
+.icon_different svg {
+  font-size: 20px;
+}
+.icon_different {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

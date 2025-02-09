@@ -56,4 +56,8 @@ async function getPagesFromDomain(mainDomain) {
     return Array.from(pages);
 }
 
+
+
+console.log(getPagesFromDomain('https:///melegush.com'))
+
 module.exports = getPagesFromDomain;
