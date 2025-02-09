@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 const readline = require('readline');
 const { HfInference } = require('@huggingface/inference');
 
-const hf = new HfInference('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'); // Replace with your API key
+const hf = new HfInference('token'); // Replace with your API key
 const knowledgeBaseFile = path.join(__dirname, 'knowledge_base.json');
 
 // Function to scrape data from a URL

@@ -6,7 +6,7 @@ const readline = require('readline');
 const { HfInference } = require('@huggingface/inference');
 const { performance } = require('perf_hooks');
 
-const hf = new HfInference('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'); // Replace with your API key
+const hf = new HfInference('token'); // Replace with your API key
 const knowledgeBaseFile = path.join(__dirname, 'knowledge_base.json');
 let knowledgeBaseEmbeddings = {};
 
