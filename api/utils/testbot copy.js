@@ -8,7 +8,7 @@ require('dotenv').config();
 const { NlpManager } = require('node-nlp');
 const { HfInference } = require('@huggingface/inference');
 const manager = new NlpManager({ languages: ['en'] });
-const hf = new HfInference('token');
+const hf = new HfInference('');
 
 
 
@@ -119,7 +119,7 @@ Rewritten response:
 
     const url = 'https://api-inference.huggingface.co/models/google/flan-t5-large';
     const headers = {
-        Authorization: `Bearer token`,
+        Authorization: `Bearer`,
         'Content-Type': 'application/json',
     };
 
