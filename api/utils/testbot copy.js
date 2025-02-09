@@ -119,7 +119,7 @@ Rewritten response:
 
     const url = 'https://api-inference.huggingface.co/models/google/flan-t5-large';
     const headers = {
-        Authorization: `Bearer`,
+        Authorization: "",
         'Content-Type': 'application/json',
     };
 
