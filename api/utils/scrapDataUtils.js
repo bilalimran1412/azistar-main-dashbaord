@@ -227,38 +227,11 @@ async function getWebData(url) {
 
 require('dotenv').config();
 
-// async function generateIntents(data) {
-//     try {
-//         const OpenAI = await import('openai');
-//         const openai = new OpenAI.default({
-//             apiKey: 'sk-svcacct-iJEIzFLomkRX1AXfzxppT3BlbkFJKQesbAN7C4fuBCupHN4E',
-//         });
-        
-//         let prompt = `Based on the following data, generate extensive detailed and intelligent yet
-//          common intents for a chatbot in JSON format: as tag patterns and responses in json format, patterns should be extensive questions which user could ask\n\n` + data;
-
-//         const chatCompletion = await openai.chat.completions.create({
-//             model: "gpt-3.5-turbo",
-//             messages: [{ "role": "user", "content": prompt }],
-//         });
-
-//         // Clean the response to ensure it is valid JSON
-//         const responseText = chatCompletion.choices[0].message.content;
-//         a = JSON.parse(responseText);
-//         console.log("responsea ", a.intents)
-//         return a.intents;
-
-//     } catch (error) {
-//         console.error('Error calling OpenAI API:', error);
-//         return [];
-//     }
-// }
-
 async function generateIntents(data) {
     try {
         const OpenAI = await import('openai');
         const openai = new OpenAI.default({
-            apiKey: 'sk-svcacct-iJEIzFLomkRX1AXfzxppT3BlbkFJKQesbAN7C4fuBCupHN4E',
+            apiKey: 'apiKey',
         });
         
         // Structure the prompt to request JSON format with multiple responses per tone
@@ -357,7 +330,7 @@ async function genrateautoIntents(patterns, responses) {
     try {
         const OpenAI = await import('openai');
         const openai = new OpenAI.default({
-            apiKey: 'sk-svcacct-iJEIzFLomkRX1AXfzxppT3BlbkFJKQesbAN7C4fuBCupHN4E',
+            apiKey: 'apiKey',
         });
         let prompt = 'Based on the following data, generate extensive detailed and intelligent yet common intents for a chatbot in JSON format: as tag patterns and responses in json format, patterns should be extensive questions which user could ask\n\n' + patterns + responses;
         const chatCompletions = await openai.chat.completions.create({
